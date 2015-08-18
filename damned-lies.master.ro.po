@@ -1,0 +1,4007 @@
+# Romanian translation for damned-lies
+# Copyright (C) 2009 THE damned-lies' COPYRIGHT HOLDER
+# This file is distributed under the same license as the damned-lies package.
+# Alexandru Szasz <alexxed@gmail.com>, 2009.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+# cyberrider <cyber19rider@gmail.com>, 2010.
+# Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: damned-lies\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-07 13:25+0000\n"
+"PO-Revision-Date: 2015-05-24 19:11+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: database-content.py:1 database-content.py:138 damnedlies/settings.py:52
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: database-content.py:2 database-content.py:139
+msgid "Albanian"
+msgstr "Albaneză"
+
+#: database-content.py:3 database-content.py:140
+msgid "Amharic"
+msgstr "Amharică"
+
+#: database-content.py:4 database-content.py:141
+msgid "Arabic"
+msgstr "Arabă"
+
+#: database-content.py:5 database-content.py:142
+msgid "Aragonese"
+msgstr "Aragoneză"
+
+#: database-content.py:6 database-content.py:143
+msgid "Armenian"
+msgstr "Armeană"
+
+#: database-content.py:7 database-content.py:144
+msgid "Assamese"
+msgstr "Asameză"
+
+#: database-content.py:8 database-content.py:145
+msgid "Asturian"
+msgstr "Asturiană"
+
+#: database-content.py:9 database-content.py:146
+msgid "Australian English"
+msgstr "Engleză australiană"
+
+#: database-content.py:10 database-content.py:147
+msgid "Azerbaijani"
+msgstr "Azerbaijană"
+
+#: database-content.py:11 database-content.py:148
+msgid "Balochi"
+msgstr "Balochi"
+
+#: database-content.py:12 database-content.py:149
+msgid "Basque"
+msgstr "Bască"
+
+#: database-content.py:13 database-content.py:150 damnedlies/settings.py:53
+msgid "Belarusian"
+msgstr "Belarusă"
+
+#: database-content.py:14 database-content.py:152
+msgid "Bemba"
+msgstr "Bemba"
+
+#: database-content.py:15 database-content.py:153
+msgid "Bengali"
+msgstr "Bengaleză"
+
+#: database-content.py:16 database-content.py:154
+msgid "Bengali (India)"
+msgstr "Bengaleză (India)"
+
+#: database-content.py:17 database-content.py:155
+msgid "Bodo"
+msgstr "Bodo"
+
+#: database-content.py:18 database-content.py:156
+msgid "Bosnian"
+msgstr "Bosniacă"
+
+#: database-content.py:19 database-content.py:157
+msgid "Brazilian Portuguese"
+msgstr "Portugheză braziliană"
+
+#: database-content.py:20 database-content.py:158
+msgid "Breton"
+msgstr "Bretonă"
+
+#: database-content.py:21 database-content.py:159
+msgid "British English"
+msgstr "Engleză britanică"
+
+#: database-content.py:22 database-content.py:160
+msgid "Bulgarian"
+msgstr "Bulgară"
+
+#: database-content.py:23 database-content.py:161
+msgid "Burmese"
+msgstr "Birmaneză"
+
+#: database-content.py:24 database-content.py:162
+msgid "Canadian English"
+msgstr "Engleză canadiană"
+
+#: database-content.py:25 database-content.py:163
+msgid "Catalan"
+msgstr "Catalană"
+
+#: database-content.py:26 database-content.py:165
+msgid "Central Nahuatl"
+msgstr "Nahuatl centrală"
+
+#: database-content.py:27 database-content.py:166
+msgid "Chinese (China)"
+msgstr "Chineză (China)"
+
+#: database-content.py:28
+msgid "Chinese Traditional"
+msgstr "Chineză tradițională"
+
+#: database-content.py:29 database-content.py:169
+msgid "Crimean Tatar"
+msgstr "Tătară crimeeană"
+
+#: database-content.py:30 database-content.py:170
+msgid "Croatian"
+msgstr "Croată"
+
+#: database-content.py:31 database-content.py:171
+msgid "Czech"
+msgstr "Cehă"
+
+#: database-content.py:32 database-content.py:172
+msgid "Danish"
+msgstr "Daneză"
+
+#: database-content.py:33 database-content.py:173
+msgid "Divehi"
+msgstr "Divehi"
+
+#: database-content.py:34 database-content.py:174
+msgid "Dutch"
+msgstr "Olandeză"
+
+#: database-content.py:35 database-content.py:175
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#: database-content.py:36 database-content.py:176
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: database-content.py:37 database-content.py:177
+msgid "Estonian"
+msgstr "Estonă"
+
+#: database-content.py:38
+msgid "Faroese"
+msgstr "Feroeză"
+
+#: database-content.py:39 database-content.py:178
+msgid "Finnish"
+msgstr "Finlandeză"
+
+#: database-content.py:40 database-content.py:179
+msgid "French"
+msgstr "Franceză"
+
+#: database-content.py:41 database-content.py:180
+msgid "Frisian"
+msgstr "Frizonă"
+
+#: database-content.py:42 database-content.py:181
+msgid "Friulian"
+msgstr "Friuliană"
+
+#: database-content.py:43 database-content.py:182
+msgid "Fula"
+msgstr "Fula"
+
+#: database-content.py:44 database-content.py:183
+msgid "Galician"
+msgstr "Galiciană"
+
+#: database-content.py:45 database-content.py:184
+msgid "Georgian"
+msgstr "Georgiană"
+
+#: database-content.py:46 database-content.py:185
+msgid "German"
+msgstr "Germană"
+
+#: database-content.py:47 database-content.py:186
+msgid "Greek"
+msgstr "Greacă"
+
+#: database-content.py:48 database-content.py:187
+msgid "Guarani"
+msgstr "Guarani"
+
+#: database-content.py:49 database-content.py:188
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: database-content.py:50 database-content.py:189
+msgid "Hausa"
+msgstr "Hausa"
+
+#: database-content.py:51 database-content.py:190
+msgid "Hebrew"
+msgstr "Ebraică"
+
+#: database-content.py:52 database-content.py:191
+msgid "Hindi"
+msgstr "Hindusă"
+
+#: database-content.py:53 database-content.py:192
+msgid "Hungarian"
+msgstr "Maghiară"
+
+#: database-content.py:54 database-content.py:193
+msgid "Icelandic"
+msgstr "Islandeză"
+
+#: database-content.py:55 database-content.py:194
+msgid "Ido"
+msgstr "Ido"
+
+#: database-content.py:56 database-content.py:196
+msgid "Indonesian"
+msgstr "Indoneziană"
+
+#: database-content.py:57 database-content.py:197
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: database-content.py:58 database-content.py:198
+msgid "Iranian Azerbaijani"
+msgstr "Azerbaijană iraniană"
+
+#: database-content.py:59 database-content.py:199
+msgid "Irish"
+msgstr "Irlandeză"
+
+#: database-content.py:60 database-content.py:200
+msgid "Italian"
+msgstr "Italiană"
+
+#: database-content.py:61 database-content.py:201
+msgid "Japanese"
+msgstr "Japoneză"
+
+#: database-content.py:62 database-content.py:202
+msgid "Kabyle"
+msgstr ""
+
+#: database-content.py:63 database-content.py:203
+msgid "Kannada"
+msgstr "Kannada"
+
+#: database-content.py:64 database-content.py:204
+msgid "Kashmiri"
+msgstr "Kașmiră"
+
+#: database-content.py:65 database-content.py:205
+msgid "Kazakh"
+msgstr "Kazahă"
+
+#: database-content.py:66 database-content.py:206
+msgid "Khmer"
+msgstr "Khmeră"
+
+#: database-content.py:67 database-content.py:207
+msgid "Kikongo"
+msgstr "Kikongo"
+
+#: database-content.py:68 database-content.py:208
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: database-content.py:69 database-content.py:209
+msgid "Kirghiz"
+msgstr "Kârgâză"
+
+#: database-content.py:70 database-content.py:210
+msgid "Korean"
+msgstr "Coreeană"
+
+#: database-content.py:71 database-content.py:211 damnedlies/settings.py:54
+msgid "Kurdish"
+msgstr "Kurdă"
+
+#: database-content.py:72 database-content.py:212
+msgid "Lao"
+msgstr "Lao"
+
+#: database-content.py:73 database-content.py:213
+msgid "Latin"
+msgstr "Latină"
+
+#: database-content.py:74 database-content.py:214
+msgid "Latvian"
+msgstr "Letonă"
+
+#: database-content.py:75 database-content.py:215
+msgid "Limburgian"
+msgstr "Limburgiană"
+
+#: database-content.py:76 database-content.py:216
+msgid "Lithuanian"
+msgstr "Lituaniană"
+
+#: database-content.py:77 database-content.py:217
+msgid "Low German"
+msgstr "Germană de jos"
+
+#: database-content.py:78 database-content.py:218
+msgid "Luganda"
+msgstr "Luganda"
+
+#: database-content.py:79 database-content.py:220
+msgid "Macedonian"
+msgstr "Macedoneană"
+
+#: database-content.py:80 database-content.py:221
+msgid "Maithili"
+msgstr "Maithili"
+
+#: database-content.py:81 database-content.py:222
+msgid "Malagasy"
+msgstr "Malgașă"
+
+#: database-content.py:82 database-content.py:223
+msgid "Malay"
+msgstr "Malaeziană"
+
+#: database-content.py:83 database-content.py:224
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: database-content.py:84 database-content.py:226
+msgid "Manx"
+msgstr "Manx"
+
+#: database-content.py:85 database-content.py:227
+msgid "Maori"
+msgstr "Maori"
+
+#: database-content.py:86 database-content.py:228
+msgid "Marathi"
+msgstr "Marathi"
+
+#: database-content.py:87 database-content.py:229
+msgid "Mexican Spanish"
+msgstr "Spaniolă mexicană"
+
+#: database-content.py:88 database-content.py:230
+msgid "Mongolian"
+msgstr "Mongolă"
+
+#: database-content.py:89
+msgid "Neapolitan"
+msgstr "Neapoleză"
+
+#: database-content.py:90 database-content.py:231
+msgid "Nepali"
+msgstr "Nepaleză"
+
+#: database-content.py:91 database-content.py:232
+msgid "Northern Sotho"
+msgstr "Sotho de nord"
+
+#: database-content.py:92
+msgid "Norwegian (Bokmål and Nynorsk)"
+msgstr "Norvegiană (Bokmål și Nynorsk)"
+
+#: database-content.py:93 database-content.py:235
+msgid "Occitan"
+msgstr "Occitană"
+
+#: database-content.py:94 database-content.py:236
+msgid "Old English"
+msgstr "Engleză veche"
+
+#: database-content.py:95 database-content.py:237
+msgid "Oriya"
+msgstr "Oriya"
+
+#: database-content.py:96 database-content.py:238
+msgid "Ossetian"
+msgstr "Osetă"
+
+#: database-content.py:97 database-content.py:239
+msgid "Pashto"
+msgstr "Pashto"
+
+#: database-content.py:98 database-content.py:240
+msgid "Persian"
+msgstr "Persană"
+
+#: database-content.py:99 database-content.py:241
+msgid "Polish"
+msgstr "Poloneză"
+
+#: database-content.py:100 database-content.py:242
+msgid "Portuguese"
+msgstr "Portugheză"
+
+#: database-content.py:101 database-content.py:243
+msgid "Punjabi"
+msgstr "Punjabă"
+
+#: database-content.py:102
+msgid "Quechua"
+msgstr "Quechua"
+
+#: database-content.py:103 database-content.py:245
+msgid "Romanian"
+msgstr "Română"
+
+#: database-content.py:104 database-content.py:246
+msgid "Russian"
+msgstr "Rusă"
+
+#: database-content.py:105 database-content.py:247
+msgid "Scottish Gaelic"
+msgstr "Gaelică scoțiană"
+
+#: database-content.py:106 database-content.py:248
+msgid "Serbian"
+msgstr "Sârbă"
+
+#: database-content.py:107 database-content.py:251
+msgid "Shavian"
+msgstr "Shavian"
+
+#: database-content.py:108 database-content.py:252
+msgid "Silesian"
+msgstr "Sileziană"
+
+#: database-content.py:109 database-content.py:253
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: database-content.py:110 database-content.py:254
+msgid "Slovak"
+msgstr "Slovacă"
+
+#: database-content.py:111 database-content.py:255
+msgid "Slovenian"
+msgstr "Slovenă"
+
+#: database-content.py:112 database-content.py:256
+msgid "Somali"
+msgstr "Somaleză"
+
+#: database-content.py:113 database-content.py:259
+msgid "Spanish"
+msgstr "Spaniolă"
+
+#: database-content.py:114 database-content.py:260
+msgid "Swahili"
+msgstr "Swahili"
+
+#: database-content.py:115 database-content.py:261
+msgid "Swedish"
+msgstr "Suedeză"
+
+#: database-content.py:116 database-content.py:262
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: database-content.py:117 database-content.py:263
+msgid "Tajik"
+msgstr "Tadjică"
+
+#: database-content.py:118 database-content.py:264
+msgid "Tamil"
+msgstr "Tamil"
+
+#: database-content.py:119 database-content.py:265
+msgid "Tatar"
+msgstr "Tătară"
+
+#: database-content.py:120 database-content.py:266
+msgid "Telugu"
+msgstr "Telugu"
+
+#: database-content.py:121 database-content.py:267
+msgid "Thai"
+msgstr "Thailandeză"
+
+#: database-content.py:122 database-content.py:268
+msgid "Tibetan"
+msgstr "Tibetană"
+
+#: database-content.py:123 database-content.py:269
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: database-content.py:124 database-content.py:270
+msgid "Turkish"
+msgstr "Turcă"
+
+#: database-content.py:125 database-content.py:271
+msgid "Turkmen"
+msgstr "Turkmenă"
+
+#: database-content.py:126 database-content.py:272
+msgid "Uighur"
+msgstr "Uigură"
+
+#: database-content.py:127 database-content.py:273
+msgid "Ukrainian"
+msgstr "Ucraineană"
+
+#: database-content.py:128 database-content.py:274
+msgid "Urdu"
+msgstr "Urdu"
+
+#: database-content.py:129
+msgid "Uzbek"
+msgstr "Uzbecă"
+
+#: database-content.py:130 database-content.py:277
+msgid "Vietnamese"
+msgstr "Vietnameză"
+
+#: database-content.py:131 database-content.py:278
+msgid "Walloon"
+msgstr "Valonă"
+
+#: database-content.py:132 database-content.py:279
+msgid "Wayuu"
+msgstr "Wayuu"
+
+#: database-content.py:133 database-content.py:280
+msgid "Welsh"
+msgstr "Galeză"
+
+#: database-content.py:134 database-content.py:281
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: database-content.py:135 database-content.py:282
+msgid "Yiddish"
+msgstr "Idișă"
+
+#: database-content.py:136 database-content.py:283
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: database-content.py:137 database-content.py:284
+msgid "Zulu"
+msgstr "Zulu"
+
+#: database-content.py:151
+msgid "Belarusian Latin"
+msgstr "Belarusă - alfabet latin"
+
+#: database-content.py:164
+msgid "Catalan (Valencian)"
+msgstr "Catalană (Valenciană)"
+
+#: database-content.py:167
+msgid "Chinese (Hong Kong)"
+msgstr "Chineză (Hong Kong)"
+
+#: database-content.py:168
+msgid "Chinese (Taiwan)"
+msgstr "Chineză (Taiwan)"
+
+#: database-content.py:195
+msgid "Igbo"
+msgstr "Igbo"
+
+#: database-content.py:219
+msgid "Luxembourgish"
+msgstr "Luxemburgheză"
+
+#: database-content.py:225
+msgid "Maltese"
+msgstr "Malteză"
+
+#: database-content.py:233
+msgid "Norwegian Bokmål"
+msgstr "Norvegiană Bokmål"
+
+#: database-content.py:234
+msgid "Norwegian Nynorsk"
+msgstr "Norvegiană Nynorsk"
+
+#: database-content.py:244
+msgid "Quechua (Cuzco-Collao)"
+msgstr "Quechua (Cuzco-Collao)"
+
+#: database-content.py:249
+msgid "Serbian Jekavian"
+msgstr "Sârbă Jekavian"
+
+#: database-content.py:250
+msgid "Serbian Latin"
+msgstr "Sârbă - alfabet latin"
+
+#: database-content.py:257
+msgid "South Ndebele"
+msgstr "Ndebele de Sud"
+
+#: database-content.py:258
+msgid "Southern Sotho"
+msgstr "Sotho de sud"
+
+#: database-content.py:275
+msgid "Uzbek (Cyrillic)"
+msgstr "Uzbecă (alfabet chirilic)"
+
+#: database-content.py:276
+msgid "Uzbek (Latin)"
+msgstr "Uzbecă (alfabet latin)"
+
+#: database-content.py:285
+msgid "Documentation Video"
+msgstr "Video de documentație"
+
+#: database-content.py:286
+msgid "Dynamic content"
+msgstr "Conținut dinamic"
+
+#: database-content.py:287
+msgid "Example App: Film manager"
+msgstr "Exemplu de aplicație: administrator de film"
+
+#: database-content.py:288
+msgid "Example App: Lesson planner"
+msgstr "Exemplu de aplicație: planificator de lecții"
+
+#: database-content.py:289
+msgid "Example App: Music collection"
+msgstr "Exemplu de aplicație: colecție de muzică"
+
+#: database-content.py:290
+msgid "Example App: Project manager"
+msgstr "Exemplu de aplicație: administrator de proiecte"
+
+#: database-content.py:291
+msgid "Example App: Small business"
+msgstr "Exemplu de aplicație: afaceri mici"
+
+#: database-content.py:292
+msgid "GNOME 3.14 Release Video"
+msgstr "Video de lansare GNOME 3.14"
+
+#: database-content.py:293
+msgid "GNOME 3.16 Release Video"
+msgstr "Video de lansare GNOME 3.16"
+
+#: database-content.py:294
+msgid "Weather Applet Locations"
+msgstr "Miniaplicația locațiilor climatice"
+
+#: database-content.py:295
+msgid "Layout Descriptions"
+msgstr "Descrierile aspectului"
+
+#: database-content.py:296
+msgid "UI translation"
+msgstr "Traducere de interfață"
+
+#: database-content.py:297 database-content.py:321
+msgid "UI translations"
+msgstr "Traduceri de interfață"
+
+#: database-content.py:298
+msgid "User Directories"
+msgstr "Dosarele utilizatorului"
+
+#: database-content.py:299
+msgid "Engine"
+msgstr ""
+
+#: database-content.py:300
+msgid "Engine-Campfire"
+msgstr ""
+
+#: database-content.py:301
+msgid "Engine-IRC"
+msgstr ""
+
+#: database-content.py:302
+msgid "Engine-JabbR"
+msgstr ""
+
+#: database-content.py:303
+msgid "Engine-MessageBuffer"
+msgstr ""
+
+#: database-content.py:304
+#, fuzzy
+#| msgid "Twitter"
+msgid "Engine-Twitter"
+msgstr "Twitter"
+
+#: database-content.py:305
+msgid "Engine-XMPP"
+msgstr ""
+
+#: database-content.py:306
+msgid "Frontend"
+msgstr ""
+
+#: database-content.py:307
+msgid "Frontend-GNOME"
+msgstr ""
+
+#: database-content.py:308
+msgid "Frontend-GNOME-IRC"
+msgstr ""
+
+#: database-content.py:309
+msgid "Frontend-GNOME-Twitter"
+msgstr ""
+
+#: database-content.py:310
+msgid "Frontend-GNOME-XMPP"
+msgstr ""
+
+#: database-content.py:311
+msgid "Functions"
+msgstr "Funcții"
+
+#: database-content.py:312
+msgid "libgimp"
+msgstr "libgimp"
+
+#: database-content.py:313
+msgid "plug-ins"
+msgstr "module"
+
+#: database-content.py:314
+msgid "Property Nicks"
+msgstr "Pseudonime de proprietate"
+
+#: database-content.py:315
+msgid "python"
+msgstr "python"
+
+#: database-content.py:316
+msgid "script-fu"
+msgstr "script-fu"
+
+#: database-content.py:317
+#, fuzzy
+#| msgid "Server Error"
+msgid "Server"
+msgstr "Eroare de server"
+
+#: database-content.py:318
+msgid "tags"
+msgstr "etichete"
+
+#: database-content.py:319
+msgid "tips"
+msgstr "sfaturi"
+
+#: database-content.py:320
+msgid "Static content"
+msgstr "Conținut static"
+
+#: database-content.py:322
+msgid "Accessibility Developers Guide"
+msgstr "Ghid de accesibilitate pentru dezvoltatori"
+
+#: database-content.py:323
+msgid "Accessibility Guide"
+msgstr "Ghid de accesibilitate"
+
+#: database-content.py:324
+msgid "Keyboard Accessibility Monitor Manual"
+msgstr ""
+"Monitorizare tastatură pentru accesibilitate - Manualul utilizatorului "
+
+#: database-content.py:325
+msgid "AisleRiot Manual"
+msgstr "AisleRiot - Manualul utilizatorului"
+
+#: database-content.py:326
+msgid "appendix"
+msgstr "anexă"
+
+#: database-content.py:327
+msgid "Audio Profiles Manual"
+msgstr "Profiluri audio - Manualul utilizatorului"
+
+#: database-content.py:328
+msgid "Disk Usage Analyzer Manual"
+msgstr "Analizator de utilizare a discului - Manualul utilizatorului"
+
+#: database-content.py:329
+msgid "Battery Charge Monitor Manual"
+msgstr "Monitorizare pentru încărcarea bateriei - Manualul utilizatorului"
+
+#: database-content.py:330
+msgid "Blackjack Manual"
+msgstr "Blackjack - Manualul utilizatorului"
+
+#: database-content.py:331
+msgid "Browser Help"
+msgstr "Ajutorul navigatorului de internet"
+
+#: database-content.py:332
+msgid "Character Palette Manual"
+msgstr "Paleta de caractere - Manualul utilizatorului"
+
+#: database-content.py:333
+msgid "Clock Applet Manual"
+msgstr "Miniaplicație Ceas - Manualul utilizatorului"
+
+#: database-content.py:334
+msgid "Command Line Manual"
+msgstr "Linia de comandă - Manualul utilizatorului"
+
+#: database-content.py:335
+msgid "concepts"
+msgstr "concepte"
+
+#: database-content.py:336
+msgid "CPU Frequency Scaling Monitor Manual"
+msgstr ""
+"Monitorizare scalarea frecvenței procesorului - Manualul utilizatorului"
+
+#: database-content.py:337
+msgid "FDL License"
+msgstr "Licența FDL"
+
+#: database-content.py:338
+msgid "GPL License"
+msgstr "Licența GPL"
+
+#: database-content.py:339
+msgid "LGPL License"
+msgstr "Licența LGPL"
+
+#: database-content.py:340
+msgid "dialogs"
+msgstr "dialoguri"
+
+#: database-content.py:341
+msgid "Dictionary Manual"
+msgstr "Dicționar - Manualul utilizatorului"
+
+#: database-content.py:342
+msgid "Disk Mounter Manual"
+msgstr "Disk Mounter - Manualul utilizatorului"
+
+#: database-content.py:343
+msgid "filters"
+msgstr "filtre"
+
+#: database-content.py:344
+msgid "alpha-to-logo filter"
+msgstr "filtru alpha-to-logo"
+
+#: database-content.py:345
+msgid "animation filter"
+msgstr "filtru animații"
+
+#: database-content.py:346
+msgid "artistic filter"
+msgstr "filtru artistic"
+
+#: database-content.py:347
+msgid "blur filter"
+msgstr "filtru ceață"
+
+#: database-content.py:348
+msgid "combine filter"
+msgstr "filtru de combinare"
+
+#: database-content.py:349
+msgid "decor filter"
+msgstr "filtru decor"
+
+#: database-content.py:350
+msgid "distort filter"
+msgstr "filtru denaturare"
+
+#: database-content.py:351
+msgid "edge-detect filter"
+msgstr "filtru pentru detectarea marginii"
+
+#: database-content.py:352
+msgid "enhance filter"
+msgstr "filtru pentru îmbunătățire"
+
+#: database-content.py:353
+msgid "generic filter"
+msgstr "filtru generic"
+
+#: database-content.py:354
+msgid "light-and-shadow filter"
+msgstr "filtru lumină-și-umbră"
+
+#: database-content.py:355
+msgid "map filter"
+msgstr "filtru hărți"
+
+#: database-content.py:356
+msgid "noise filter"
+msgstr "filtru de zgomote"
+
+#: database-content.py:357
+msgid "render filter"
+msgstr "filtru randare"
+
+#: database-content.py:358
+msgid "web filter"
+msgstr "filtru web"
+
+#: database-content.py:359
+msgid "Fish Applet Manual"
+msgstr "Miniaplicația Fish - Manualul utilizatorului"
+
+#: database-content.py:360
+msgid "Getting Started"
+msgstr "Noțiuni de bază"
+
+#: database-content.py:361
+msgid "Geyes Manual"
+msgstr "Geyes - Manualul utilizatorului"
+
+#: database-content.py:362
+msgid "gimp"
+msgstr "gimp"
+
+#: database-content.py:363
+msgid "Quick Reference"
+msgstr "Referință rapidă"
+
+#: database-content.py:364
+msgid "glChess Manual"
+msgstr "glChess - Manualul utilizatorului"
+
+#: database-content.py:365 database-content.py:395
+msgid "Five or More Manual"
+msgstr "Five or More - Manualul utilizatorului"
+
+#: database-content.py:366
+msgid "glossary"
+msgstr "glosar"
+
+#: database-content.py:367 database-content.py:396
+msgid "Four-in-a-row Manual"
+msgstr "Four-in-a-row - Manualul utilizatorului"
+
+#: database-content.py:368 database-content.py:410
+msgid "Nibbles Manual"
+msgstr "Nibbles - Manualul utilizatorului"
+
+#: database-content.py:369 database-content.py:403
+msgid "GNOME Robots Manual"
+msgstr "Roboți GNOME - Manualul utilizatorului"
+
+#: database-content.py:370
+msgid "CD Player Manual"
+msgstr "CD Player - Manualul utilizatorului"
+
+#: database-content.py:371 database-content.py:415 database-content.py:458
+#: database-content.py:459
+msgid "User Guide"
+msgstr "Ghidul utilizatorului"
+
+#: database-content.py:372 database-content.py:402 database-content.py:423
+msgid "GNOME Mahjongg Manual"
+msgstr "GNOME Mahjongg - Manual utilizatorului"
+
+#: database-content.py:373 database-content.py:404
+msgid "GNOME Sudoku Manual"
+msgstr "GNOME Sudoku - Manualul utilizatorului"
+
+#: database-content.py:374
+msgid "Gnometris Manual"
+msgstr "Gnometris - Manualul utilizatorului"
+
+#: database-content.py:375 database-content.py:409
+msgid "Mines Manual"
+msgstr "Mines - Manualul utilizatorului"
+
+#: database-content.py:376 database-content.py:406
+msgid "GNOME Tetravex Manual"
+msgstr "GNOME Tetravex - Manualul utilizatorului"
+
+#: database-content.py:377 database-content.py:400
+msgid "GNOME Klotski Manual"
+msgstr "GNOME Klotski - Manualul utilizatorului"
+
+#: database-content.py:378
+msgid "Sound Recorder Manual"
+msgstr "Înregistrare sunete - Manualul utilizatorului"
+
+#: database-content.py:379
+msgid "Search Tool Manual"
+msgstr "Utilitar de căutare - Manualul utilizatorului"
+
+#: database-content.py:380
+msgid "GNOME Volume Control Manual"
+msgstr "Controlul volumului GNOME - Manualul utilizatorului"
+
+#: database-content.py:381
+msgid "GST Network Setup Manual"
+msgstr "Instalarea rețelei GST - Manualul utilizatorului"
+
+#: database-content.py:382
+msgid "GST Service Management Manual"
+msgstr "Administrator de servicii GST - Manualul utilizatorului"
+
+#: database-content.py:383
+msgid "GST Shared Folders Manual"
+msgstr "Dosare partajate GST - Manualul utilizatorului"
+
+#: database-content.py:384
+msgid "GST Time Setup Manual"
+msgstr "Configurare timp GST - Manualul utilizatorului"
+
+#: database-content.py:385
+msgid "GST User Management Manual"
+msgstr "Administrarea utilizatorilor GST - Manualul utilizatorului"
+
+#: database-content.py:386
+msgid "GStreamer Properties Manual"
+msgstr "Proprietăți GStreamer - Manualul utilizatorului"
+
+#: database-content.py:387
+msgid "Keyboard Indicator Manual"
+msgstr "Indicator tastatură - Manualul utilizatorului"
+
+#: database-content.py:388 database-content.py:405
+msgid "GNOME Tali Manual"
+msgstr "GNOME Tali - Manualul utilizatorului"
+
+#: database-content.py:389
+msgid "Weather Report Manual"
+msgstr "Raportul vremii - Manualul utilizatorului"
+
+#: database-content.py:390
+msgid "Anjuta Manual"
+msgstr "Anjuta - Manualul utilizatorului"
+
+#: database-content.py:391
+msgid "Dasher Manual"
+msgstr "Dasher - Manualul utilizatorului"
+
+#: database-content.py:392 languages/views.py:51 languages/views.py:84
+#: templates/base.html:108 templates/branch_detail.html:22
+#: templates/release_detail.html:26 templates/release_detail.html.py:84
+#: templates/languages/language_release_summary.html:16
+msgid "Documentation"
+msgstr "Documentație"
+
+#: database-content.py:393
+msgid "Encryption Applet Manual"
+msgstr "Miniaplicație pentru criptare - Manualul utilizatorului"
+
+#: database-content.py:394
+msgid "Eye of GNOME Manual"
+msgstr "Ochiul lui GNOME - Manualul utilizatorului"
+
+#: database-content.py:397
+msgid "GConf Editor Manual"
+msgstr "Editorul GConf - Manualul utilizatorului"
+
+#: database-content.py:398
+msgid "GDM Manual"
+msgstr "GDM - Manualul utilizatorului"
+
+#: database-content.py:399
+msgid "Gnome Chess Manual"
+msgstr "Șah Gnome - Manualul utilizatorului"
+
+#: database-content.py:401
+msgid "GNOME Library help"
+msgstr "Ajutor pentru Biblioteca GNOME"
+
+#: database-content.py:407 database-content.py:417
+msgid "Iagno Manual"
+msgstr "Iagno - Manualul utilizatorului"
+
+#: database-content.py:408 database-content.py:421
+msgid "Lights Off Manual"
+msgstr "Închide luminile - Manualul utilizatorului"
+
+#: database-content.py:411 database-content.py:445
+msgid "Quadrapassel Manual"
+msgstr "Quadrapassel - Manualul utilizatorului"
+
+#: database-content.py:412
+msgid "Release Notes"
+msgstr "Note de lansare"
+
+#: database-content.py:413
+msgid "Sound Juicer Manual"
+msgstr "Sound Juicer - Manualul utilizatorului"
+
+#: database-content.py:414 database-content.py:449
+msgid "Swell-Foop Manual"
+msgstr "Swell-Foop - Manualul utilizatorului"
+
+#: database-content.py:416
+msgid "Human Interface Guidelines"
+msgstr "Linii de orientare pentru interfața pentru utilizator"
+
+#: database-content.py:418
+msgid "Integration Guide"
+msgstr "Ghid de integrare"
+
+#: database-content.py:419
+msgid "introduction"
+msgstr "introducere"
+
+#: database-content.py:420
+msgid "Invest Applet Manual"
+msgstr "Miniaplicație pentru investiții - Manualul utilizatorului"
+
+#: database-content.py:422
+msgid "Log Viewer Manual"
+msgstr "Vizualizator înregistrări sistem - Manualul utilizatorului"
+
+#: database-content.py:424
+msgid "Mallard Documentation Guide"
+msgstr "Ghidul de documentație Mallard"
+
+#: database-content.py:425
+msgid "menus"
+msgstr "meniuri"
+
+#: database-content.py:426
+msgid "colors menus"
+msgstr "meniul culori"
+
+#: database-content.py:427
+msgid "colors auto menu"
+msgstr "meniul culori automate"
+
+#: database-content.py:428
+msgid "colors component menu"
+msgstr "meniul componente culori"
+
+#: database-content.py:429
+msgid "colors info menu"
+msgstr "meniul informații culori"
+
+#: database-content.py:430
+msgid "colors map menu"
+msgstr "meniul hartă de culori"
+
+#: database-content.py:431
+msgid "edit menu"
+msgstr "meniul editare"
+
+#: database-content.py:432
+msgid "file menu"
+msgstr "meniul fișier"
+
+#: database-content.py:433
+msgid "filters menu"
+msgstr "meniul filtrelor"
+
+#: database-content.py:434
+msgid "help menu"
+msgstr "meniul ajutor"
+
+#: database-content.py:435
+msgid "image menu"
+msgstr "meniul imagine"
+
+#: database-content.py:436
+msgid "layer menu"
+msgstr "meniul strat"
+
+#: database-content.py:437
+msgid "select menu"
+msgstr "meniul selectare"
+
+#: database-content.py:438
+msgid "view menu"
+msgstr "meniul vizualizare"
+
+#: database-content.py:439
+msgid "Volume Control Manual"
+msgstr "Controlul volumului - Manualul utilizatorului"
+
+#: database-content.py:440
+msgid "System Monitor Manual"
+msgstr "Monitorizare sistem - Manualul utilizatorului"
+
+#: database-content.py:441
+msgid "Optimization Guide"
+msgstr "Ghid de optimizare"
+
+#: database-content.py:442
+msgid "Tutorial demos"
+msgstr "Ghiduri demonstrative"
+
+#: database-content.py:443
+msgid "Platform Overview"
+msgstr "Prezentare generală a platformei"
+
+#: database-content.py:444
+msgid "preface"
+msgstr "prefață"
+
+#: database-content.py:446
+msgid "Same GNOME Manual"
+msgstr "Același Manual de utilizare GNOME"
+
+#: database-content.py:447
+msgid "Website"
+msgstr "Pagină web"
+
+#: database-content.py:448
+msgid "Sticky Notes Manual"
+msgstr "Notițe lipicioase - Manualul utilizatorului"
+
+#: database-content.py:450
+msgid "System Administration Guide"
+msgstr "Ghid pentru administrarea sistemului"
+
+#: database-content.py:451
+msgid "toolbox"
+msgstr "trusă de instrumente"
+
+#: database-content.py:452
+msgid "toolbox (color)"
+msgstr "trusă de instrumente (culoare)"
+
+#: database-content.py:453
+msgid "toolbox (paint)"
+msgstr "trusă de instrumente (pictură)"
+
+#: database-content.py:454
+msgid "toolbox (selection)"
+msgstr "trusă de instrumente (selecție)"
+
+#: database-content.py:455
+msgid "toolbox (transform)"
+msgstr "trusă de instrumente (transformare)"
+
+#: database-content.py:456
+msgid "Panel Trash Manual"
+msgstr "Coșul de gunoi din panou - Manualul utilizatorului"
+
+#: database-content.py:457
+msgid "tutorial"
+msgstr "ghid"
+
+#: database-content.py:460
+msgid "using gimp"
+msgstr "utilizare gimp"
+
+#: database-content.py:461
+msgid "preferences"
+msgstr "preferințe"
+
+#: database-content.py:462
+msgid "Beagle Desktop Search"
+msgstr "Căutare desktop Beagle"
+
+#: database-content.py:463 templates/base.html:56
+#: templates/admin/base_site.html:7
+msgid "Damned Lies"
+msgstr "Minciuni blestemate"
+
+#: database-content.py:464
+msgid "Eye of GNOME"
+msgstr "Ochiul lui GNOME"
+
+#: database-content.py:465
+msgid "GIMP User Manual"
+msgstr "GIMP - Manualul utilizatorului"
+
+#: database-content.py:466
+msgid "GNOME Development Documentation"
+msgstr "Documentația pentru dezvoltatori GNOME"
+
+#: database-content.py:467
+msgid "Getting Started with GNOME"
+msgstr "Noțiuni de bază GNOME"
+
+#: database-content.py:468
+msgid "GNOME User Documentation"
+msgstr "Documentația utilizatorului GNOME"
+
+#: database-content.py:469
+msgid "GNOME Web Photo"
+msgstr "GNOME Web Photo"
+
+#: database-content.py:470
+msgid "GNOME Web site"
+msgstr "Pagina web GNOME"
+
+#: database-content.py:471
+msgid "GNOME Library Web site"
+msgstr "Pagina web a bibliotecii GNOME"
+
+#: database-content.py:472
+msgid "GNOME Release Notes"
+msgstr "Notele de lansare GNOME"
+
+#: database-content.py:473
+msgid "Shared MIME Info"
+msgstr "Informații MIME partajate"
+
+#: database-content.py:474
+msgid "Video Subtitles for GNOME's videos"
+msgstr "Traduceri pentru subtitrările videoclipurilor GNOME"
+
+#: database-content.py:475
+msgid "WebKitGTK+"
+msgstr "WebKitGTK+"
+
+#: database-content.py:476
+msgid "D-Bus interface for user account query and manipulation."
+msgstr ""
+
+#: database-content.py:477
+msgid ""
+"Utilities to generate, maintain and access the AppStream Xapian database and "
+"work with AppStream metadata."
+msgstr ""
+
+#: database-content.py:478
+msgid ""
+"This library provides objects and helper methods to help reading and writing "
+"AppStream metadata."
+msgstr ""
+
+#: database-content.py:479
+msgid ""
+"Avahi is a system which facilitates service discovery on a local network via "
+"the mDNS/DNS-SD protocol suite."
+msgstr ""
+"Avahi este un sistem care facilitează descoperirea serviciilor într-o rețea "
+"locală prin intermediul suitei de protocoale mDNS/DNS-SD."
+
+#: database-content.py:480
+msgid ""
+"There is a glossary that will help translators in Chronojump localization: "
+"<a href=\"http://git.gnome.org/browse/chronojump/plain/glossary/"
+"chronojump_glossary_for_translators.html\">http://git.gnome.org/browse/"
+"chronojump/plain/glossary/chronojump_glossary_for_translators.html</a>.\n"
+msgstr ""
+"Există un glosar pentru a ajuta traducătorii în localizarea Chronojump <a "
+"href=\"http://git.gnome.org/browse/chronojump/plain/glossary/"
+"chronojump_glossary_for_translators.html\">http://git.gnome.org/browse/"
+"chronojump/plain/glossary/chronojump_glossary_for_translators.html</a>.\n"
+
+#: database-content.py:482
+msgid ""
+"colord is a system service that makes it easy to manage, install and "
+"generate color profiles to accurately color manage input and output devices."
+msgstr ""
+
+#: database-content.py:483
+msgid "PolicyKit helper to configure CUPS with fine-grained privileges."
+msgstr ""
+
+#: database-content.py:484
+msgid ""
+"Committed translations are updated manually on l10n.gnome.org from time to "
+"time. Be patient :-)"
+msgstr ""
+"Traducerile comise sunt actualizate manual pe l10n.gnome.org la un anumit "
+"interval de timp. Aveți răbdare! :-)"
+
+#: database-content.py:485
+msgid "Evince is a document viewer for multiple document formats."
+msgstr "Evince este un vizualizator de documente pentru formate multiple."
+
+#: database-content.py:486
+msgid "D-Bus service to access fingerprint readers."
+msgstr "Serviciul D-Bus de accesare a cititoarelor de amprente digitale."
+
+#: database-content.py:487
+msgid "A simple daemon to allow session software to update UEFI firmware."
+msgstr ""
+"Un simplu serviciu pentru a permite programelor de sesiune să actualizeze "
+"firmware UEFI."
+
+#: database-content.py:488
+msgid ""
+"For other localisation needs of GCompris, see  <a href=\"http://gcompris.net/"
+"wiki/Translation_addons\">http://gcompris.net/wiki/Translation_addons</a>."
+msgstr ""
+"Pentru alte necesități de localizare GCompris, consultați <a href=\"http://"
+"gcompris.net/wiki/Translation_addons\">http://gcompris.net/wiki/"
+"Translation_addons</a>."
+
+#: database-content.py:489
+msgid "Graphical frontend for the git directory tracker"
+msgstr "Interfață grafică pentru monitorul de dosare git"
+
+#: database-content.py:490
+msgid ""
+"glom is a user-friendly database application.<br>\n"
+"Apart from the UI messages and the documentation, there are additional "
+"example files that can be translated."
+msgstr ""
+"glom este o bază de date prietenoasă cu utilizatorul pentru aplicații.<br>\n"
+"Dincolo de mesajele interfeței cu utilizatorul și a documentației, mai sunt "
+"fișiere, ce conțin exemple, care trebuiesc traduse."
+
+#: database-content.py:492
+msgid "A multimedia converter for the GNOME Desktop"
+msgstr "Un convertor multimedia pentru desktopul GNOME"
+
+#: database-content.py:493
+msgid "Builder - Develop software for GNOME"
+msgstr "Builder - Dezvoltați programe pentru GNOME"
+
+#: database-content.py:494
+msgid "Clocks applications for GNOME"
+msgstr "Aplicații cu ceasuri pentru GNOME"
+
+#: database-content.py:495
+msgid ""
+"gnome-disk-utility provides libraries and applications for dealing with "
+"storage devices."
+msgstr ""
+"gnome-disc-utility oferă biblioteci și aplicații pentru a administra "
+"dispozitive de stocare."
+
+#: database-content.py:496
+msgid ""
+"Refer to the <a href=\"https://git.gnome.org/browse/gnome-getting-started-"
+"docs/plain/README\">README</a> file for additional information on how to "
+"translate this package."
+msgstr ""
+"Consultați fișierul <a href=\"https://git.gnome.org/browse/gnome-getting-"
+"started-docs/plain/README\">README</a> pentru informații suplimentare "
+"referitoare la cum să traduceți acest pachet."
+
+#: database-content.py:497
+msgid ""
+"Note that many strings visible in the gnome-tweak-tool interface are coming "
+"from the <a href=\"/module/gsettings-desktop-schemas/\">gsettings-desktop-"
+"schemas</a> module."
+msgstr ""
+"Luați aminte de faptul că multe șiruri vizibile în interfața gnome-tweak-"
+"tool aparțin modulului <a href=\"/module/gsettings-desktop-schemas/"
+"\">gsettings-desktop-schemas</a>."
+
+#: database-content.py:498
+msgid ""
+"gnome-utils has been split into new modules after GNOME 3.2: baobab, gnome-"
+"font-viewer, gnome-dictionary, gnome-screenshot, gnome-search-tool and gnome-"
+"system-log"
+msgstr ""
+"gnome-utils a fost divizat în module noi ulterior GNOME 3.2: baobab, gnome-"
+"font-viewer, gnome-dictionary, gnome-screenshot, gnome-search-tool și gnome-"
+"system-log"
+
+#: database-content.py:499
+msgid ""
+"GNOME Video Arcade is a MAME (Multiple Arcade Machine Emulator) front-end "
+"for GNOME."
+msgstr ""
+"GNOME Video Arcade este o interfață grafică GNOME de tip MAME (Multiple "
+"Arcade Machine Emulator)."
+
+#: database-content.py:500
+msgid ""
+"To ease localization, gallery of GNOME Video Effects has been set up here: "
+"<a href=\"http://live.gnome.org/GnomeVideoEffects/Effects\">http://live."
+"gnome.org/GnomeVideoEffects/Effects</a>."
+msgstr ""
+"Pentru a facilita localizarea, galeria de Efecte Video GNOME a fost "
+"publicată aici: <a href=\"http://live.gnome.org/GnomeVideoEffects/Effects"
+"\">http://live.gnome.org/GnomeVideoEffects/Effects</a>."
+
+#: database-content.py:501
+msgid "A note taking application"
+msgstr "O aplicație de luat notițe"
+
+#: database-content.py:502
+msgid ""
+"Useful information on localization of the gnumeric analysis tools can be "
+"found in the <a href =\"http://git.gnome.org/browse/gnumeric/plain/po/README."
+"analysis\">po/README.analysis</a> file."
+msgstr ""
+"Informații utile privind localizarea uneltelor gnumeric de analiză pot fi "
+"găsite în fișierul  <a href =\"http://git.gnome.org/browse/gnumeric/plain/po/"
+"README.analysis\">po/README.analysis</a>."
+
+#: database-content.py:503
+msgid ""
+"This a low-priority module to translate, as there are currently no user "
+"interface that show those strings."
+msgstr ""
+"Acest modul are o prioritate scăzută la traducere, deoarece nu există nicio "
+"interfață grafică ce conține acele șiruri."
+
+#: database-content.py:504
+msgid "\"Bad\" GStreamer plugins and helper libraries."
+msgstr ""
+
+#: database-content.py:505
+msgid "\"Base\" GStreamer plugins and helper libraries."
+msgstr ""
+
+#: database-content.py:506
+msgid "\"Good\" GStreamer plugins."
+msgstr ""
+
+#: database-content.py:507
+msgid "\"Ugly\" GStreamer plugins."
+msgstr ""
+
+#: database-content.py:508
+msgid "GStreamer open-source multimedia framework core library."
+msgstr ""
+
+#: database-content.py:509
+msgid ""
+"Please note that gtk+ has both po and po-properties UI domains.  If you add "
+"a new language in either domain, you have to commit both files in Git even "
+"if one of them contains 0 translations, unless GTK+ build will break in /po-"
+"properties."
+msgstr ""
+"Rețineți că gtk+ conține ambele domenii UI, po și po-properies. Dacă "
+"adăugați o nouă limbă în oricare dintre domenii, trebuie să comiteți ambele "
+"fișiere în Git chiar dacă unul dintre ele nu conține traduceri, dacă "
+"compilați GTK+ va crăpa în /po-properties."
+
+#: database-content.py:510
+msgid "A plugin manager library for other GNOME modules"
+msgstr "O librărie de administrare de module pentru alte module GNOME"
+
+#: database-content.py:511
+msgid "Desktop entries for MESS ROMs"
+msgstr "Intrări desktop pentru MESS ROM-uri"
+
+#: database-content.py:512
+msgid ""
+"moserial is a clean, friendly gtk-based serial terminal for the GNOME "
+"desktop. It is written in Vala for extra goodness."
+msgstr ""
+"moserial este un terminal serial curat și prietenos, bazat pe gtk pentru "
+"desktopul GNOME. Este scris în Vala pentru performanță suplimentară."
+
+#: database-content.py:513
+#, fuzzy
+#| msgid ""
+#| "To submit your translation, <a href=\"https://bugzilla.gnome.org/"
+#| "enter_bug.cgi?product=NetworkManager&component=Translations\">create a "
+#| "bug report for NetworkManager on the GNOME Bugzilla</a>. Then, attach "
+#| "your translation file."
+msgid ""
+"Network connection manager and user applications. To submit your "
+"translation, <a href=\"https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&component=Translations\">create a bug report for "
+"NetworkManager on the GNOME Bugzilla</a>. Then, attach your translation file."
+msgstr ""
+"Pentru a trimite traducerea, <a href=\"https://bugzilla.gnome.org/enter_bug."
+"cgi?product=NetworkManager&component=Translations\">creați un raport de "
+"defecțiune pentru NetworkManager în GNOME Bugzilla</a>. Apoi, atașați "
+"fișierul ce conține traducerea."
+
+#: database-content.py:514
+msgid "PKCS#11 cryptography framework for multiple consumers."
+msgstr ""
+
+#: database-content.py:515
+#, fuzzy
+#| msgid ""
+#| "PackageKit is a system designed to make installing and updating software "
+#| "on your computer easier."
+msgid ""
+"System designed to make installing and updating software on your computer "
+"easier."
+msgstr ""
+"PackageKit este un sistem destinat facilitării instalării și actualizării de "
+"programe pentru calculatorul dumneavoastră."
+
+#: database-content.py:516
+msgid ""
+"PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for "
+"your sound applications. To submit your translation, <a href=\"https://bugs."
+"freedesktop.org/enter_bug.cgi?product=PulseAudio&component=misc\">create a "
+"bug report for PulseAudio on the freedesktop.org Bugzilla</a>. Then, attach "
+"your translation as a git-formatted patch."
+msgstr ""
+"PulseAudio este un sistem de sunet pentru sisteme de operare POSIX, ceea ce "
+"înseamnă că este un proxy de sunet pentru aplicațiile dumneavoastră. Pentru "
+"a trimite fișierul de traducere, <a href=\"https://bugs.freedesktop.org/"
+"enter_bug.cgi?product=PulseAudio&component=misc\">creați un raport de "
+"defecțiune pentru PulseAudio la freedesktop.org Bugzilla</a>. Apoi, atașați "
+"fișierul ce conține traducerea ca un petic în formatul git."
+
+#: database-content.py:517
+msgid ""
+"D-Bus system service that manages discovery and enrollment in realms/domains "
+"like Active Directory or IPA."
+msgstr ""
+
+#: database-content.py:518
+msgid "Shared MIME information specification."
+msgstr ""
+
+#: database-content.py:519
+msgid "A photo manager for GNOME"
+msgstr "Un manager de fotografii pentru GNOME"
+
+#: database-content.py:520
+msgid ""
+"System and session manager. To submit your translation, <a href=\"https://"
+"github.com/systemd/systemd/pulls\">create a pull request</a>."
+msgstr ""
+
+#: database-content.py:521
+msgid "GNOME Teletext viewer"
+msgstr "Vizualizator Teletext GNOME"
+
+#: database-content.py:522
+msgid ""
+"Daemon, tools and libraries to access and manipulate disks and storage "
+"devices."
+msgstr ""
+
+#: database-content.py:523
+msgid "A VNC client for GNOME"
+msgstr "Un client VNC pentru GNOME"
+
+#: database-content.py:524
+msgid "Translations should be submitted as bug reports (see link below)."
+msgstr ""
+"Traducerile ar trebui trimise ca rapoarte de defecțiune (consultați legătura "
+"de mai jos)."
+
+#: database-content.py:525
+msgid ""
+"Tool to help manage \"well known\" user directories like the desktop folder "
+"and the music folder."
+msgstr ""
+
+#: database-content.py:526
+msgid "Database of keyboard configuration data."
+msgstr ""
+
+#: database-content.py:527
+msgid "GNOME 3.8 (old stable)"
+msgstr "GNOME 3.8 (versiune veche stabilă)"
+
+#: database-content.py:528
+msgid "GNOME 3.6 (old stable)"
+msgstr "GNOME 3.6 (versiune veche stabilă)"
+
+#: database-content.py:529
+msgid "GNOME 3.4 (old stable)"
+msgstr "GNOME 3.4 (versiune veche stabilă)"
+
+#: database-content.py:530
+msgid "GNOME 3.2 (old stable)"
+msgstr "GNOME 3.2 (versiune veche stabilă)"
+
+#: database-content.py:531
+#, fuzzy
+#| msgid "GNOME 3.16 (development)"
+msgid "GNOME 3.18 (development)"
+msgstr "GNOME 3.16 (versiune de dezvoltare)"
+
+#: database-content.py:532
+msgid "GNOME 3.16 (stable)"
+msgstr "GNOME 3.16 (versiune stabilă)"
+
+#: database-content.py:533
+msgid "GNOME 3.14 (old stable)"
+msgstr "GNOME 3.14 (versiune veche stabilă)"
+
+#: database-content.py:534
+msgid "GNOME 3.12 (old stable)"
+msgstr "GNOME 3.12 (versiune veche stabilă)"
+
+#: database-content.py:535
+msgid "GNOME 3.10 (old stable)"
+msgstr "GNOME 3.10 (versiune veche stabilă)"
+
+#: database-content.py:536
+msgid "GNOME 3.0 (old stable)"
+msgstr "GNOME 3.0 (versiune veche stabilă)"
+
+#: database-content.py:537
+msgid "GNOME 2.32 (old stable)"
+msgstr "GNOME 2.32 (versiune veche stabilă)"
+
+#: database-content.py:538
+msgid "External Dependencies (GNOME)"
+msgstr "Dependențe externe (GNOME)"
+
+#: database-content.py:539
+msgid "OLPC"
+msgstr "OLPC"
+
+#: database-content.py:540
+msgid "Obsolete GNOME Applications"
+msgstr "Aplicații GNOME învechite"
+
+#: database-content.py:541
+msgid "GNOME-Office Productivity Applications"
+msgstr "Aplicații GNOME pentru birou"
+
+#: database-content.py:542
+msgid "GNOME Infrastructure"
+msgstr "Infrastructura GNOME"
+
+#: database-content.py:543
+msgid "GIMP and Friends"
+msgstr "GIMP și prietenii"
+
+#: database-content.py:544
+msgid "Extra GNOME Applications (stable)"
+msgstr "Aplicații GNOME adiționale (stabile)"
+
+#: database-content.py:545
+msgid "Extra GNOME Applications"
+msgstr "Aplicații GNOME adiționale"
+
+#: database-content.py:546
+msgid "freedesktop.org (non-GNOME)"
+msgstr "freedesktop.org (non-GNOME)"
+
+#: common/views.py:45
+msgid "translator-credits"
+msgstr ""
+"Alexandru Szasz <alexxed@gmail.com>\n"
+"Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Lucian Adrian Grijincu\n"
+"Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014"
+
+#: common/views.py:63
+msgid "You have been logged out."
+msgstr "Ați fost deautentificat."
+
+#: common/views.py:71
+msgid "You have been successfully logged in."
+msgstr "Ați fost autentificat cu succes."
+
+#: common/views.py:73
+#, python-format
+msgid ""
+"You have not joined any translation team yet. You can do it from <a href="
+"\"%(url)s\">your profile</a>."
+msgstr ""
+"Nu v-ați alăturat niciunei echipe de traduceri încă. Puteți face asta din <a "
+"href=\"%(url)s\">profilul dumneavoastră</a>"
+
+#: common/views.py:82
+msgid "We're sorry, but your account has been disabled."
+msgstr "Ne pare rău, dar contul dumneavoastră a fost dezactivat."
+
+#: common/views.py:84
+msgid "Login unsuccessful. Please verify your username and password."
+msgstr "Autentificarea a eșuat, verificați numele de utilizator și parola."
+
+#: common/views.py:122
+msgid "Sorry, the key you provided is not valid."
+msgstr "Ne pare rău, cheia furnizată de dumneavoastră nu este validă."
+
+#: common/views.py:124
+msgid "Your account has been activated."
+msgstr "Contul dumneavoastră a fost activat."
+
+#: damnedlies/settings.py:84
+msgid ""
+"This module is not part of the GNOME Git repository. Please check the "
+"module's web page to see where to send translations."
+msgstr ""
+"Acest modul nu face parte din depozitul Git al GNOME. Verificați pagina web "
+"a modulului pentru a vedea unde puteți trimite traducerile."
+
+#: django_openid/templates/django_openid/admin_login.html:17
+#: templates/login.html:16
+msgid "Log in with your username and password:"
+msgstr "Autentificați-vă cu numele de utilizator și parola:"
+
+#: django_openid/templates/django_openid/admin_login.html:20
+#: templates/login.html:20
+msgid "Username:"
+msgstr "Nume de utilizator:"
+
+#: django_openid/templates/django_openid/admin_login.html:23
+#: people/forms.py:23 templates/login.html:23
+msgid "Password:"
+msgstr "Parolă:"
+
+#: django_openid/templates/django_openid/admin_login.html:28
+#: templates/base.html:46 templates/login.html:31
+#: templates/registration/password_reset_complete.html:12
+msgid "Log in"
+msgstr "Autentificare"
+
+#: django_openid/templates/django_openid/admin_login.html:31
+#: templates/login.html:36
+msgid "Or use your OpenID:"
+msgstr "Sau utilizați un OpenID:"
+
+#: django_openid/templates/django_openid/admin_login.html:34
+#: people/forms.py:20 templates/login.html:40
+msgid "OpenID:"
+msgstr "OpenID:"
+
+#: django_openid/templates/django_openid/admin_login.html:37
+#: templates/login.html:43
+msgid "Log in with OpenID"
+msgstr "Autentificați-vă cu OpenID"
+
+#. Translators: this concerns an unknown plural form
+#: languages/models.py:57
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: languages/views.py:49 languages/views.py:82
+msgid "UI Translations"
+msgstr "Traduceri ale interfeței pentru utilizator"
+
+#: languages/views.py:50 languages/views.py:83
+msgid "UI Translations (reduced)"
+msgstr "Traduceri ale interfeței pentru utilizator (reduse)"
+
+#: languages/views.py:79 templates/release_detail.html:82
+msgid "Original strings"
+msgstr "Șiruri originale"
+
+#: people/forms.py:17
+msgid "Choose a username:"
+msgstr "Alegeți un nume de utilizator:"
+
+#: people/forms.py:18
+msgid "May contain only letters, numbers, underscores or hyphens"
+msgstr "Poate conține doar litere, numere, liniuțe joase sau cratime"
+
+#: people/forms.py:19
+msgid "Email:"
+msgstr "Email:"
+
+#: people/forms.py:24
+msgid "At least 7 characters"
+msgstr "Cel puțin 7 caractere"
+
+#: people/forms.py:26 templates/people/person_password_change_form.html:28
+#: templates/registration/password_reset_confirm.html:19
+msgid "Confirm password:"
+msgstr "Confirmați parola:"
+
+#: people/forms.py:34
+msgid "This username is already taken. Please choose another."
+msgstr "Acest nume de utilizator este deja folosit. Alegeți altul."
+
+#: people/forms.py:44
+msgid "This OpenID URL is already taken by a registered user"
+msgstr "Acest URL OpenID aparține deja unui alt utilizator înregistrat"
+
+#: people/forms.py:54
+msgid "You must either provide an OpenID or a password"
+msgstr "Trebuie să furnizați un OpenID sau o parolă"
+
+#: people/forms.py:57
+msgid "The passwords do not match"
+msgstr "Parolele nu se potrivesc"
+
+#: people/forms.py:81
+msgid "Account activation"
+msgstr "Activarea contului"
+
+#: people/forms.py:82
+#, python-format
+msgid ""
+"This is a confirmation that your registration on %s succeeded. To activate "
+"your account, please click on the link below or copy and paste it in a "
+"browser."
+msgstr ""
+"Aceasta este confirmarea că înregistrarea dumneavoastră la %s a avut succes. "
+"Pentru a vă activa contul, apăsați pe legătura de mai jos sau copiați-o și "
+"lipiți-o într-un navigator de internet."
+
+#: people/forms.py:84
+#, python-format
+msgid "Administrators of %s"
+msgstr "Administratori ai %s"
+
+#: people/forms.py:103
+#, python-format
+msgid ""
+"Image too high or too wide (%(width)dx%(height)d, maximum is 100x100 pixels)"
+msgstr ""
+"Imagine prea înaltă sau prea lată (%(width)dx%(height)d, limita maximă este "
+"100x100 pixeli)"
+
+#: people/forms.py:123
+msgid "The URL you provided is not valid"
+msgstr "URL-ul pe care l-ați furnizat nu este valid"
+
+#: people/forms.py:139
+msgid "The URL you provided seems not to correspond to a valid image"
+msgstr ""
+"URL-ul pe care l-ați furnizat nu pare să corespundă unei imagini valide"
+
+#: people/models.py:41
+msgid "Image"
+msgstr "Imagine"
+
+#: people/models.py:42
+msgid ""
+"URL to an image file (.jpg, .png, ...) of an hackergotchi (max. 100x100 "
+"pixels)"
+msgstr ""
+"URL al unui fișier imagine (.jpg, .png, ...) care vă reprezintă (de tip "
+"„hackergotchi”) (max. 100x100 pixeli)"
+
+#: people/models.py:44
+msgid "Display the image of your gravatar.com account"
+msgstr "Afișează imaginea contului dumneavoastră gravatar.com"
+
+#: people/models.py:45 teams/models.py:90
+msgid "Web page"
+msgstr "Pagină web"
+
+#: people/models.py:46
+msgid "IRC nickname"
+msgstr "pseudonim IRC"
+
+#: people/models.py:47
+msgid "Bugzilla account"
+msgstr "Cont bugzilla"
+
+#: people/models.py:48
+msgid ""
+"This should be an email address, useful if not equal to 'E-mail address' "
+"field"
+msgstr ""
+"Aici ar trebui să fie o adresă de email, folositoare în cazul în care nu "
+"este aceeași din câmpul „Adresă email”"
+
+#: people/views.py:84
+msgid "Sorry, the form is not valid."
+msgstr "Ne pare rău, această formă nu este validă."
+
+#: people/views.py:99
+#, python-format
+msgid "You have successfully joined the team '%s'."
+msgstr "V-ați alăturat cu succes echipei „%s”."
+
+#: people/views.py:100
+msgid "A new person joined your team"
+msgstr "O persoană nouă s-a alăturat echipei"
+
+#: people/views.py:101
+#, python-format
+msgid "%(name)s has just joined your translation team on %(site)s"
+msgstr "%(name)s tocmai s-a alăturat echipei de traducere de pe %(site)s"
+
+#: people/views.py:104
+msgid "You are already member of this team."
+msgstr "Sunteți deja membru al acestei echipe."
+
+#: people/views.py:123
+#, python-format
+msgid "You have been removed from the team '%s'."
+msgstr "Ați fost eliminat din echipa „%s”."
+
+#: people/views.py:126
+msgid "You are not a member of this team."
+msgstr "Nu sunteți membru al acestei echipe."
+
+#: people/views.py:139
+msgid "Your password has been changed."
+msgstr "Parola a fost schimbată."
+
+#. Translators: string used as separator in person list
+#: people/templatetags/people.py:17
+msgid ", "
+msgstr ", "
+
+#: stats/models.py:108
+#, python-format
+msgid ""
+"Translations for this module are externally hosted. Please go to the <a href="
+"\"%(link)s\">external platform</a> to see how you can submit your "
+"translation."
+msgstr ""
+"Traducerile aferente acestui modul sunt găzduite extern. Vizitați <a href="
+"\"%(link)s\">platforma externă</a> pentru a afla cum puteți înainta "
+"traducerea proprie."
+
+#: stats/models.py:268
+msgid "This branch is not linked from any release"
+msgstr "Această ramură nu aparține unei ediții"
+
+#: stats/models.py:459
+msgid "Can't generate POT file, using old one."
+msgstr "Nu se poate genera fișierul POT, se folosește unul vechi."
+
+#: stats/models.py:461
+msgid "Can't generate POT file, statistics aborted."
+msgstr "Nu se poate genera fișierul POT, s-au anulat statisticile."
+
+#: stats/models.py:479
+msgid "Can't copy new POT file to public location."
+msgstr "Nu se poate copia noul fișier POT într-o locație publică."
+
+#: stats/models.py:761
+msgid "Error retrieving pot file from URL."
+msgstr "Eroare la primirea fișierului pot de la URL."
+
+#: stats/models.py:790
+#, python-format
+msgid ""
+"Error regenerating POT file for %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Eroare la generarea fișierului POT pentru %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: stats/models.py:814
+#, python-format
+msgid ""
+"Entry for this language is not present in %(var)s variable in %(file)s file."
+msgstr ""
+"Nu este prezentă nicio înregistrare pentru această limbă în variabila "
+"%(var)s din fișierul %(file)s."
+
+#: stats/models.py:1145
+msgid "Default"
+msgstr ""
+
+#: stats/models.py:1146
+msgid "Administration Tools"
+msgstr "Unelte de administrare"
+
+#: stats/models.py:1147 stats/models.py:1157
+msgid "Development Tools"
+msgstr "Unelte pentru dezvoltare"
+
+#: stats/models.py:1148
+msgid "GNOME Desktop"
+msgstr "Desktopul GNOME"
+
+#: stats/models.py:1149
+msgid "GNOME Developer Platform"
+msgstr "Platforma de dezvoltare GNOME"
+
+#: stats/models.py:1150
+msgid "New Module Proposals"
+msgstr "Propuneri de module noi"
+
+#: stats/models.py:1151
+msgid "Core"
+msgstr "Nucleu"
+
+#: stats/models.py:1152
+msgid "Utils"
+msgstr "Utilitare"
+
+#: stats/models.py:1153
+msgid "Apps"
+msgstr "Aplicații"
+
+#: stats/models.py:1154
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+#: stats/models.py:1155
+msgid "Games"
+msgstr "Jocuri"
+
+#: stats/models.py:1156
+msgid "Backends"
+msgstr "Suporturi"
+
+#: stats/models.py:1158
+msgid "Core Libraries"
+msgstr "Librării de bază"
+
+#: stats/models.py:1159
+msgid "Extra Libraries"
+msgstr "Librării extra"
+
+#: stats/models.py:1160
+msgid "Legacy Desktop"
+msgstr "Desktop tradițional"
+
+#: stats/models.py:1161
+#, fuzzy
+#| msgid "Branches:"
+msgid "Stable Branches"
+msgstr "Ramuri:"
+
+#: stats/models.py:1162
+#, fuzzy
+#| msgid "Development News"
+msgid "Development Branches"
+msgstr "Știri despre dezvoltare"
+
+#: stats/models.py:1362 stats/models.py:1730
+#, python-format
+msgid "%(lang_name)s (%(lang_locale)s)"
+msgstr "%(lang_name)s (%(lang_locale)s)"
+
+#: stats/models.py:1388
+msgid "POT file unavailable"
+msgstr "Fișier POT indisponibil"
+
+#: stats/models.py:1393
+#, python-format
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "%(count)s mesaj"
+msgstr[1] "%(count)s mesaje"
+msgstr[2] "%(count)s de mesaje"
+
+#: stats/models.py:1394
+#, python-format
+msgid "updated on %(date)s"
+msgstr "actualizat la %(date)s"
+
+#: stats/models.py:1396 templates/vertimus/vertimus_detail.html:57
+#: templates/vertimus/vertimus_detail.html:178
+msgid "Y-m-d g:i a O"
+msgstr "d-m-Y G:i O"
+
+#: stats/models.py:1398
+#, python-format
+msgid "%(count)s word"
+msgid_plural "%(count)s words"
+msgstr[0] "%(count)s cuvânt"
+msgstr[1] "%(count)s cuvinte"
+msgstr[2] "%(count)s de cuvinte"
+
+#: stats/models.py:1400
+#, python-format
+msgid "%(count)s figure"
+msgid_plural "%(count)s figures"
+msgstr[0] "%(count)s figură"
+msgstr[1] "%(count)s figuri"
+msgstr[2] "%(count)s de figuri"
+
+#: stats/models.py:1401
+#, python-format
+msgid "POT file (%(messages)s — %(words)s, %(figures)s) — %(updated)s"
+msgstr "fișier POT (%(messages)s — %(words)s, %(figures)s) — %(updated)s"
+
+#: stats/models.py:1404
+#, python-format
+msgid "POT file (%(messages)s — %(words)s) — %(updated)s"
+msgstr "fișier POT (%(messages)s — %(words)s) — %(updated)s"
+
+#: stats/models.py:1557
+msgid ""
+"This POT file has not been generated through the standard intltool method."
+msgstr "Acest fișier POT nu a fost generat prin metoda standard intltool."
+
+#: stats/models.py:1558
+msgid ""
+"This POT file has not been generated through the standard gnome-doc-utils "
+"method."
+msgstr ""
+"Acest fișier POT nu a fost generat prin metoda standard gnome-doc-utils."
+
+#: stats/utils.py:192
+msgid "Errors while running 'intltool-update -m' check."
+msgstr "Erori întâlnite în timpul verificării „intltool-update -m”."
+
+#: stats/utils.py:198
+#, python-format
+msgid "There are some missing files from POTFILES.in: %s"
+msgstr "Lipsesc niște fișiere din POTFILES.in: %s"
+
+#: stats/utils.py:207
+#, python-format
+msgid ""
+"Following files are referenced in either POTFILES.in or POTFILES.skip, yet "
+"they don't exist: %s"
+msgstr ""
+"Se fac referiri la următoarele fișiere în POTFILES.in sau POTFILES.skip, dar "
+"acestea nu există: %s"
+
+#: stats/utils.py:227
+#, python-format
+msgid "Module %s doesn't look like gnome-doc-utils module."
+msgstr "Modulul %s nu pare a fi un modul gnome-doc-utils."
+
+#: stats/utils.py:238
+#, python-format
+msgid "%s doesn't point to a real file, probably a macro."
+msgstr "%s nu indică spre un fișier real, probabil o macrocomandă."
+
+#: stats/utils.py:254
+#, python-format
+msgid ""
+"Error regenerating POT file for document %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Eroare în timpul regenerării fișierului POT pentru documentul %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: stats/utils.py:341
+#, python-format
+msgid "PO file '%s' does not exist or cannot be read."
+msgstr "Fișierul PO „%s” nu există sau nu poate fi citit."
+
+#: stats/utils.py:369
+#, python-format
+msgid "PO file '%s' doesn't pass msgfmt check: not updating."
+msgstr ""
+"Fișierul PO „%s” nu a trecut de verificarea msgfmt: nu se actualizează."
+
+#: stats/utils.py:371
+#, python-format
+msgid "Can't get statistics for POT file '%s'."
+msgstr "Nu se pot obține statisticile pentru fișierul POT „%s”."
+
+#: stats/utils.py:374
+msgid "This PO file has an executable bit set."
+msgstr "Acest fișier PO are un bit de execuție activat."
+
+#: stats/utils.py:402
+#, python-format
+msgid "PO file '%s' is not UTF-8 encoded."
+msgstr "Fișierul PO „%s” nu este codat în UTF-8."
+
+#: stats/utils.py:412
+msgid "Entry for this language is not present in LINGUAS file."
+msgstr ""
+"Nicio înregistrare pentru această limbă nu este prezentă în fișierul LINGUAS."
+
+#: stats/utils.py:443
+msgid "No need to edit LINGUAS file or variable for this module"
+msgstr ""
+"Nu este necesar să modificați fișierul LINGUAS sau variabilele pentru acest "
+"modul"
+
+#: stats/utils.py:449
+msgid ""
+"Entry for this language is not present in ALL_LINGUAS in configure file."
+msgstr ""
+"Nicio înregistrare pentru această limbă nu este prezentă în fișierul de "
+"configurare ALL_LINGUAS."
+
+#: stats/utils.py:451
+msgid ""
+"Don't know where to look for the LINGUAS variable, ask the module maintainer."
+msgstr ""
+"Nu știu unde să caut variabila LINGUAS, întrebați responsabilul modulului."
+
+#: stats/utils.py:458
+msgid ""
+"Don't know where to look for the DOC_LINGUAS variable, ask the module "
+"maintainer."
+msgstr ""
+"Nu știu unde să caut variabila DOC_LINGUAS, întrebați responsabilul "
+"modulului."
+
+#: stats/utils.py:460
+msgid "DOC_LINGUAS list doesn't include this language."
+msgstr "Lista DOC_LINGUAS nu include această limbă."
+
+#: teams/forms.py:31 teams/models.py:244 templates/teams/team_base.html:46
+msgid "Coordinator"
+msgstr "Coordonator"
+
+#: teams/forms.py:58
+msgid "Mark as Inactive"
+msgstr "Marchează ca inactiv"
+
+#: teams/forms.py:59
+msgid "Remove From Team"
+msgstr "Elimină din echipă"
+
+#: teams/models.py:88
+msgid "Presentation"
+msgstr "Prezentare"
+
+#: teams/models.py:91
+msgid "Mailing list"
+msgstr "Listă de discuții"
+
+#: teams/models.py:92
+msgid "URL to subscribe"
+msgstr "URL pentru abonare"
+
+#: teams/models.py:203 vertimus/models.py:536
+#, python-format
+msgid "This is an automated message sent from %s."
+msgstr "Acesta este un mesaj automat trimis de la %s."
+
+#: teams/models.py:221
+#, python-format
+msgid "No team for locale %s"
+msgstr "Nicio echipă pentru localizarea %s"
+
+#: teams/models.py:241
+msgid "Translator"
+msgstr "Traducător"
+
+#: teams/models.py:242
+msgid "Reviewer"
+msgstr "Recenzent"
+
+#: teams/models.py:243
+msgid "Committer"
+msgstr "Comiter"
+
+#: teams/views.py:50
+msgid "Committers"
+msgstr "Comiteri"
+
+#: teams/views.py:53
+msgid "No committers"
+msgstr "Niciun comiter"
+
+#: teams/views.py:56
+msgid "Reviewers"
+msgstr "Recenzenți"
+
+#: teams/views.py:59
+msgid "No reviewers"
+msgstr "Niciun recenzent"
+
+#: teams/views.py:62
+msgid "Translators"
+msgstr "Traducători"
+
+#: teams/views.py:65
+msgid "No translators"
+msgstr "Niciun traducător"
+
+#: teams/views.py:68
+msgid "Inactive members"
+msgstr "Membri inactivi"
+
+#: teams/views.py:71
+msgid "No inactive members"
+msgstr "Niciun membru inactiv"
+
+#: templates/404.html:4 templates/404.html.py:9
+msgid "Error: page not found"
+msgstr "Eroare: pagina nu a fost găsită"
+
+#: templates/404.html:11
+msgid "The page you requested has not been found on this server."
+msgstr "Pagina cerută de dumneavoastră nu a fost găsită pe acest server."
+
+#: templates/500.html:4
+msgid "Error: server error (500)"
+msgstr "Eroare: eroare de server (500)"
+
+#: templates/500.html:9
+msgid "Server Error"
+msgstr "Eroare de server"
+
+#: templates/500.html:11
+msgid "We're sorry but a server error has occurred."
+msgstr "Ne pare rău, dar a intervenit o eroare de server."
+
+#: templates/about.html:4
+msgid "About"
+msgstr "Despre"
+
+#: templates/about.html:9 templates/base.html:135
+msgid "About Damned Lies"
+msgstr "Despre Minciuni blestemate"
+
+#: templates/about.html:11 templates/index.html:11
+msgid ""
+"Damned Lies is the Web application used to manage the localisation (l10n) of "
+"the GNOME project."
+msgstr ""
+"Minciuni blestemate este aplicația web folosită la administrarea localizării "
+"(l10n) proiectului GNOME."
+
+#: templates/about.html:12
+#, python-format
+msgid ""
+"It allows you to browse live statistics. Damned Lies also manages the "
+"translation <a href=\"%(link)s\">workflow</a>."
+msgstr ""
+"Vă permite să navigați prin statistici în timp real. Minciuni blestemate "
+"administrează și <a href=\"%(link)s\">fluxul de lucru</a> al traducerii."
+
+#: templates/about.html:14
+#, python-format
+msgid ""
+"Damned Lies is Free Software, its source code is available under the <a href="
+"\"%(gpl)s\">GNU GPL license</a>. You are welcome to participate to its "
+"improvement, especially by <a href=\"%(bug)s\">reporting bugs and "
+"enhancement proposals</a>."
+msgstr ""
+"Minciuni blestemate este un program liber, codul său sursă este disponibil "
+"sub <a href=\"%(gpl)s\">licența GNU GPL</a>. Sunteți binevenit să "
+"participați la îmbunătățirea sa, în special prin <a href=\"%(bug)s"
+"\">raportarea de defecțiuni și propuneri de îmbunătățire</a>."
+
+#: templates/about.html:16
+#, python-format
+msgid ""
+"If you wonder about the name of this application, see <a href=\"%(link)s"
+"\">this article on Wikipedia</a>."
+msgstr ""
+"Dacă aveți curiozități legate de numele aplicației, consultați <a href="
+"\"%(link)s\">acest articol pe Wikipedia</a>."
+
+#: templates/about.html:18
+#, python-format
+msgid ""
+"Many thanks to <a href=\"%(link)s\">GetSentry.com</a> for freely providing "
+"us an account on their online logging platform."
+msgstr ""
+"Mulțumiri către <a href=\"%(link)s\">GetSentry.com</a> pentru furnizarea "
+"unui cont pentru platforma lor de autentificare."
+
+#: templates/about.html:22
+msgid "This Web site has been translated in your language by:"
+msgstr "Acest website a fost tradus în limba dumneavoastră de către:"
+
+#: templates/about.html:27
+msgid "Quick links"
+msgstr "Legături rapide"
+
+#: templates/about.html:29
+msgid "Project wiki"
+msgstr "Proiect wiki"
+
+#: templates/about.html:32
+msgid "Bug tracking page"
+msgstr "Pagina de urmărire a defecțiunilor"
+
+#: templates/about.html:35
+msgid "Source code"
+msgstr "Cod sursă"
+
+#: templates/about.html:38
+msgid "Workflow"
+msgstr "Flux de lucru"
+
+#: templates/base.html:43
+msgid "Log out"
+msgstr "Ieșire"
+
+#: templates/base.html:56 templates/base.html.py:59
+msgid "Back to Damned Lies home page"
+msgstr "Înapoi la pagina de start „Minciuni blestemate” "
+
+#: templates/base.html:59 templates/admin/delete_release_confirmation.html:6
+msgid "Home"
+msgstr "Acasă"
+
+#: templates/base.html:60 templates/base.html.py:99 templates/index.html:18
+msgid "Teams"
+msgstr "Echipe"
+
+#: templates/base.html:61 templates/index.html:33
+#: templates/release_compare.html:25
+msgid "Languages"
+msgstr "Limbi"
+
+#: templates/base.html:62
+msgid "Release sets"
+msgstr "Ediții"
+
+#: templates/base.html:63 templates/index.html:50
+msgid "Modules"
+msgstr "Module"
+
+#: templates/base.html:95 templates/base.html.py:133
+msgid "The GNOME Project"
+msgstr "Proiectul GNOME"
+
+#: templates/base.html:97
+msgid "About Us"
+msgstr "Despre noi"
+
+#: templates/base.html:98
+msgid "Get Involved"
+msgstr "Implicați-vă"
+
+#: templates/base.html:100
+msgid "Support GNOME"
+msgstr "Susțineți GNOME"
+
+#: templates/base.html:101
+msgid "Contact Us"
+msgstr "Contactați-ne"
+
+#: templates/base.html:102
+msgid "The GNOME Foundation"
+msgstr "Fundația GNOME"
+
+#: templates/base.html:107
+msgid "Developer Center"
+msgstr "Centrul de dezvoltare"
+
+#: templates/base.html:109
+msgid "Wiki"
+msgstr "Wiki"
+
+#: templates/base.html:110
+msgid "Mailing Lists"
+msgstr "Liste de discuții"
+
+#: templates/base.html:111
+msgid "IRC Channels"
+msgstr "Canale IRC"
+
+#: templates/base.html:112
+msgid "Bug Tracker"
+msgstr "Agent de urmărire a defecțiunilor"
+
+#: templates/base.html:113
+msgid "Development Code"
+msgstr "Cod de dezvoltare"
+
+#: templates/base.html:114
+msgid "Build Tool"
+msgstr "Unealtă de generare"
+
+#: templates/base.html:117
+msgid "News"
+msgstr "Știri"
+
+#: templates/base.html:119
+msgid "Press Releases"
+msgstr "Comunicate de presă"
+
+#: templates/base.html:120
+msgid "Latest Release"
+msgstr "Ultima ediție"
+
+#: templates/base.html:121
+msgid "Planet GNOME"
+msgstr "Planeta GNOME"
+
+#: templates/base.html:122
+msgid "GNOME Journal"
+msgstr "Jurnal GNOME"
+
+#: templates/base.html:123
+msgid "Development News"
+msgstr "Știri despre dezvoltare"
+
+#: templates/base.html:124
+msgid "Identi.ca"
+msgstr "Identi.ca"
+
+#: templates/base.html:125
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/base.html:133
+msgid "Copyright &copy; 2006-2012"
+msgstr "Drepturi de autor &copy; 2006-2012"
+
+#: templates/base.html:136
+msgid "Optimized for standards."
+msgstr "Optimizat pentru standarde."
+
+#: templates/base.html:137
+#, python-format
+msgid "Hosted by %(link)s."
+msgstr "Găzduit de %(link)s."
+
+#: templates/base.html:138
+#, python-format
+msgid "Powered by %(link)s."
+msgstr "Susținut de %(link)s."
+
+#: templates/branch_detail.html:4
+msgid "This branch is currently string-frozen."
+msgstr "Momentan șirurile acestei ramuri sunt înghețate."
+
+#: templates/branch_detail.html:12
+msgid "Translation"
+msgstr "Traducere"
+
+#: templates/error.html:4 templates/index.html:4 templates/login.html:4
+#: templates/registration/register.html:4
+#: templates/registration/register_success.html:4
+msgid "Damned Lies about GNOME"
+msgstr "Minciuni blestemate despre GNOME"
+
+#: templates/error.html:9
+msgid "Error:"
+msgstr "Eroare:"
+
+#: templates/index.html:12
+msgid "More…"
+msgstr "Mai mult…"
+
+#: templates/index.html:19
+msgid ""
+"List of all GNOME Translation Teams, with full information such as primary "
+"contact (coordinator), web pages and mailing list information."
+msgstr ""
+"Lista tuturor echipelor de traducere GNOME, cu informații complete precum "
+"principala persoană de contact (coordonatorul), paginile web și informații "
+"despre listele de discuții."
+
+#: templates/index.html:20
+msgid ""
+"If there is no team for your language, you can easily <a href='https://live."
+"gnome.org/TranslationProject/StartingATeam/'>start your own team</a>."
+msgstr ""
+"Dacă nu există nicio echipă pentru limba dumneavoastră, puteți <a "
+"href='https://live.gnome.org/TranslationProject/StartingATeam/'>crea propria "
+"echipă</a>."
+
+#: templates/index.html:25
+#, python-format
+msgid ""
+"Go to the <a href='%(team_url)s'>%(language_name)s team page</a> and help us "
+"to translate GNOME!"
+msgstr ""
+"Navigați la <a href='%(team_url)s'>pagina echipei de limbă %(language_name)s "
+"</a> și ajutați-ne să traducem GNOME!"
+
+#: templates/index.html:35
+#, python-format
+msgid ""
+"List of all languages there are <a href='%(teams_url)s'>Translation Teams</"
+"a> for."
+msgstr ""
+"Lista tuturor limbilor pentru care există <a href='%(teams_url)s'>echipe de "
+"traducere</a>"
+
+#: templates/index.html:36
+msgid ""
+"Some teams manage more than one language (usually just simple variants), and "
+"here you can see all the languages GNOME is being translated to."
+msgstr ""
+"Unele echipe administrează mai mult de o limbă (de obicei dialecte simple), "
+"și aici puteți vedea toate limbile în care GNOME este tradus."
+
+#: templates/index.html:40
+msgid "Release Sets"
+msgstr "Ediții"
+
+#: templates/index.html:41
+msgid "List of all GNOME release sets and releases we gather stats for."
+msgstr ""
+"Lista tuturor edițiilor și lansărilor GNOME pentru care adunăm statistici."
+
+#: templates/index.html:43
+msgid ""
+"Examples of release sets are &quot;GNOME Infrastructure&quot; or &quot;GNOME "
+"2.26&quot;."
+msgstr "Exemple de ediții sunt „Infrastructura GNOME”; sau „GNOME 2.26”."
+
+#: templates/index.html:44
+msgid ""
+"Official GNOME release sets are further divided into categories such as "
+"&quot;Desktop Applications&quot; and &quot;Developer Platform&quot;."
+msgstr ""
+"Edițiile oficiale GNOME sunt împărțite la rândul lor în categorii cum ar fi "
+"„Aplicații pentru desktop” și „Platforma dezvoltatorilor”."
+
+#: templates/index.html:46
+msgid ""
+"Look here if you want to compare language support in any of these release "
+"sets."
+msgstr ""
+"Priviți aici dacă doriți să comparați suportul lingvistic în oricare dintre "
+"aceste ediții."
+
+#: templates/index.html:51
+msgid "List of all modules with statistics in here."
+msgstr "Lista cu toate modulele și statisticile prezente."
+
+#: templates/index.html:53
+msgid ""
+"Modules are separate libraries or applications, with one or more branches of "
+"development included."
+msgstr ""
+"Modulele sunt biblioteci sau aplicații separate, ce conțin una sau mai multe "
+"ramuri de dezvoltare."
+
+#: templates/index.html:54
+msgid ""
+"They are usually taken from the Git repository, and we keep all relevant "
+"information on them (Bugzilla details, web page, maintainer information,...)."
+msgstr ""
+"Ele sunt de obicei luate din depozitul Git, iar noi păstrăm toate "
+"informațiile relevante cu privire la acestea (detalii Bugzilla, pagina web, "
+"informații despre întreținători...)."
+
+#: templates/login.html:9
+msgid "User Login"
+msgstr "Autentificare utilizator"
+
+#: templates/login.html:11 templates/registration/register.html:11
+#, python-format
+msgid "You are already logged in as %(username)s."
+msgstr "Sunteți deja autentificat ca %(username)s."
+
+#: templates/login.html:14
+#, python-format
+msgid ""
+"If you do not own an account on this site, you can <a "
+"href='%(link)s'>register</a> for a new account."
+msgstr ""
+"Dacă nu dețineți un cont pe această pagină web, puteți să vă <a "
+"href='%(link)s'>înregistrați</a> un cont nou."
+
+#: templates/login.html:24
+msgid "Have you forgotten your password?"
+msgstr "Ați uitat parola?"
+
+#: templates/module_detail.html:5
+#, python-format
+msgid "Module Statistics: %(name)s"
+msgstr "Statistici modul: %(name)s"
+
+#: templates/module_detail.html:43 templates/vertimus/vertimus_detail.html:251
+msgid ""
+"This module has been archived. It is only kept for statistical purposes. "
+"Please don't translate it any more."
+msgstr ""
+"Acest modul a fost arhivat. Mai este păstrat doar pentru scopuri statistice. "
+"Vă rugăm să nu-l mai traduceți."
+
+#: templates/module_detail.html:61
+msgid "Maintainers"
+msgstr "Responsabili"
+
+#: templates/module_detail.html:70
+msgid "Bug reporting"
+msgstr "Raportarea erorilor"
+
+#: templates/module_detail.html:73
+msgid "Show existing i18n and l10n bugs"
+msgstr "Afișează erorile existente pentru i18n și l10n"
+
+#: templates/module_detail.html:75
+msgid "Report a bug"
+msgstr "Raportează o defecțiune"
+
+#: templates/module_detail.html:84
+msgid "Branches:"
+msgstr "Ramuri:"
+
+#: templates/module_detail.html:108
+msgid "Browse Repository"
+msgstr "Navighează depozitul"
+
+#: templates/module_detail.html:111
+msgid "Refresh branch statistics"
+msgstr "Actualizează statisticile ramurii"
+
+#: templates/module_edit_branches.html:18
+#: templates/languages/language_release_stats.html:21
+msgid "Branch"
+msgstr "Ramură"
+
+#: templates/module_edit_branches.html:18
+#: templates/languages/language_release_summary.html:10
+msgid "Release"
+msgstr "Ediție"
+
+#: templates/module_edit_branches.html:18
+msgid "Category"
+msgstr "Categorie"
+
+#: templates/module_edit_branches.html:24
+#: templates/people/person_detail_change_form.html:14
+#: templates/teams/team_edit.html:37
+msgid "Save"
+msgstr "Salvează"
+
+#: templates/module_images.html:4
+#, python-format
+msgid "Module Doc Figure Status: %(name)s"
+msgstr "Starea figurilor modulului de documentație: %(name)s"
+
+#: templates/module_images.html:11
+msgid "Figures translation status"
+msgstr "Starea traducerii figurilor"
+
+#: templates/module_images.html:15
+msgid "Original"
+msgstr "Originală"
+
+#: templates/module_images.html:31
+msgid ""
+"Translated, but uses original one (maybe the figure doesn't contain any "
+"string to translate)"
+msgstr ""
+"Tradus, dar folosește figura originală (poate că nu conține nici o linie de "
+"tradus)"
+
+#: templates/module_images.html:35
+msgid "Fuzzy"
+msgstr "Neclar"
+
+#: templates/module_images.html:42
+msgid "No existing file (&quot;Technical&quot; fuzzy)"
+msgstr "Niciun fișier existent („Tehnic” neclar)"
+
+#: templates/module_images.html:45
+msgid "Not translated"
+msgstr "Netradus"
+
+#: templates/module_list.html:4 templates/module_list.html.py:9
+msgid "GNOME Modules"
+msgstr "Module GNOME"
+
+#: templates/module_list.html:11
+msgid "Select a module below to see some of the damned lies about it:"
+msgstr ""
+"Selectează un modul de mai jos pentru a vedea niște minciuni blestemate "
+"despre el:"
+
+#: templates/module_list.html:28 templates/release_list.html:42
+#: templates/languages/language_list.html:37 templates/teams/team_list.html:38
+#, python-format
+msgid ""
+"If anything should be changed on this page, please <a href=\"%(bug_url)s"
+"\">submit a bug report</a>."
+msgstr ""
+"Dacă ceva din această pagină ar trebui schimbat, <a href=\"%(bug_url)s"
+"\">raportați o defecțiune</a>."
+
+#: templates/release_compare.html:5 templates/release_compare.html.py:20
+msgid "Releases Comparison"
+msgstr "Comparații între ediții"
+
+#: templates/release_compare.html:29
+msgid "Progress"
+msgstr "Progres"
+
+#: templates/release_detail.html:10
+#, python-format
+msgid "%(name)s Release"
+msgstr "Ediția %(name)s"
+
+#: templates/release_detail.html:13
+#: templates/languages/language_release.html:25
+msgid ""
+"The modules of this release are not part of the GNOME Git repository. Please "
+"check each module's web page to see where to send translations."
+msgstr ""
+"Modulele acestei ediții nu fac parte din depozitul Git al GNOME. Verificați "
+"pagina de internet a fiecărui modul pentru a vedea unde să trimiteți "
+"traducerile."
+
+#: templates/release_detail.html:20 templates/stats_show.html:53
+msgid "Language"
+msgstr "Limbă"
+
+#: templates/release_detail.html:21 templates/release_detail.html.py:83
+#: templates/languages/language_release_summary.html:11
+msgid "User Interface"
+msgstr "Interfața pentru utilizator"
+
+#: templates/release_detail.html:22 templates/release_detail.html.py:27
+#: templates/stats_show.html:57
+#: templates/languages/language_release_stats.html:23
+#: templates/languages/language_release_summary.html:12
+#: templates/languages/language_release_summary.html:17
+#: templates/people/person_detail.html:65
+msgid "Graph"
+msgstr "Grafic"
+
+#: templates/release_detail.html:23
+#: templates/languages/language_release_summary.html:13
+msgid "User Interface (red.)"
+msgstr "Interfața pentru utilizator (red.)"
+
+#: templates/release_list.html:4 templates/release_list.html.py:9
+msgid "GNOME Releases"
+msgstr "Ediții GNOME"
+
+#: templates/release_list.html:11
+msgid "Select a release or a release set below to see more details about it:"
+msgstr ""
+"Alegeți o ediție sau un set de ediții de mai jos pentru a vedea mai multe "
+"detalii despre ea:"
+
+#: templates/release_list.html:27
+msgid "Older Releases"
+msgstr "Ediții mai vechi"
+
+#: templates/stats_show.html:11
+#: templates/languages/language_release_stats.html:61
+msgid "This document is written in Mallard documentation format"
+msgstr "Acest document este scris în formatul de documentație Mallard"
+
+#: templates/stats_show.html:15 templates/vertimus/vertimus_detail.html:70
+#: templates/vertimus/vertimus_detail.html:71
+msgid "Download POT file"
+msgstr "Descarcă fișierul POT"
+
+#: templates/stats_show.html:29 templates/vertimus/vertimus_detail.html:126
+msgid "Notices"
+msgstr "Atenționări"
+
+#: templates/stats_show.html:38
+msgid "Search for similar bugs before reporting it"
+msgstr "Caută defecțiuni similare înainte de a reporta"
+
+#: templates/stats_show.html:41
+msgid "Report this bug"
+msgstr "Raportați această defecțiune"
+
+#: templates/stats_show.html:53 vertimus/models.py:172
+msgid "Translated"
+msgstr "Tradus"
+
+#: templates/stats_show.html:80
+msgid "Display document figures"
+msgstr "Afișează figurile documentului"
+
+#: templates/admin/base_site.html:4
+msgid "Damned Lies site admin"
+msgstr "Administratorul paginii web Minciuni blestemate"
+
+#: templates/feeds/actions_description.html:6
+#: templates/vertimus/vertimus_detail.html:206
+msgid "No comment"
+msgstr "Fără comentariu"
+
+#: templates/help/reduced_po.html:4 templates/help/vertimus_workflow.html:4
+msgid "Help"
+msgstr "Ajutor"
+
+#: templates/help/reduced_po.html:8
+msgid "Reduced po files"
+msgstr "Fișiere po reduse"
+
+#: templates/help/reduced_po.html:10
+msgid ""
+"Damned Lies is able to filter strings which are seldom visible in user "
+"interfaces, so as translation teams can concentrate on most visible strings."
+msgstr ""
+"Minciuni blestemate poate filtra șirurile ce sunt rareori vizibile în "
+"interfețele de utilizator, astfel ca echipele de traducători să se poată "
+"concentra pe șirurile vizibile cel mai des."
+
+#: templates/help/reduced_po.html:12
+#, python-format
+msgid ""
+"The most typical case is the strings from schema files, hence the default "
+"filter is filtering out strings which come from files having \"gschema.xml.in"
+"\" in their name. Technically speaking, the filter is using the <a href="
+"\"%(pogrep_url)s\">pogrep command from the Translate Toolkit</a>."
+msgstr ""
+"Scenariul cel mai întâlnit este la șirurile aferente fișierelor schema, deci "
+"filtrul implicit filtrează șirurile ce parvin de la fișiere având „gschema."
+"xml.in” în compoziția numelui. Teoretic, filtrul utilizează <a href="
+"\"%(pogrep_url)s\"> comanda pogrep din suita de unelte de traducere</a>."
+
+#: templates/help/reduced_po.html:14
+msgid ""
+"When you see a po file or a table header containing \"(red.)\" or "
+"\"(reduced)\", it means that the target files have been filtered as stated "
+"above."
+msgstr ""
+"Când un fișier po sau un cap de tabel conțin „(red)” sau „(reduse)”, "
+"semnifică faptul că fișierele țintă au fost filtrate în baza celor afirmate "
+"deasupra."
+
+#: templates/help/reduced_po.html:16
+#, python-format
+msgid ""
+"If you think you found a better filter for a specific module, please <a href="
+"\"%(bug_url)s\">submit a bug report</a> with your proposal."
+msgstr ""
+"Dacă credeți că ați găsit o metodă de filtrare mai bună pentru un modul "
+"specific, <a href=\"%(bug_url)s\">trimiteți un raport de deficiență</a> cu "
+"propunerea dumneavoastră."
+
+#: templates/help/vertimus_workflow.html:9
+msgid ""
+"The figure below describes the various states and actions available during "
+"the translation process of a module."
+msgstr ""
+"Figura de mai jos descrie diferitele stări și acțiuni disponibile pe "
+"parcursul procesului de traducere a unui modul."
+
+#: templates/languages/language_all_modules.html:4
+#: templates/languages/language_all_modules.html:23
+#: templates/languages/language_release_summary.html:52
+#: templates/languages/language_release_summary.html:53
+#: templates/languages/language_release_summary.html:54
+msgid "All modules"
+msgstr "Toate modulele"
+
+#: templates/languages/language_all_modules.html:27
+#: templates/languages/language_release.html:30
+#: templates/people/person_detail.html:53
+msgid "Hide completed modules"
+msgstr "Ascunde modulele complete"
+
+#: templates/languages/language_all_modules.html:31
+#: templates/languages/language_release.html:34
+#: templates/people/person_detail.html:57
+msgid "Show completed modules"
+msgstr "Arată modulele complete"
+
+#: templates/languages/language_list.html:4
+#: templates/languages/language_list.html:9
+msgid "GNOME Languages"
+msgstr "Limbi GNOME"
+
+#: templates/languages/language_list.html:11
+#, python-format
+msgid "GNOME is being translated to following %(numb)s language.\n"
+msgid_plural "GNOME is being translated to following %(numb)s languages.\n"
+msgstr[0] "GNOME este tradus în următoarea %(numb)s limbă.\n"
+msgstr[1] "GNOME este tradus în următoarele %(numb)s limbi.\n"
+msgstr[2] "GNOME este tradus în următoarele %(numb)s de limbi.\n"
+
+#: templates/languages/language_list.html:26
+#, python-format
+msgid "RSS feed for %(lang.get_name)s"
+msgstr "Flux RSS pentru %(lang.get_name)s"
+
+#: templates/languages/language_release.html:45
+msgid "Download all po files"
+msgstr "Descarcă toate fișierele po"
+
+#: templates/languages/language_release_stats.html:7
+#: templates/languages/language_release_stats.html:65
+#: templates/languages/language_release_summary.html:27
+#: templates/languages/language_release_summary.html:33
+#: templates/languages/language_release_summary.html:38
+#: templates/vertimus/vertimus_detail.html:78
+#: templates/vertimus/vertimus_detail.html:110
+msgid "Translated/Fuzzy/Untranslated"
+msgstr "Traduse/Neclare/Netraduse"
+
+#: templates/languages/language_release_stats.html:21
+#: templates/people/person_detail.html:65
+#: templates/vertimus/activity_summary.html:31
+msgid "Module"
+msgstr "Modul"
+
+#: templates/languages/language_release_stats.html:23
+#: templates/people/person_detail.html:65
+msgid "Statistics"
+msgstr "Statistici"
+
+#: templates/languages/language_release_stats.html:24
+msgid "Status"
+msgstr "Stare"
+
+#: templates/languages/language_release_stats.html:24
+#: templates/people/person_detail.html:65
+#: templates/vertimus/activity_summary.html:31
+msgid "Date"
+msgstr "Dată"
+
+#: templates/languages/language_release_stats.html:34
+#, python-format
+msgid "%(categname)s (%(percentage)s%% translated)"
+msgstr "%(categname)s (%(percentage)s%% tradus)"
+
+#: templates/languages/language_release_stats.html:95
+msgid "Error summary"
+msgstr "Sumarul erorii"
+
+#: templates/people/person_base.html:4
+msgid "GNOME Contributor"
+msgstr "Contribuitor GNOME"
+
+#: templates/people/person_base.html:11
+#: templates/people/person_detail_change_form.html:7
+msgid "Change your details"
+msgstr "Modificați-vă detaliile"
+
+#: templates/people/person_base.html:12
+msgid "Change your password"
+msgstr "Schimbați-vă parola"
+
+#: templates/people/person_base.html:13
+msgid "Join a team"
+msgstr "Alăturați-vă unei echipe"
+
+#: templates/people/person_detail.html:28
+msgid "Site Language"
+msgstr "Limba paginii web"
+
+#: templates/people/person_detail.html:34
+msgid "Choose"
+msgstr "Alegeți"
+
+#: templates/people/person_detail.html:40
+msgid "Module maintenance"
+msgstr "Întreținerea modulului"
+
+#: templates/people/person_detail.html:61
+msgid "Current activity"
+msgstr "Activitate curentă"
+
+#: templates/people/person_detail.html:65
+#: templates/vertimus/activity_summary.html:31
+msgid "State"
+msgstr "Stare"
+
+#: templates/people/person_list.html:4 templates/people/person_list.html:8
+msgid "GNOME Contributors"
+msgstr "Contribuitori GNOME"
+
+#: templates/people/person_list.html:10
+msgid "GNOME is being developed by following people:"
+msgstr "GNOME este dezvoltat de următoarele persoane:"
+
+#: templates/people/person_overview.html:14
+msgid "Web:"
+msgstr "Pagină web:"
+
+#: templates/people/person_overview.html:20
+msgid "Email address:"
+msgstr "Adresă de email:"
+
+#: templates/people/person_overview.html:26
+msgid "IRC account:"
+msgstr "Cont IRC:"
+
+#: templates/people/person_overview.html:32
+msgid "Bugzilla account:"
+msgstr "Cont bugzilla:"
+
+#: templates/people/person_password_change_form.html:6
+msgid "Password change"
+msgstr "Schimbare parolă"
+
+#: templates/people/person_password_change_form.html:8
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Introduceți parola veche din motive de securitate și apoi introduceți parola "
+"nouă de două ori pentru a fi sigur că ați tastat-o corect."
+
+#: templates/people/person_password_change_form.html:16
+msgid "Old password:"
+msgstr "Parola veche:"
+
+#: templates/people/person_password_change_form.html:22
+#: templates/registration/password_reset_confirm.html:17
+msgid "New password:"
+msgstr "Parola nouă:"
+
+#: templates/people/person_password_change_form.html:31
+#: templates/registration/password_reset_confirm.html:20
+msgid "Change my password"
+msgstr "Schimbă parola"
+
+#: templates/people/person_team_join_form.html:8
+msgid "Join a new team"
+msgstr "Alăturați-vă unei echipe noi"
+
+#: templates/people/person_team_join_form.html:12
+msgid "I would like to join the following team as 'translator':"
+msgstr "Aș dori să mă alătur acestei echipe ca „traducător”:"
+
+#: templates/people/person_team_join_form.html:14
+msgid "Join"
+msgstr "Alăturare"
+
+#: templates/people/person_team_membership.html:5
+#: templates/teams/team_detail.html:82
+msgid "Team membership"
+msgstr "Membrii echipei"
+
+#: templates/people/person_team_membership.html:9
+#, python-format
+msgid "Member of %(team_name)s team (%(role_name)s)"
+msgstr "Membrul echipei %(team_name)s (%(role_name)s)"
+
+#: templates/people/person_team_membership.html:13
+msgid "Leave"
+msgstr "Părăsește"
+
+#: templates/people/person_team_membership.html:14
+msgid "Are you sure you want to leave the team?"
+msgstr "Sigur doriți să părăsiți echipa?"
+
+#: templates/registration/password_reset_complete.html:4
+#: templates/registration/password_reset_complete.html:8
+msgid "Password reset complete"
+msgstr "Restabilirea parolei s-a încheiat"
+
+#: templates/registration/password_reset_complete.html:10
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+"Parola dumneavoastră a fost stabilită. Acum puteți să vă autentificați."
+
+#: templates/registration/password_reset_confirm.html:4
+#: templates/registration/password_reset_form.html:4
+#: templates/registration/password_reset_form.html:9
+msgid "Password reset"
+msgstr "Restabilire parolă"
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "Enter new password"
+msgstr "Introduceți noua parolă"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Introduceți parola nouă de două ori pentru a fi sigur că ați tastat-o corect."
+
+#: templates/registration/password_reset_confirm.html:25
+msgid "Password reset unsuccessful"
+msgstr "Restabilirea parolei nu a reușit"
+
+#: templates/registration/password_reset_confirm.html:27
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Legătura pentru restabilirea parolei a fost nevalidă, probabil pentru că a "
+"fost folosită deja. Cereți o nouă restabilirea a parolei."
+
+#: templates/registration/password_reset_done.html:4
+#: templates/registration/password_reset_done.html:9
+msgid "Password reset successful"
+msgstr "Restabilirea parolei s-a efectuat cu succes"
+
+#: templates/registration/password_reset_done.html:11
+msgid ""
+"We've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"V-am trimis un email la adresa pe care ați introdus-o cu instrucțiuni pentru "
+"a vă defini parola. Îl veți primi în scurt timp."
+
+#: templates/registration/password_reset_form.html:11
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"V-ați uitat parola? Introduceți adresa de email mai jos, și vă vom trimite "
+"instrucțiuni pentru definirea unei noi parole."
+
+#: templates/registration/password_reset_form.html:15
+msgid "E-mail address:"
+msgstr "Adresă email:"
+
+#: templates/registration/password_reset_form.html:15
+msgid "Reset my password"
+msgstr "Restabilește-mi parola"
+
+#: templates/registration/register.html:9
+msgid "Account Registration"
+msgstr "Înregistrare cont"
+
+#: templates/registration/register.html:13
+msgid ""
+"You can register here for an account on this site. This is only useful if "
+"you plan to contribute to GNOME translations."
+msgstr ""
+"Vă puteți înregistra aici pentru un cont pe acest site. Acesta este "
+"folositor numai dacă plănuiți să contribuiți la traducerile GNOME."
+
+#: templates/registration/register.html:14
+msgid ""
+"After registration and connection, you will be able to join an existing team "
+"from your profile page."
+msgstr ""
+"După ce vă înregistrați și vă conectați, veți fi capabil să vă alăturați "
+"unei echipe existente de pe pagina profilului dumneavoastră."
+
+#: templates/registration/register.html:27
+msgid "Authenticate via OpenID <strong>or</strong> password:"
+msgstr ""
+"Autentificați-vă prin intermediul unui OpenID <strong>sau</strong> al unei "
+"parole:"
+
+#: templates/registration/register.html:40
+msgid "Register with password"
+msgstr "Înregistrare cu parolă"
+
+#: templates/registration/register.html:51
+msgid "Register with OpenID"
+msgstr "Înregistrare cu OpenID"
+
+#: templates/registration/register_success.html:8
+msgid "Registration Success"
+msgstr "înregistrare cu succes"
+
+#: templates/registration/register_success.html:10
+msgid ""
+"The registration succeeded. You will now receive an email containing a link "
+"to activate your account."
+msgstr ""
+"Înregistrarea a reușit. Veți primi un email care conține o legătură pentru a "
+"activa contul."
+
+#: templates/teams/team_base.html:8
+msgid "Details"
+msgstr "Detalii"
+
+#: templates/teams/team_base.html:18
+#, python-format
+msgid "%(lang)s Translation Team Page:"
+msgstr "Pagina echipei de traducere în limba %(lang)s:"
+
+#: templates/teams/team_base.html:22
+msgid "Bugzilla:"
+msgstr "Bugzilla:"
+
+#: templates/teams/team_base.html:25
+msgid "Report Bug in Translation"
+msgstr "Raportează o eroare în traducere"
+
+#: templates/teams/team_base.html:26
+msgid "Show Existing Bugs"
+msgstr "Afișează erorile existente"
+
+#: templates/teams/team_base.html:31
+msgid "Mailing List:"
+msgstr "Listă de discuții:"
+
+#: templates/teams/team_base.html:34
+msgid "Send e-mail to the list"
+msgstr "Trimite un email listei"
+
+#: templates/teams/team_base.html:36
+msgid "Subscribe"
+msgstr "Abonează-mă"
+
+#: templates/teams/team_base.html:50
+msgid "This team has currently no coordinator."
+msgstr "Această echipă nu are în prezent un coordonator."
+
+#: templates/teams/team_base.html:51
+#, python-format
+msgid ""
+"See <a href=\"%(link)s\">the GTP Wiki</a> for more information about "
+"coordinatorship."
+msgstr ""
+"Consultați <a href=\"%(link)s\">pagina wiki GTP</a> pentru mai multe "
+"informații despre activitatea de coordonare."
+
+#: templates/teams/team_detail.html:6
+#, python-format
+msgid "Last actions made by the %(lang)s team of the GNOME Translation Project"
+msgstr ""
+"Ultima acțiune efectuată de către echipa %(lang)s a proiectului de traduceri "
+"GNOME"
+
+#: templates/teams/team_detail.html:42 templates/teams/team_edit.html:16
+#, python-format
+msgid "%(lang)s Translation Team"
+msgstr "Echipa de traducere în limba %(lang)s"
+
+#: templates/teams/team_detail.html:55
+msgid ""
+"There is currently no established team for this language. See <a href="
+"\"https://live.gnome.org/TranslationProject/StartingATeam\">the GTP Wiki</a> "
+"to get more information about the process of building a new translation team."
+msgstr ""
+"În prezent nu s-a format nici o echipă pentru această limbă. Pentru a obține "
+"mai multe informații despre procesul de construire a unei noi echipe de "
+"traducere consultați <a href=\"http://live.gnome.org/TranslationProject/"
+"StartingATeam\">pagina wiki GTP</a>."
+
+#: templates/teams/team_detail.html:70
+msgid "Current activities"
+msgstr "Activități curente"
+
+#: templates/teams/team_detail.html:73
+msgid "Plural forms:"
+msgstr "Forme de plural:"
+
+#: templates/teams/team_detail.html:75
+msgid "Show/hide archived translations"
+msgstr "Arată/ascunde traducerile arhivate"
+
+#: templates/teams/team_detail.html:75
+msgid "Archives"
+msgstr "Arhive"
+
+#: templates/teams/team_detail.html:85
+msgid "Show/hide inactive translations"
+msgstr "Arată/ascunde traducerile inactive"
+
+#: templates/teams/team_detail.html:97
+msgid "Apply modifications"
+msgstr "Aplică modificările"
+
+#: templates/teams/team_detail.html:107
+#, python-format
+msgid "Last login on %(last_login)s"
+msgstr "Ultima autentificare la %(last_login)s"
+
+#: templates/teams/team_edit.html:32
+msgid "This team is using the translation workflow"
+msgstr "Această echipă folosește fluxul de lucru al traducerii"
+
+#: templates/teams/team_edit.html:35
+msgid ""
+"This content may use <a href='http://en.wikipedia.org/wiki/"
+"Markdown'>Markdown</a> syntax"
+msgstr ""
+"Conținutul acesta ar putea folosi sintaxa <a href='http://en.wikipedia.org/"
+"wiki/Markdown'>Markdown</a>"
+
+#: templates/teams/team_list.html:4 templates/teams/team_list.html.py:9
+msgid "GNOME Translation Teams"
+msgstr "Echipele de traducere GNOME"
+
+#: templates/teams/team_list.html:12
+msgid "Select a team below to see more information about it:"
+msgstr ""
+"Alegeți una dintre echipele de mai jos pentru a vedea mai multe informații "
+"despre ea:"
+
+#: templates/teams/team_list.html:26
+#, python-format
+msgid "Coordinated by %(plist)s"
+msgstr "Coordonată de %(plist)s"
+
+#: templates/teams/team_list.html:28
+msgid "No coordinator"
+msgstr "Niciun coordonator"
+
+#: templates/teams/team_list.html:41
+msgid "There are currently no translation teams in GNOME. :("
+msgstr "Momentan nu sunt echipe de traducere în GNOME. :("
+
+#: templates/vertimus/activity_summary.html:21
+#, python-format
+msgid "Activity summary for '%(lang)s'"
+msgstr "Sumarul activității pentru „%(lang)s”"
+
+#: templates/vertimus/activity_summary.html:27
+#, python-format
+msgid "Activity summary for <a href=\"%(url)s\">%(lang)s</a>"
+msgstr "Sumarul activității pentru <a href=\"%(url)s\">%(lang)s</a>"
+
+#: templates/vertimus/vertimus_detail.html:5
+#, python-format
+msgid "Module Translation: %(name)s"
+msgstr "Traducerea modulului: %(name)s"
+
+#: templates/vertimus/vertimus_detail.html:37
+msgid "Used in release(s):"
+msgstr "Folosit în edițiile:"
+
+#: templates/vertimus/vertimus_detail.html:55
+msgid "State:"
+msgstr "Stare:"
+
+#: templates/vertimus/vertimus_detail.html:75
+#: templates/vertimus/vertimus_detail.html:101
+msgid "Download PO file"
+msgstr "Descarcă fișierul PO"
+
+#: templates/vertimus/vertimus_detail.html:76
+msgid "PO file statistics:"
+msgstr "Statistici fișier PO:"
+
+#: templates/vertimus/vertimus_detail.html:79
+#: templates/vertimus/vertimus_detail.html:111
+msgid "Strings:"
+msgstr "Șiruri:"
+
+#: templates/vertimus/vertimus_detail.html:83
+#: templates/vertimus/vertimus_detail.html:115
+msgid "Words:"
+msgstr "Cuvinte:"
+
+#: templates/vertimus/vertimus_detail.html:90
+#, python-format
+msgid " including <a href=\"%(img_url)s\">%(stats)s image</a>"
+msgid_plural " including <a href=\"%(img_url)s\">%(stats)s images</a>"
+msgstr[0] " include <a href=\"%(img_url)s\">%(stats)s imagine</a>"
+msgstr[1] " include <a href=\"%(img_url)s\">%(stats)s imagini</a>"
+msgstr[2] " include <a href=\"%(img_url)s\">%(stats)s de imagini</a>"
+
+#: templates/vertimus/vertimus_detail.html:102
+msgid "PO file statistics (reduced):"
+msgstr "Statistici fișier PO (reduse):"
+
+#: templates/vertimus/vertimus_detail.html:140
+msgid "On-going activities in same module:"
+msgstr "Activități în desfășurare în cadrul aceluiași modul:"
+
+#: templates/vertimus/vertimus_detail.html:151
+msgid "Actions"
+msgstr "Acțiuni"
+
+#. Translators: human_level is an ordinal expression ('1st',' 2nd',...)
+#. which should be localized in Django itself
+#.
+#: templates/vertimus/vertimus_detail.html:156
+#, python-format
+msgid "Archived Actions (%(human_level)s archived series)"
+msgstr "Acțiuni arhivate (%(human_level)s serie arhivată)"
+
+#: templates/vertimus/vertimus_detail.html:158
+msgid "(Return to current actions)"
+msgstr "(Revino la acțiunile curente)"
+
+#: templates/vertimus/vertimus_detail.html:163
+msgid "(Previous action history)"
+msgstr "(Istoricul acțiunilor precedente)"
+
+#: templates/vertimus/vertimus_detail.html:176
+#, fuzzy
+#| msgid "Without comment"
+msgid "Link to this comment"
+msgstr "Fără comentariu"
+
+#: templates/vertimus/vertimus_detail.html:195
+msgid "diff with:"
+msgstr "diff cu:"
+
+#: templates/vertimus/vertimus_detail.html:213
+msgid "No current actions."
+msgstr "Nu există acțiuni curente."
+
+#: templates/vertimus/vertimus_detail.html:217
+msgid "New Action"
+msgstr "Acțiune nouă"
+
+#: templates/vertimus/vertimus_detail.html:241
+msgid "Submit"
+msgstr "Trimite"
+
+#: templates/vertimus/vertimus_detail.html:247
+#, python-format
+msgid ""
+"You need <a href=\"%(login_url)s\">to be authenticated</a> and member of the "
+"%(team_name)s team."
+msgstr ""
+"Trebuie <a href=\"%(login_url)s\">să vă autentificați</a> și să fiți membru "
+"al echipei %(team_name)s."
+
+#: templates/vertimus/vertimus_detail.html:255
+msgid "This team is not using the translation workflow."
+msgstr "Această echipă nu folosește fluxul de lucru al traducerii."
+
+#: templates/vertimus/vertimus_diff.html:5
+msgid "Diff between po files"
+msgstr "Diferențele dintre fișierele po"
+
+#: templates/vertimus/vertimus_diff.html:16
+msgid "&lt;- Back to actions"
+msgstr "&lt;- Înapoi la acțiuni"
+
+#: templates/vertimus/vertimus_diff.html:20
+msgid "Note: both files are merged with latest POT file."
+msgstr ""
+"Notă: ambele fișiere sunt îmbinate cu ultima versiune a fișierului POT."
+
+#: vertimus/feeds.py:39
+#, python-format
+msgid "%(site)s - Workflow actions for the %(lang)s language"
+msgstr "%(site)s - Acțiunile fluxului de lucru pentru limba %(lang)s"
+
+#: vertimus/feeds.py:48
+#, python-format
+msgid "Latest actions of the GNOME Translation Project for the %s language"
+msgstr "Ultimele acțiuni ale Proiectului de traducere GNOME pentru limba %s"
+
+#: vertimus/feeds.py:83
+#, python-format
+msgid "%(site)s - Workflow actions of the %(lang)s team"
+msgstr ""
+"%(site)s - Acțiunile fluxului de lucru pentru echipa de traduceri în limba "
+"%(lang)s"
+
+#: vertimus/feeds.py:92
+#, python-format
+msgid "Latest actions made by the %s team of the GNOME Translation Project"
+msgstr ""
+"Ultimele acțiuni efectuate de către echipa %s a proiectului de traduceri "
+"GNOME"
+
+#: vertimus/forms.py:52
+msgid " (full name missing)"
+msgstr " (lipsește numele întreg)"
+
+#: vertimus/forms.py:61
+msgid "Action"
+msgstr "Acțiune"
+
+#: vertimus/forms.py:65
+msgid "Comment"
+msgstr "Comentariu"
+
+#: vertimus/forms.py:70
+msgid "Commit author"
+msgstr "Autor comitere"
+
+#: vertimus/forms.py:72
+msgid "File"
+msgstr "Fișier"
+
+#: vertimus/forms.py:73
+msgid "Upload a .po, .gz, .bz2 or .png file"
+msgstr "Încarcă un fișier .po, .gz, .bz2 sau .png"
+
+#: vertimus/forms.py:74
+msgid "Send message to the team mailing list"
+msgstr "Trimite un mesaj listei de discuții a echipei"
+
+#: vertimus/forms.py:94
+msgid "Only files with extension .po, .gz, .bz2 or .png are admitted."
+msgstr "Doar fișierele cu extensia .po, .gz, .bz2 sau .png sunt acceptate."
+
+#: vertimus/forms.py:99
+msgid ""
+".po file does not pass 'msgfmt -vc'. Please correct the file and try again."
+msgstr ""
+"Fișierul .po nu a trecut testul „msgfmt -vc”. Corectați fișierul și "
+"încercați din nou."
+
+#: vertimus/forms.py:106
+msgid "Invalid action. Someone probably posted another action just before you."
+msgstr ""
+"Acțiune nevalidă. Probabil că cineva a efectuat o altă acțiune înaintea "
+"dumneavoastră."
+
+#: vertimus/forms.py:112
+msgid "A comment is needed for this action."
+msgstr "Este necesar un comentariu pentru această acțiune."
+
+#: vertimus/forms.py:115
+msgid "A comment or a file is needed for this action."
+msgstr "Este necesar un comentariu sau un fișier pentru această acțiune."
+
+#: vertimus/forms.py:118
+msgid "A file is needed for this action."
+msgstr "Este necesar un fișier pentru această acțiune."
+
+#: vertimus/forms.py:121
+msgid "Please, don't send a file with a 'Reserve' action."
+msgstr "Nu trimiteți un fișier cu acțiunea „Rezervă”."
+
+#: vertimus/models.py:139
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: vertimus/models.py:156
+msgid "Translating"
+msgstr "Se traduce"
+
+#: vertimus/models.py:195
+msgid "Proofreading"
+msgstr "Se corectează"
+
+#. Translators: This is a status, not a verb
+#: vertimus/models.py:213
+msgid "Proofread"
+msgstr "Corectat"
+
+#: vertimus/models.py:234
+msgid "To Review"
+msgstr "De revizuit"
+
+#: vertimus/models.py:249
+msgid "To Commit"
+msgstr "De comis"
+
+#: vertimus/models.py:267
+msgid "Committing"
+msgstr "Se comite"
+
+#: vertimus/models.py:286
+msgid "Committed"
+msgstr "Comis"
+
+#: vertimus/models.py:305
+msgid "Write a comment"
+msgstr "Scrie un comentariu"
+
+#: vertimus/models.py:306
+msgid "Reserve for translation"
+msgstr "Rezervă pentru traducere"
+
+#: vertimus/models.py:307
+msgid "Upload the new translation"
+msgstr "Încarcă noua traducere"
+
+#: vertimus/models.py:308
+msgid "Reserve for proofreading"
+msgstr "Rezervă pentru corectare"
+
+#: vertimus/models.py:309
+msgid "Upload the proofread translation"
+msgstr "Încarcă traducerea corectată"
+
+#. Translators: this means the file is ready to be committed in repository
+#: vertimus/models.py:311
+msgid "Ready for submission"
+msgstr "Gata pentru trimitere"
+
+#: vertimus/models.py:312
+msgid "Submit to repository"
+msgstr "Trimite în depozit"
+
+#. Translators: this indicates a committer is going to commit the file in the repository
+#: vertimus/models.py:314
+msgid "Reserve to submit"
+msgstr "Rezervă pentru trimitere"
+
+#. Translators: this is used to indicate the file has been committed in the repository
+#: vertimus/models.py:316
+msgid "Inform of submission"
+msgstr "Informează despre trimitere"
+
+#. Translators: regardless of the translation completion, this file need to be reviewed
+#: vertimus/models.py:318
+msgid "Rework needed"
+msgstr "Este necesară o refacere"
+
+#: vertimus/models.py:319
+msgid "Archive the actions"
+msgstr "Arhivează acțiunile"
+
+#: vertimus/models.py:320
+msgid "Undo the last state change"
+msgstr "Anulează ultima modificare de stare"
+
+#: vertimus/models.py:397
+msgid "File in repository"
+msgstr "Fișier în depozit"
+
+#: vertimus/models.py:408
+#, python-format
+msgid "Uploaded file by %(name)s on %(date)s"
+msgstr "Fișier încărcat de %(name)s la %(date)s"
+
+#: vertimus/models.py:417
+#, python-format
+msgid ""
+"The new state of %(module)s - %(branch)s - %(domain)s (%(language)s) is now "
+"'%(new_state)s'."
+msgstr ""
+"Noua stare a %(module)s - %(branch)s - %(domain)s (%(language)s) este "
+"'%(new_state)s'."
+
+#: vertimus/models.py:525
+msgid "Hello,"
+msgstr "Salut,"
+
+#: vertimus/models.py:534
+msgid "Without comment"
+msgstr "Fără comentariu"
+
+#: vertimus/models.py:570
+#, python-format
+msgid ""
+"A new comment has been posted on %(module)s - %(branch)s - %(domain)s "
+"(%(language)s)."
+msgstr ""
+"Un nou comentariu a fost publicat la %(module)s - %(branch)s - %(domain)s "
+"(%(language)s)."
+
+#: vertimus/models.py:640
+#, python-format
+msgid "The commit failed. The error was: '%s'"
+msgstr "Comiterea nu a reușit. Eroarea a fost: „%s”"
+
+#: vertimus/views.py:113
+msgid "A problem occurred while sending mail, no mail have been sent"
+msgstr ""
+"A apărut o problemă la expedierea mesajului de email, nu a fost expediat "
+"niciun mesaj"
+
+#: vertimus/views.py:116
+#, python-format
+msgid "An error occurred during applying your action: %s"
+msgstr "A apărut o eroare în timpul aplicării acțiunii: %s"
+
+#: vertimus/views.py:165 vertimus/views.py:175 vertimus/views.py:188
+#, python-format
+msgid "<a href=\"%(url)s\">Uploaded file</a> by %(name)s on %(date)s"
+msgstr "<a href=\"%(url)s\">Fișier încărcat</a> de %(name)s la %(date)s"
+
+#: vertimus/views.py:197
+#, python-format
+msgid "<a href=\"%(url)s\">Latest committed file</a> for %(lang)s"
+msgstr "<a href=\"%(url)s\">Ultimul fișier comis</a> pentru %(lang)s"
+
+#: vertimus/views.py:205
+msgid "Latest POT file"
+msgstr "Ultimul fișier POT"
+
+#~ msgid ""
+#~ "To submit your translation, <a href=\"https://bugs.freedesktop.org/"
+#~ "enter_bug.cgi?product=systemd&component=general\">create a bug report for "
+#~ "systemd on the freedesktop.org Bugzilla</a>. Then, attach your "
+#~ "translation as a git-formatted patch."
+#~ msgstr ""
+#~ "Pentru a trimite traducerea, <a href=\"https://bugs.freedesktop.org/"
+#~ "enter_bug.cgi?product=systemd&component=general\">creați un raport de "
+#~ "defecțiune pentru systemd la freedesktop.org Bugzilla</a>. Apoi, atașați "
+#~ "fișierul ce conține traducerea ca un petic în formatul git."
+
+#~ msgid "Error: The file %s contains invalid characters."
+#~ msgstr "Eroare: Fișierul %s conține caractere nevalide."
+
+#~ msgid "Nelly Kroes on Open Source"
+#~ msgstr "Nelly Kroes despre Open source"
+
+#~ msgid "Criawips Manual"
+#~ msgstr "Criawips - Manualul utilizatorului"
+
+#~ msgid "GNOME Keyring Manager Manual"
+#~ msgstr "Administratorul GNOME Keyring - Manualul utilizatorului"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Player audio Banshee"
+
+#~ msgid "Deskbar Applet"
+#~ msgstr "Miniaplicație Deskbar"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Navigatorul web Epiphany"
+
+#~ msgid "Evince Document Viewer"
+#~ msgstr "Vizualizator de documente Evince"
+
+#~ msgid "GNOME Applets"
+#~ msgstr "Miniaplicații GNOME"
+
+#~ msgid "Gnome Specimen"
+#~ msgstr "Gnome Specimen"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Player audio Rhythmbox"
+
+#~ msgid "Email client for netbooks"
+#~ msgstr "Client email pentru netbook-uri"
+
+#~ msgid ""
+#~ "D-Bus service to access fingerprint readers. This is not a GNOME-specific "
+#~ "module. Please submit your translation through the <a href=\"http://www."
+#~ "transifex.net/projects/p/fprintd/c/fprintd/\">Transifex platform</a>."
+#~ msgstr ""
+#~ "Serviciu D-Bus pentru a accesa cititoare de amprente. Acesta nu este un "
+#~ "modul specific platformei GNOME. Trimiteți traducerea prin intermediul <a "
+#~ "href=\"http://www.transifex.net/projects/p/fprintd/c/fprintd/"
+#~ "\">platformei Transifex</a> ."
+
+#~ msgid ""
+#~ "From GNOME 2.23, GAIL is integrated into GTK+. Don't commit in trunk any "
+#~ "more."
+#~ msgstr ""
+#~ "De la GNOME 2.23, GAIL este integrat în GTK+. Nu mai comiteți în «trunk»."
+
+#~ msgid ""
+#~ "GNUCash is not part of the GNOME Git repository. Please check <a href="
+#~ "\"http://wiki.gnucash.org/wiki/Translation#Submitting\">the GNUCash Wiki</"
+#~ "a> to see where to send translations."
+#~ msgstr ""
+#~ "GNUCash nu face parte din depozitul Git GNOME. Verificați <a href="
+#~ "\"http://wiki.gnucash.org/wiki/Translation#Submitting\">pagina wiki "
+#~ "GNUCash</a> pentru a vedea unde trebuie să trimiteți traducerile."
+
+#~ msgid ""
+#~ "This is not a GNOME-specific module. Please submit your translation "
+#~ "through the <a href=\"http://translationproject.org\">Translation "
+#~ "Project</a>."
+#~ msgstr ""
+#~ "Acesta nu este un modul specific GNOME. Trimiteți traducerea prin "
+#~ "intermediul <a href=\"http://translationproject.org\">Translation "
+#~ "Project</a>."
+
+#~ msgid "Gnome Parental Control"
+#~ msgstr "Control parental GNOME"
+
+#~ msgid ""
+#~ "PackageKit is a system designed to make installing and updating software "
+#~ "on your computer easier. This is not a GNOME-specific module. Please "
+#~ "submit your translation through the <a href=\"https://translate."
+#~ "fedoraproject.org/projects/p/packagekit/c/master/\">Fedora project's "
+#~ "Transifex platform</a>."
+#~ msgstr ""
+#~ "PackageKit este un sistem proiectat pentru a face instalarea și "
+#~ "actualizarea aplicațiilor de mai ușoară. Acesta nu este un modul specific "
+#~ "GNOME. Trimiteți traducerea prin intermediul <a href=\"https://translate."
+#~ "fedoraproject.org/projects/p/packagekit/c/master/\">platformei Transifex "
+#~ "a proiectului Fedora</a>."
+
+#~ msgid "Passepartout is a DTP application for X."
+#~ msgstr "Passepartout este o aplicație DTP pentru X."
+
+#~ msgid ""
+#~ "This is not a GNOME-specific module. Please submit your translation "
+#~ "through the <a href=\"http://www.transifex.net/projects/p/shared-mime-"
+#~ "info/c/default/\">Transifex platform</a>."
+#~ msgstr ""
+#~ "Acesta nu este un modul specific GNOME. Trimiteți traducerea prin "
+#~ "intermediul <a href=\"http://www.transifex.net/projects/p/shared-mime-"
+#~ "info/c/default/\">platformei Transifex</a>."
+
+#~ msgid ""
+#~ "This is a clone of the official system-tools-backends version from the "
+#~ "freedesktop.org repository."
+#~ msgstr ""
+#~ "Aceasta este o clonă a versiunii oficiale system-tools-backends din "
+#~ "depozitul freedesktop.org."
+
+#~ msgid ""
+#~ "Here we translate the subtitles of selected GNOME videos.\n"
+#~ "See <a href=\"http://live.gnome.org/VideoSubtitles\">Video Subtitles</a> "
+#~ "for more."
+#~ msgstr ""
+#~ "Aici traducem subtitrările pentru clipurile GNOME selectate.\n"
+#~ "Verificați <a href=\"http://live.gnome.org/VideoSubtitles\">subtitrări "
+#~ "video</a> pentru mai multe detalii."
+
+#~ msgid ""
+#~ "This is not a GNOME-specific module. Please submit your translation "
+#~ "through the <a href=\"http://translationproject.org\">Translation "
+#~ "Project</a>. See also <a href=\"http://translationproject.org/domain/xdg-"
+#~ "user-dirs.html\">the translation page for xdg-user-dirs at the "
+#~ "Translation Project</a>."
+#~ msgstr ""
+#~ "Acesta nu este un modul specific GNOME. Trimiteți traducerea prin "
+#~ "intermediul <a href=\"http://translationproject.org\">Translation "
+#~ "Project</a>. Consultați și <a href=\"http://translationproject.org/domain/"
+#~ "xdg-user-dirs.html\">pagina traducerii pentru xdg-user-dirs din cadrul "
+#~ "Translation Project</a>."
+
+#~ msgid "GNOME 2.32 (stable)"
+#~ msgstr "GNOME 2.32 (versiune stabilă)"
+
+#~ msgid "GNOME 2.20 (old stable)"
+#~ msgstr "GNOME 2.20 (veche versiune stabilă)"
+
+#~ msgid "GNOME 2.18 (old stable)"
+#~ msgstr "GNOME 2.18 (veche versiune stabilă)"
+
+#~ msgid "GNOME 2.16 (old stable)"
+#~ msgstr "GNOME 2.16 (veche versiune stabilă)"
+
+#~ msgid "POT file (%(messages)s) — %(updated)s"
+#~ msgstr "fișier POT (%(messages)s) — %(updated)s"
+
+#~ msgid "DOC_MODULE doesn't resolve to a real file, using '%s.xml'."
+#~ msgstr "DOC_MODULE nu se rezolvă la fișier real, se folosește „%s.xml”."
+
+#~ msgid "Art"
+#~ msgstr "Artă"
+
+#~ msgid "Community"
+#~ msgstr "Comunitate"
+
+#~ msgid ""
+#~ "Maintained in the <a href='http://git.gnome.org/browse/damned-"
+#~ "lies/'>damned-lies</a> module on <a href='http://git.gnome.org/'>git."
+#~ "gnome.org</a>"
+#~ msgstr ""
+#~ "Întreținut în modulul <a href='http://git.gnome.org/browse/damned-"
+#~ "lies/'>damned-lies</a> din <a href='http://git.gnome.org/'>git.gnome.org</"
+#~ "a>"
+
+#~ msgid "Translated by:"
+#~ msgstr "Tradus de:"
+
+#~ msgid "Instant messaging:"
+#~ msgstr "Mesagerie instant:"
+
+#~ msgid "Translated:"
+#~ msgstr "Tradus:"
+
+#~ msgid "Review required"
+#~ msgstr "Necesită o recenzie"
+
+#~ msgid "Window List Applet Manual"
+#~ msgstr "Miniaplicația Listă ferestre - Manualul utilizatorului"
+
+#~ msgid "Workspace Switcher Applet Manual"
+#~ msgstr "Miniaplicația Comutare spații de lucru - Manualul utilizatorului"
+
+#~ msgid "Maintains:"
+#~ msgstr "Menține:"
+
+#~ msgid "Member of teams"
+#~ msgstr "Membrul echipelor"
