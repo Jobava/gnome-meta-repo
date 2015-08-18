@@ -7,21 +7,22 @@
 # cyberrider <cyber19rider@gmail.com>, 2010.
 # Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014.
 # Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015.
+# Jobava <jobaval10n@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: damned-lies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-07 13:25+0000\n"
-"PO-Revision-Date: 2015-05-24 19:11+0200\n"
-"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
-"Language-Team: Gnome Romanian Translation Team\n"
+"PO-Revision-Date: 2015-08-18 14:53+0000\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: database-content.py:1 database-content.py:138 damnedlies/settings.py:52
 msgid "Afrikaans"
@@ -269,7 +270,7 @@ msgstr "Japoneză"
 
 #: database-content.py:62 database-content.py:202
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabyle"
 
 #: database-content.py:63 database-content.py:203
 msgid "Kannada"
@@ -693,53 +694,52 @@ msgstr "Dosarele utilizatorului"
 
 #: database-content.py:299
 msgid "Engine"
-msgstr ""
+msgstr "Motor"
 
 #: database-content.py:300
 msgid "Engine-Campfire"
-msgstr ""
+msgstr "Motor-Campfire"
 
 #: database-content.py:301
 msgid "Engine-IRC"
-msgstr ""
+msgstr "Motor-IRC"
 
 #: database-content.py:302
 msgid "Engine-JabbR"
-msgstr ""
+msgstr "Motor-JabbR"
 
 #: database-content.py:303
 msgid "Engine-MessageBuffer"
-msgstr ""
+msgstr "Motor-MessageBuffer"
 
 #: database-content.py:304
-#, fuzzy
 #| msgid "Twitter"
 msgid "Engine-Twitter"
-msgstr "Twitter"
+msgstr "Motor-Twitter"
 
 #: database-content.py:305
 msgid "Engine-XMPP"
-msgstr ""
+msgstr "Motor-XMPP"
 
 #: database-content.py:306
 msgid "Frontend"
-msgstr ""
+msgstr "Fațadă"
 
 #: database-content.py:307
 msgid "Frontend-GNOME"
-msgstr ""
+msgstr "Fațadă-GNOME"
 
 #: database-content.py:308
 msgid "Frontend-GNOME-IRC"
-msgstr ""
+msgstr "Fațadă-GNOME-IRC"
 
 #: database-content.py:309
 msgid "Frontend-GNOME-Twitter"
-msgstr ""
+msgstr "Fațadă-GNOME-Twitter"
 
 #: database-content.py:310
 msgid "Frontend-GNOME-XMPP"
-msgstr ""
+msgstr "Fațadă-GNOME-XMPP"
 
 #: database-content.py:311
 msgid "Functions"
@@ -766,10 +766,9 @@ msgid "script-fu"
 msgstr "script-fu"
 
 #: database-content.py:317
-#, fuzzy
 #| msgid "Server Error"
 msgid "Server"
-msgstr "Eroare de server"
+msgstr "Server"
 
 #: database-content.py:318
 msgid "tags"
@@ -842,8 +841,7 @@ msgstr "concepte"
 
 #: database-content.py:336
 msgid "CPU Frequency Scaling Monitor Manual"
-msgstr ""
-"Monitorizare scalarea frecvenței procesorului - Manualul utilizatorului"
+msgstr "Monitorizare scalare frecvență procesor - Manualul utilizatorului"
 
 #: database-content.py:337
 msgid "FDL License"
@@ -1337,18 +1335,23 @@ msgstr "WebKitGTK+"
 #: database-content.py:476
 msgid "D-Bus interface for user account query and manipulation."
 msgstr ""
+"Interfață D-Bus pentru interogarea și manipularea conturilor utilizatorilor"
 
 #: database-content.py:477
 msgid ""
 "Utilities to generate, maintain and access the AppStream Xapian database and "
 "work with AppStream metadata."
 msgstr ""
+"Utilitare pentru generarea, menținerea și accesarea bazei de date AppStream "
+"Xapian și pentru a lucra cu metadata AppStream."
 
 #: database-content.py:478
 msgid ""
 "This library provides objects and helper methods to help reading and writing "
 "AppStream metadata."
 msgstr ""
+"Această bibliotecă furnizează obiecte și metode ajutătoare care vă ajută la "
+"scrierea și citirea metadatelor AppStream."
 
 #: database-content.py:479
 msgid ""
@@ -1375,10 +1378,15 @@ msgid ""
 "colord is a system service that makes it easy to manage, install and "
 "generate color profiles to accurately color manage input and output devices."
 msgstr ""
+"colord este un serviciu de sistem care ușurează gestiunea, instalarea și "
+"generarea de profile de culoare pentru manipularea corectă a culorii pentru "
+"dispozitive de intrare și ieșire."
 
 #: database-content.py:483
 msgid "PolicyKit helper to configure CUPS with fine-grained privileges."
 msgstr ""
+"Unealtă ajutătoare PolicyKit pentru a configura CUPS cu privilegii de natură "
+"fină."
 
 #: database-content.py:484
 msgid ""
@@ -1407,7 +1415,7 @@ msgid ""
 "For other localisation needs of GCompris, see  <a href=\"http://gcompris.net/"
 "wiki/Translation_addons\">http://gcompris.net/wiki/Translation_addons</a>."
 msgstr ""
-"Pentru alte necesități de localizare GCompris, consultați <a href=\"http://"
+"Pentru alte cerințe de localizare GCompris, consultați <a href=\"http://"
 "gcompris.net/wiki/Translation_addons\">http://gcompris.net/wiki/"
 "Translation_addons</a>."
 
@@ -1421,8 +1429,9 @@ msgid ""
 "Apart from the UI messages and the documentation, there are additional "
 "example files that can be translated."
 msgstr ""
-"glom este o bază de date prietenoasă cu utilizatorul pentru aplicații.<br>\n"
-"Dincolo de mesajele interfeței cu utilizatorul și a documentației, mai sunt "
+"glom este o bază de date de aplicații care este prietenoasă cu utilizatorul.<"
+"br>\n"
+"Dincolo de mesajele interfeței utilizator și a documentației, mai sunt "
 "fișiere, ce conțin exemple, care trebuiesc traduse."
 
 #: database-content.py:492
@@ -1517,23 +1526,24 @@ msgstr ""
 
 #: database-content.py:504
 msgid "\"Bad\" GStreamer plugins and helper libraries."
-msgstr ""
+msgstr "Module și biblioteci ajutătoare „rele” pentru GStreamer."
 
 #: database-content.py:505
 msgid "\"Base\" GStreamer plugins and helper libraries."
-msgstr ""
+msgstr "Module și biblioteci ajutătoare „de bază” pentru GStreamer."
 
 #: database-content.py:506
 msgid "\"Good\" GStreamer plugins."
-msgstr ""
+msgstr "Module „bune” pentru GStreamer."
 
 #: database-content.py:507
 msgid "\"Ugly\" GStreamer plugins."
-msgstr ""
+msgstr "Module „urâte” pentru Gstreamer."
 
 #: database-content.py:508
 msgid "GStreamer open-source multimedia framework core library."
 msgstr ""
+"Bibliotecă de bază pentru platforma de multimedia cu sursă deschisă GStreamer."
 
 #: database-content.py:509
 msgid ""
@@ -1549,7 +1559,7 @@ msgstr ""
 
 #: database-content.py:510
 msgid "A plugin manager library for other GNOME modules"
-msgstr "O librărie de administrare de module pentru alte module GNOME"
+msgstr "O bibliotecă de administrare de module pentru alte module GNOME"
 
 #: database-content.py:511
 msgid "Desktop entries for MESS ROMs"
@@ -1564,7 +1574,6 @@ msgstr ""
 "desktopul GNOME. Este scris în Vala pentru performanță suplimentară."
 
 #: database-content.py:513
-#, fuzzy
 #| msgid ""
 #| "To submit your translation, <a href=\"https://bugzilla.gnome.org/"
 #| "enter_bug.cgi?product=NetworkManager&component=Translations\">create a "
@@ -1576,17 +1585,18 @@ msgid ""
 "product=NetworkManager&component=Translations\">create a bug report for "
 "NetworkManager on the GNOME Bugzilla</a>. Then, attach your translation file."
 msgstr ""
-"Pentru a trimite traducerea, <a href=\"https://bugzilla.gnome.org/enter_bug."
-"cgi?product=NetworkManager&component=Translations\">creați un raport de "
-"defecțiune pentru NetworkManager în GNOME Bugzilla</a>. Apoi, atașați "
-"fișierul ce conține traducerea."
+"Managerul de conexiuni la rețea și de aplicații utilizator. Pentru a trimite "
+"traducerea, "
+"<a href=\"https://bugzilla.gnome.org/enter_bug.cgi?product=NetworkManager "
+"&component=Translations\">creați un raport de defecțiune pentru "
+"NetworkManager "
+"în GNOME Bugzilla</a>. Apoi, atașați fișierul ce conține traducerea."
 
 #: database-content.py:514
 msgid "PKCS#11 cryptography framework for multiple consumers."
-msgstr ""
+msgstr "Platformă de criptografie PKCS#11 pentru consumatori multipli."
 
 #: database-content.py:515
-#, fuzzy
 #| msgid ""
 #| "PackageKit is a system designed to make installing and updating software "
 #| "on your computer easier."
@@ -1594,8 +1604,8 @@ msgid ""
 "System designed to make installing and updating software on your computer "
 "easier."
 msgstr ""
-"PackageKit este un sistem destinat facilitării instalării și actualizării de "
-"programe pentru calculatorul dumneavoastră."
+"Sistem proiectat pentru a face instalarea și actualizarea de software pe "
+"calculator mai ușoare."
 
 #: database-content.py:516
 msgid ""
@@ -1617,10 +1627,12 @@ msgid ""
 "D-Bus system service that manages discovery and enrollment in realms/domains "
 "like Active Directory or IPA."
 msgstr ""
+"Serviciu de sistem D-Bus care gestionează descoperirea și integrarea în "
+"realm-uri/domenii, cum ar fi Active Directory sau IPA."
 
 #: database-content.py:518
 msgid "Shared MIME information specification."
-msgstr ""
+msgstr "Specificare de informații MIME partajată."
 
 #: database-content.py:519
 msgid "A photo manager for GNOME"
@@ -1631,6 +1643,8 @@ msgid ""
 "System and session manager. To submit your translation, <a href=\"https://"
 "github.com/systemd/systemd/pulls\">create a pull request</a>."
 msgstr ""
+"Manager de sistem și sesiune. Pentru a trimite traducerea, <a href=\"https://"
+"github.com/systemd/systemd/pulls\">creați un pull request</a>."
 
 #: database-content.py:521
 msgid "GNOME Teletext viewer"
@@ -1641,6 +1655,8 @@ msgid ""
 "Daemon, tools and libraries to access and manipulate disks and storage "
 "devices."
 msgstr ""
+"Daemon, unelte și biblioteci pentru accesarea și manipularea discurilor și a "
+"dispozitivelor de stocare."
 
 #: database-content.py:523
 msgid "A VNC client for GNOME"
@@ -1657,10 +1673,12 @@ msgid ""
 "Tool to help manage \"well known\" user directories like the desktop folder "
 "and the music folder."
 msgstr ""
+"Unealtă pentru facilitarea gestiunii directoarelor de utilizator „bine "
+"cunoscute”, cum ar fi directorul de fundal (desktop) sau directorul cu muzică."
 
 #: database-content.py:526
 msgid "Database of keyboard configuration data."
-msgstr ""
+msgstr "Bază de date pentru configurații de tastatură."
 
 #: database-content.py:527
 msgid "GNOME 3.8 (old stable)"
@@ -1679,10 +1697,9 @@ msgid "GNOME 3.2 (old stable)"
 msgstr "GNOME 3.2 (versiune veche stabilă)"
 
 #: database-content.py:531
-#, fuzzy
 #| msgid "GNOME 3.16 (development)"
 msgid "GNOME 3.18 (development)"
-msgstr "GNOME 3.16 (versiune de dezvoltare)"
+msgstr "GNOME 3.18 (versiune de dezvoltare)"
 
 #: database-content.py:532
 msgid "GNOME 3.16 (stable)"
@@ -1750,7 +1767,8 @@ msgstr ""
 "Alexandru Szasz <alexxed@gmail.com>\n"
 "Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Lucian Adrian Grijincu\n"
-"Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014"
+"Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014 "
+"Jobava <jobaval10n@gmail.com>, 2015"
 
 #: common/views.py:63
 msgid "You have been logged out."
@@ -2048,7 +2066,7 @@ msgstr ""
 
 #: stats/models.py:1145
 msgid "Default"
-msgstr ""
+msgstr "Implicit"
 
 #: stats/models.py:1146
 msgid "Administration Tools"
@@ -2096,27 +2114,25 @@ msgstr "Suporturi"
 
 #: stats/models.py:1158
 msgid "Core Libraries"
-msgstr "Librării de bază"
+msgstr "Biblioteci de bază"
 
 #: stats/models.py:1159
 msgid "Extra Libraries"
-msgstr "Librării extra"
+msgstr "Biblioteci extra"
 
 #: stats/models.py:1160
 msgid "Legacy Desktop"
-msgstr "Desktop tradițional"
+msgstr "Desktop învechit"
 
 #: stats/models.py:1161
-#, fuzzy
 #| msgid "Branches:"
 msgid "Stable Branches"
-msgstr "Ramuri:"
+msgstr "Ramuri stabile:"
 
 #: stats/models.py:1162
-#, fuzzy
 #| msgid "Development News"
 msgid "Development Branches"
-msgstr "Știri despre dezvoltare"
+msgstr "Ramuri de dezvoltare"
 
 #: stats/models.py:1362 stats/models.py:1730
 #, python-format
@@ -2834,7 +2850,7 @@ msgstr "Module GNOME"
 msgid "Select a module below to see some of the damned lies about it:"
 msgstr ""
 "Selectează un modul de mai jos pentru a vedea niște minciuni blestemate "
-"despre el:"
+"despre acesta:"
 
 #: templates/module_list.html:28 templates/release_list.html:42
 #: templates/languages/language_list.html:37 templates/teams/team_list.html:38
@@ -3265,7 +3281,7 @@ msgstr ""
 
 #: templates/registration/password_reset_form.html:15
 msgid "E-mail address:"
-msgstr "Adresă email:"
+msgstr "Adresă e-mail:"
 
 #: templates/registration/password_reset_form.html:15
 msgid "Reset my password"
@@ -3529,10 +3545,9 @@ msgid "(Previous action history)"
 msgstr "(Istoricul acțiunilor precedente)"
 
 #: templates/vertimus/vertimus_detail.html:176
-#, fuzzy
 #| msgid "Without comment"
 msgid "Link to this comment"
-msgstr "Fără comentariu"
+msgstr "Obține legătura la acest comentariu"
 
 #: templates/vertimus/vertimus_detail.html:195
 msgid "diff with:"
