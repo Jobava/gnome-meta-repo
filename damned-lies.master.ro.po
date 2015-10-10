@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: damned-lies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-07 13:25+0000\n"
-"PO-Revision-Date: 2015-08-18 14:53+0000\n"
+"PO-Revision-Date: 2015-10-10 11:00+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -723,23 +723,23 @@ msgstr "Motor-XMPP"
 
 #: database-content.py:306
 msgid "Frontend"
-msgstr "Fațadă"
+msgstr "Interfață"
 
 #: database-content.py:307
 msgid "Frontend-GNOME"
-msgstr "Fațadă-GNOME"
+msgstr "Interfață-GNOME"
 
 #: database-content.py:308
 msgid "Frontend-GNOME-IRC"
-msgstr "Fațadă-GNOME-IRC"
+msgstr "Interfață-GNOME-IRC"
 
 #: database-content.py:309
 msgid "Frontend-GNOME-Twitter"
-msgstr "Fațadă-GNOME-Twitter"
+msgstr "Interfață-GNOME-Twitter"
 
 #: database-content.py:310
 msgid "Frontend-GNOME-XMPP"
-msgstr "Fațadă-GNOME-XMPP"
+msgstr "Interfață-GNOME-XMPP"
 
 #: database-content.py:311
 msgid "Functions"
@@ -1343,7 +1343,7 @@ msgid ""
 "work with AppStream metadata."
 msgstr ""
 "Utilitare pentru generarea, menținerea și accesarea bazei de date AppStream "
-"Xapian și pentru a lucra cu metadata AppStream."
+"Xapian și pentru a lucra cu metadate AppStream."
 
 #: database-content.py:478
 msgid ""
@@ -1378,7 +1378,7 @@ msgid ""
 "colord is a system service that makes it easy to manage, install and "
 "generate color profiles to accurately color manage input and output devices."
 msgstr ""
-"colord este un serviciu de sistem care ușurează gestiunea, instalarea și "
+"colord este un serviciu de sistem care ușurează gestionarea, instalarea și "
 "generarea de profile de culoare pentru manipularea corectă a culorii pentru "
 "dispozitive de intrare și ieșire."
 
@@ -1543,7 +1543,7 @@ msgstr "Module „urâte” pentru Gstreamer."
 #: database-content.py:508
 msgid "GStreamer open-source multimedia framework core library."
 msgstr ""
-"Bibliotecă de bază pentru platforma de multimedia cu sursă deschisă GStreamer."
+"Bibliotecă de bază pentru platforma multimedia cu sursă deschisă GStreamer."
 
 #: database-content.py:509
 msgid ""
@@ -1674,7 +1674,7 @@ msgid ""
 "and the music folder."
 msgstr ""
 "Unealtă pentru facilitarea gestiunii directoarelor de utilizator „bine "
-"cunoscute”, cum ar fi directorul de fundal (desktop) sau directorul cu muzică."
+"cunoscute”, cum ar fi directorul desktop sau directorul cu muzică."
 
 #: database-content.py:526
 msgid "Database of keyboard configuration data."
@@ -2122,7 +2122,7 @@ msgstr "Biblioteci extra"
 
 #: stats/models.py:1160
 msgid "Legacy Desktop"
-msgstr "Desktop învechit"
+msgstr "Desktop tradițional"
 
 #: stats/models.py:1161
 #| msgid "Branches:"
