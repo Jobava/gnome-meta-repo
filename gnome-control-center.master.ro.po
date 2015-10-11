@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "control-center&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-08-13 06:47+0000\n"
-"PO-Revision-Date: 2015-08-17 12:30+0000\n"
+"PO-Revision-Date: 2015-10-11 20:20+0200\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian <dev-l10n-web@lists.mozilla.org>\n"
 "Language: ro\n"
@@ -168,15 +168,13 @@ msgid "Current background"
 msgstr "Fundalul curent"
 
 #: ../panels/background/gnome-background-panel.desktop.in.in.h:2
-#, fuzzy
 msgid "Change your background image to a wallpaper or photo"
 msgstr "Schimbă imaginea de fundal într-un tapet sau o fotografie"
 
 #. Translators: those are keywords for the background control-center panel
 #: ../panels/background/gnome-background-panel.desktop.in.in.h:4
-#, fuzzy
 msgid "Wallpaper;Screen;Desktop;"
-msgstr "Tapet;Ecran;Desktop"
+msgstr "Wallpaper;Screen;Desktop;Tapet;Ecran"
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:259
 #| msgid "Air_plane Mode"
@@ -193,32 +191,28 @@ msgid "Plug in a dongle to use Bluetooth."
 msgstr "Introduceți un dispozitiv pentru a folosi Bluetooth."
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:326
-#| msgid "Bluetooth"
 msgid "Bluetooth Turned Off"
-msgstr "Bluetooth închis"
+msgstr "Bluetooth este oprit"
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:326
 msgid "Turn on to connect devices and receive file transfers."
 msgstr "Deschideți pentru a putea conecta dispozitive și transfera fișiere."
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:327
-#| msgid "Air_plane Mode"
 msgid "Airplane Mode is on"
-msgstr "Mod avion deschis"
+msgstr "Mod avion este pornit"
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:327
-#| msgid "Bluetooth is disabled by hardware switch"
 msgid "Bluetooth is disabled when airplane mode is on."
-msgstr "Bluetooth este dezactivat când modul avion este deschis."
+msgstr "Bluetooth este dezactivat când modul avion este pornit."
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:328
-#| msgid "Air_plane Mode"
 msgid "Hardware Airplane Mode is on"
-msgstr "Mod hardware avion deschis"
+msgstr "Mod hardware avion este pornit"
 
 #: ../panels/bluetooth/cc-bluetooth-panel.c:328
 msgid "Turn off the Airplane mode switch to enable Bluetooth."
-msgstr "Închideți modul avion pentru a putea activa Bluetooth."
+msgstr "Opriți modul avion pentru a putea activa Bluetooth."
 
 #. Translators: The found device is a printer connected via Bluetooth
 #: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:1
@@ -233,13 +227,12 @@ msgstr "Deschideți și închideți Bluetooth și conectați-vă dispozitivele"
 #. Translators: those are keywords for the bluetooth control-center panel
 #: ../panels/bluetooth/gnome-bluetooth-panel.desktop.in.in.h:4
 msgid "share;sharing;bluetooth;obex;"
-msgstr "partajează;partajare;bluetooth;obex;"
+msgstr "share;sharing;bluetooth;obex;partajează;partajare;"
 
 #. TRANSLATORS: The user has to attach the sensor to the screen
 #: ../panels/color/cc-color-calibrate.c:361
 msgid "Place your calibration device over the square and press 'Start'"
-msgstr ""
-"Plasați dispozitivul de calibrare deasupra pătratului și apăsați „Start”"
+msgstr "Plasați dispozitivul de calibrare deasupra pătratului și apăsați „Start”"
 
 #. TRANSLATORS: Some calibration devices need the user to move a
 #. * dial or switch manually. We also show a picture showing them
@@ -289,13 +282,11 @@ msgstr "Nu s-a putut genera profilul."
 #. * unobtainable with the hardware they've got -- see
 #. * https://en.wikipedia.org/wiki/White_point for details
 #: ../panels/color/cc-color-calibrate.c:427
-#, fuzzy
 msgid "The target whitepoint was not obtainable."
 msgstr "Nu s-a putut găsi punctul de țintă alb."
 
 #. TRANSLATORS: the display calibration process is finished
 #: ../panels/color/cc-color-calibrate.c:467
-#, fuzzy
 msgid "Complete!"
 msgstr "Gata!"
 
@@ -325,38 +316,38 @@ msgstr "Ecran laptop"
 #. TRANSLATORS: This refers to the embedded webcam on a laptop
 #: ../panels/color/cc-color-common.c:50
 msgid "Built-in Webcam"
-msgstr "Webcam incorporat"
+msgstr "Cameră web încorporată"
 
 #. TRANSLATORS: an externally connected display, where %s is either the
 #. * model, vendor or ID, e.g. 'LP2480zx Monitor'
 #: ../panels/color/cc-color-common.c:65
 #, c-format
 msgid "%s Monitor"
-msgstr "%s Monitor"
+msgstr "Monitor %s"
 
 #. TRANSLATORS: a flatbed scanner device, e.g. 'Epson Scanner'
 #: ../panels/color/cc-color-common.c:69
 #, c-format
 msgid "%s Scanner"
-msgstr "%s Scanner"
+msgstr "Scanner %s"
 
 #. TRANSLATORS: a camera device, e.g. 'Nikon D60 Camera'
 #: ../panels/color/cc-color-common.c:73
 #, c-format
 msgid "%s Camera"
-msgstr "%s Camera"
+msgstr "Cameră %s"
 
 #. TRANSLATORS: a printer device, e.g. 'Epson Photosmart Printer'
 #: ../panels/color/cc-color-common.c:77
 #, c-format
 msgid "%s Printer"
-msgstr "%s Imprimantă"
+msgstr "Imprimantă %s"
 
 #. TRANSLATORS: a webcam device, e.g. 'Philips HiDef Camera'
 #: ../panels/color/cc-color-common.c:81
 #, c-format
 msgid "%s Webcam"
-msgstr "%s Webcam"
+msgstr "Cameră web %s"
 
 #: ../panels/color/cc-color-device.c:89
 #, c-format
@@ -439,7 +430,7 @@ msgstr "Reporniți calculatorul și intrați în sistemul de operare obișnuit."
 
 #: ../panels/color/cc-color-panel.c:926
 msgid "Type the URL into your browser to download and install the profile."
-msgstr "Scrieți URL-ul în browser pentru a descărca și instala profilul."
+msgstr "Scrieți URL-ul în navigator pentru a descărca și instala profilul."
 
 #. TRANSLATORS: this is the dialog to save the ICC profile
 #: ../panels/color/cc-color-panel.c:960
@@ -549,7 +540,7 @@ msgstr "Nu este posibilă corecția în mod „tot ecranul” pentru acest profi
 
 #: ../panels/color/cc-color-profile.c:225
 msgid "This profile may no longer be accurate"
-msgstr "E posibil ca acest profil să nu mai fie corect"
+msgstr "Este posibil ca acest profil să nu mai fie corect"
 
 #: ../panels/color/color-calibrate.ui.h:1
 msgid "Display Calibration"
@@ -648,7 +639,7 @@ msgid ""
 "Please set the display to a brightness that is typical for you. Color "
 "management will be most accurate at this brightness level."
 msgstr ""
-"Setați afișajul la o luminozitate potrivită. Gestiunea culorilor va avea "
+"Configurați afișajul la o luminozitate potrivită. Gestiunea culorilor va avea "
 "precizie maximă la acest nivel de luminozitate."
 
 #: ../panels/color/color.ui.h:16
@@ -686,7 +677,7 @@ msgstr "Profil creat cu succes!"
 #: ../panels/color/color.ui.h:22
 #| msgid "No profile"
 msgid "Copy profile"
-msgstr "Copiere profil"
+msgstr "Copiază profilul"
 
 #: ../panels/color/color.ui.h:23
 msgid "Requires writable media"
@@ -695,7 +686,7 @@ msgstr "Necesită mediu inscriptibil"
 #: ../panels/color/color.ui.h:24
 #| msgid "No profile"
 msgid "Upload profile"
-msgstr "Încărcare profil"
+msgstr "Încarcă profilul"
 
 #: ../panels/color/color.ui.h:25
 #| msgid "Add new connection"
@@ -719,7 +710,7 @@ msgstr "Rezumat"
 
 #: ../panels/color/color.ui.h:28
 msgid "Import File…"
-msgstr "Import fișier..."
+msgstr "Importă fișierul…"
 
 #: ../panels/color/color.ui.h:30
 #: ../panels/keyboard/gnome-keyboard-panel.ui.h:3
@@ -758,7 +749,7 @@ msgstr "Configurare pentru toți utilizatorii"
 
 #: ../panels/color/color.ui.h:36
 msgid "Set this profile for all users on this computer"
-msgstr "Setează acest profil pentru toți utilizatorii de pe acest calculator"
+msgstr "Configurează acest profil pentru toți utilizatorii de pe acest calculator"
 
 #: ../panels/color/color.ui.h:37
 msgid "Enable"
@@ -771,7 +762,7 @@ msgstr "Adaugă profil"
 #: ../panels/color/color.ui.h:39
 #: ../panels/wacom/gnome-wacom-properties.ui.h:12
 msgid "Calibrate…"
-msgstr "Se calibrează..."
+msgstr "Se calibrează…"
 
 #: ../panels/color/color.ui.h:40
 msgid "Calibrate the device"
@@ -891,18 +882,18 @@ msgstr ""
 #. Translators: those are keywords for the color control-center panel
 #: ../panels/color/gnome-color-panel.desktop.in.in.h:4
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
-msgstr "Culoare;ICC;Profil;Calibrare;Imprimantă;Ecran;"
+msgstr "Color;ICC;Profile;Calibrate;Printer;Display;Culoare;ICC;Calibrare;Imprimantă;Afișaj;"
 
 #: ../panels/common/cc-common-language.c:323
 #| msgid "Other"
 msgid "Other…"
-msgstr "Altele..."
+msgstr "Altele…"
 
 #: ../panels/common/cc-language-chooser.c:124
 #: ../panels/region/cc-format-chooser.c:271
 #: ../panels/region/cc-input-chooser.c:168
 msgid "More…"
-msgstr "Mai mult..."
+msgstr "Mai mult…"
 
 #: ../panels/common/cc-language-chooser.c:140
 msgid "No languages found"
@@ -941,7 +932,6 @@ msgstr "%e %B %Y, %l:%M %p"
 
 #. Translators: This is the full date and time format used in 24-hour mode.
 #: ../panels/datetime/cc-datetime-panel.c:345
-#, fuzzy
 msgid "%e %B %Y, %R"
 msgstr "%e %B %Y, %R"
 
@@ -956,7 +946,6 @@ msgstr "%s, %s"
 #. Translators: "timezone (details)"
 #: ../panels/datetime/cc-datetime-panel.c:553
 #, c-format
-#| msgid "%d x %d (%s)"
 msgctxt "timezone desc"
 msgid "%s (%s)"
 msgstr "%s (%s)"
@@ -969,8 +958,6 @@ msgstr "UTC%:::z"
 
 #. Translators: This is the time format used in 12-hour mode.
 #: ../panels/datetime/cc-datetime-panel.c:566
-#, fuzzy
-#| msgid "%a %l:%M %p"
 msgid "%l:%M %p"
 msgstr "%l:%M %p"
 
@@ -1103,13 +1090,12 @@ msgstr "AM / PM"
 
 #: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:2
 msgid "Change the date and time, including time zone"
-msgstr "Schimbați data și timpul, inclusiv fusul orar"
+msgstr "Schimbați data și ora, inclusiv fusul orar"
 
 #. Translators: those are keywords for the date and time control-center panel
 #: ../panels/datetime/gnome-datetime-panel.desktop.in.in.h:4
-#, fuzzy
 msgid "Clock;Timezone;Location;"
-msgstr "Clock;Timezone;Location;"
+msgstr "Clock;Timezone;Location;Ceas;Timp;Fus orar;Locație;"
 
 #: ../panels/datetime/org.gnome.controlcenter.datetime.policy.in.h:1
 msgid "Change system time and date settings"
@@ -1120,8 +1106,6 @@ msgid "To change time or date settings, you need to authenticate."
 msgstr "Pentru a schimba data sau ora, trebuie să vă autentificați."
 
 #: ../panels/display/cc-display-panel.c:573
-#, fuzzy
-#| msgid "Close"
 msgid "Lid Closed"
 msgstr "Capac închis"
 
@@ -1150,13 +1134,11 @@ msgid "Off"
 msgstr "Oprit"
 
 #: ../panels/display/cc-display-panel.c:583
-#| msgid "Secondary click delay"
 msgid "Secondary"
 msgstr "Secundar"
 
 #. Title of displays dialog when multiple monitors are present.
 #: ../panels/display/cc-display-panel.c:1558
-#| msgid "Mirrored Displays"
 msgid "Arrange Combined Displays"
 msgstr "Aranjează afișaje combinate"
 
@@ -1172,10 +1154,8 @@ msgid "Drag displays to rearrange them"
 msgstr "Trage de afișajele pentru a le rearanja"
 
 #: ../panels/display/cc-display-panel.c:2073
-#| msgctxt "display panel, rotation"
-#| msgid "Counterclockwise"
 msgid "Rotate counterclockwise by 90°"
-msgstr "Rotește invers acelor de ceas la 90°"
+msgstr "Rotește antiorar la 90°"
 
 #: ../panels/display/cc-display-panel.c:2091
 msgid "Rotate by 180°"
@@ -1183,7 +1163,7 @@ msgstr "Rotește cu 180°"
 
 #: ../panels/display/cc-display-panel.c:2109
 msgid "Rotate clockwise by 90°"
-msgstr "Rotește invers acelor de ceas cu 90°"
+msgstr "Rotește orar cu 90°"
 
 #: ../panels/display/cc-display-panel.c:2130
 msgid "Size"
@@ -1260,9 +1240,8 @@ msgstr "Alege cum să fie folosite monitoarele și proiectoarele conectate"
 
 #. Translators: those are keywords for the display control-center panel
 #: ../panels/display/gnome-display-panel.desktop.in.in.h:4
-#| msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
 msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
-msgstr "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+msgstr "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Panou;Proiector;Ecran;Rezoluție;"
 
 #: ../panels/info/cc-info-panel.c:385
 msgid "Wayland"
@@ -1448,7 +1427,7 @@ msgstr "Disc"
 
 #: ../panels/info/info.ui.h:10
 msgid "Calculating…"
-msgstr "Se calculează..."
+msgstr "Se calculează…"
 
 #: ../panels/info/info.ui.h:11
 msgid "Graphics"
@@ -1509,7 +1488,7 @@ msgstr "_Software"
 
 #: ../panels/info/info.ui.h:27
 msgid "_Other Media…"
-msgstr "Alte medii de st_ocare..."
+msgstr "Alte medii de st_ocare…"
 
 #: ../panels/info/info.ui.h:28
 msgid "_Never prompt or start programs on media insertion"
@@ -1586,7 +1565,7 @@ msgstr "Lansează navigatorul de ajutor"
 #: ../panels/keyboard/01-launchers.xml.in.h:3 ../shell/cc-window.c:1605
 #: ../shell/gnome-control-center.desktop.in.in.h:1
 msgid "Settings"
-msgstr "Setări"
+msgstr "Configurări"
 
 #: ../panels/keyboard/01-launchers.xml.in.h:4
 msgid "Launch calculator"
@@ -1730,14 +1709,12 @@ msgstr "Tastatură"
 
 #: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:2
 msgid "View and change keyboard shortcuts and set your typing preferences"
-msgstr ""
-"Vedeți și schimbați scurtăturile de tastatură și setați preferințele de "
-"tastare"
+msgstr "Vedeți și schimbați scurtăturile de tastatură și configurați preferințele de tastare"
 
 #. Translators: those are keywords for the keyboard control-center panel
 #: ../panels/keyboard/gnome-keyboard-panel.desktop.in.in.h:4
 msgid "Shortcut;Repeat;Blink;"
-msgstr "Shortcut;Repeat;Blink;"
+msgstr "Shortcut;Repeat;Blink;Scurtatură;"
 
 #: ../panels/keyboard/gnome-keyboard-panel.ui.h:1
 msgid "Custom Shortcut"
@@ -1877,33 +1854,28 @@ msgid ""
 "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
 "automatically set it to \"%s\"?"
 msgstr ""
-"Scurtătura „%s” are o scurtătură asociată „%s”. Vreți să o setați automat la "
+"Scurtătura „%s” are o scurtătură asociată „%s”. Vreți să o configurați automat la "
 "„%s”?"
 
 #: ../panels/keyboard/keyboard-shortcuts.c:1450
-#, fuzzy, c-format
-#| msgid ""
-#| "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
-#| "disabled."
+#, c-format
 msgid ""
 "\"%s\" is currently associated with \"%s\", this shortcut will be disabled "
 "if you move forward."
 msgstr "Dacă reasociați scurtătura la „%s”, scurtătura „%s” va fi dezactivată."
 
 #: ../panels/keyboard/keyboard-shortcuts.c:1457
-#, fuzzy
-#| msgid "_Reassign"
 msgid "_Assign"
-msgstr "_Reasociază"
+msgstr "_Asociază"
 
 #: ../panels/mouse/cc-mouse-panel.c:94
 msgid "Test Your _Settings"
-msgstr "Testează _setările"
+msgstr "Te_stează configurările"
 
 #: ../panels/mouse/cc-mouse-panel.c:107
 #| msgid "_Test Your Settings"
 msgid "Test Your Settings"
-msgstr "Testați setările"
+msgstr "Testați configurările"
 
 #: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:1
 msgid "Mouse & Touchpad"
@@ -1918,7 +1890,6 @@ msgstr ""
 
 #. Translators: those are keywords for the mouse and touchpad control-center panel
 #: ../panels/mouse/gnome-mouse-panel.desktop.in.in.h:4
-#| msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 
@@ -2753,7 +2724,7 @@ msgstr "Cu fir"
 #: ../panels/network/network-simple.ui.h:8
 #: ../panels/network/network-vpn.ui.h:7
 msgid "Options…"
-msgstr "Opțiuni..."
+msgstr "Opțiuni…"
 
 #: ../panels/network/net-device-ethernet.c:473
 #, c-format
@@ -2773,7 +2744,7 @@ msgid ""
 "If you have a connection to the Internet other than wireless, you can set up "
 "a wireless hotspot to share the connection with others."
 msgstr ""
-"Dacă aveți o conexiune la internet alta decât wireless, puteți seta o "
+"Dacă aveți o conexiune la internet alta decât wireless, puteți configura o "
 "conexiune hotspot prin care să împărțiți conexiunea cu alții."
 
 #: ../panels/network/net-device-wifi.c:1180
@@ -3787,7 +3758,6 @@ msgstr ""
 
 #. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
 #: ../panels/online-accounts/gnome-online-accounts-panel.desktop.in.in.h:4
-#| msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
 msgid ""
 "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;"
 "Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
@@ -4754,7 +4724,7 @@ msgstr "etichetă"
 
 #: ../panels/printers/printers.ui.h:17
 msgid "Setting new driver…"
-msgstr "Se setează un nou driver…"
+msgstr "Se confiurează un nou driver…"
 
 #: ../panels/printers/printers.ui.h:18
 msgid "page 3"
@@ -5123,7 +5093,7 @@ msgstr "Super+Space"
 
 #: ../panels/region/input-options.ui.h:10
 msgid "You can change these shortcuts in the keyboard settings"
-msgstr "Puteți schimba aceste scurtături în setările de tastatură"
+msgstr "Puteți schimba aceste scurtături în configurările de tastatură"
 
 #: ../panels/region/input-options.ui.h:11
 msgid "Alternative switch to next source"
@@ -5177,9 +5147,7 @@ msgstr "Arată aranjamentul de taste pentru intrare"
 
 #: ../panels/region/region.ui.h:13
 msgid "Login settings are used by all users when logging into the system"
-msgstr ""
-"Setările de autentificare sunt folosite pentru toți utilizatorii când se "
-"autentifică în sistem"
+msgstr "Configurările de autentificare sunt folosite pentru toți utilizatorii la autentificarea în sistem"
 
 #: ../panels/search/cc-search-locations-dialog.c:476
 msgctxt "Search Location"
@@ -5419,7 +5387,7 @@ msgstr "Schimbă nivelurile de sunet, intrările, ieșirile și sunetele de aler
 #. Translators: those are keywords for the sound control-center panel
 #: ../panels/sound/data/gnome-sound-panel.desktop.in.in.h:4
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
-msgstr "Card;Microfon;Volum;Estompare;Balans;Bluetooth;Cască;Audio;"
+msgstr "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Microfon;Căști;"
 
 #. Translators: This is the name of an audio file that sounds like the bark of a dog.
 #. You might want to translate it into the equivalent words of your language.
@@ -5804,8 +5772,6 @@ msgid "A_cceptance delay:"
 msgstr "Întârziere a_cceptată:"
 
 #: ../panels/universal-access/uap.ui.h:35
-#, fuzzy
-#| msgid "Short"
 msgctxt "slow keys delay"
 msgid "Short"
 msgstr "Scurtă"
@@ -6776,9 +6742,8 @@ msgid "Used by %s"
 msgstr "Folosit de %s"
 
 #: ../panels/user-accounts/um-realm-manager.c:350
-#, fuzzy
 msgid "Cannot automatically join this type of domain"
-msgstr ""
+msgstr "Nu se poate conecta automat la acest tip de domeniu"
 
 #: ../panels/user-accounts/um-realm-manager.c:413
 #, c-format
@@ -6811,10 +6776,8 @@ msgstr "Ștergerea utilizatorului a eșuat"
 #: ../panels/user-accounts/um-user-panel.c:510
 #: ../panels/user-accounts/um-user-panel.c:569
 #: ../panels/user-accounts/um-user-panel.c:621
-#, fuzzy
-#| msgid "Failed to delete user"
 msgid "Failed to revoke remotely managed user"
-msgstr "Ștergerea utilizatorului a eșuat"
+msgstr "A eșuat eliminarea utilizatorului gestionat la distanță"
 
 #: ../panels/user-accounts/um-user-panel.c:677
 msgid "You cannot delete your own account."
@@ -6855,14 +6818,11 @@ msgid "_Keep Files"
 msgstr "_Păstrează fișierele"
 
 #: ../panels/user-accounts/um-user-panel.c:721
-#, fuzzy, c-format
-#| msgid "Are you sure you want to remove the account?"
+#, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
-msgstr "Sigur doriți să eliminați contul?"
+msgstr "Sigur doriți să eliminați contul gestionat de la distanță %s?"
 
 #: ../panels/user-accounts/um-user-panel.c:725
-#, fuzzy
-#| msgid "_Delete Files"
 msgid "_Delete"
 msgstr "Ș_terge fișierele"
 
@@ -6883,7 +6843,7 @@ msgstr "Niciuna"
 
 #: ../panels/user-accounts/um-user-panel.c:837
 msgid "Logged in"
-msgstr ""
+msgstr "Autentificat"
 
 #: ../panels/user-accounts/um-user-panel.c:1274
 msgid "Failed to contact the accounts service"
@@ -7073,7 +7033,7 @@ msgstr "Tabletă Wacom"
 #: ../panels/wacom/gnome-wacom-panel.desktop.in.in.h:2
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
-"Setează funcțiile butoanelor și ajustează sensibilitatea creionului pentru "
+"Configurează funcțiile butoanelor și ajustează sensibilitatea creionului pentru "
 "tablete grafice"
 
 #. Translators: those are keywords for the wacom tablet control-center panel
@@ -7306,7 +7266,6 @@ msgid "Utilities to configure the GNOME desktop"
 msgstr "Utilitare de configurare pentru Gnome desktop"
 
 #: ../shell/appdata/gnome-control-center.appdata.xml.in.h:3
-#, fuzzy
 msgid ""
 "The control center is GNOME's main interface for configuration of various "
 "aspects of your desktop."
@@ -7356,7 +7315,7 @@ msgstr "Ieșire"
 
 #: ../shell/cc-window.c:61 ../shell/cc-window.c:1494
 msgid "All Settings"
-msgstr "Toate setările"
+msgstr "Toate configurările"
 
 #. Add categories
 #: ../shell/cc-window.c:880
@@ -7376,7 +7335,7 @@ msgstr "Sistem"
 
 #: ../shell/gnome-control-center.desktop.in.in.h:2
 msgid "Preferences;Settings;"
-msgstr "Preferințe;Configurări;"
+msgstr "Preferences;Settings;Preferințe;Configurări;"
 
 #~ msgid "Bluetooth is disabled"
 #~ msgstr "Bluetooth-ul este dezactivat"
@@ -8091,7 +8050,7 @@ msgstr "Preferințe;Configurări;"
 #~ msgstr "Alimentat de la baterie"
 
 #~ msgid "Other profile…"
-#~ msgstr "Alt profil..."
+#~ msgstr "Alt profil…"
 
 #~ msgid "Color management settings"
 #~ msgstr "Administrare configurări culoare"
@@ -8497,7 +8456,7 @@ msgstr "Preferințe;Configurări;"
 #~ msgstr "Arată_notificări când este blocat"
 
 #~ msgid "New accelerator…"
-#~ msgstr "Accelerator nou..."
+#~ msgstr "Accelerator nou…"
 
 #~ msgctxt "Zoom Grayscale"
 #~ msgid "None"
