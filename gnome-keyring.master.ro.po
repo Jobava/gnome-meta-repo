@@ -6,14 +6,15 @@
 # Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010, 2011.
 # Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+# Jobava <jobaval10n@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-keyring.HEAD.ro\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "keyring&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-05 21:18+0000\n"
-"PO-Revision-Date: 2011-03-14 13:06+0200\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"PO-Revision-Date: 2015-11-06 01:15+0200\n"
+"Last-Translator: Jobava <jobaval10@gmail.com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -33,16 +34,12 @@ msgid "Unnamed"
 msgstr "Fără nume"
 
 #: ../daemon/dbus/gkd-secret-change.c:89
-#, fuzzy, c-format
-#| msgid "Choose a new password for the '%s' keyring"
+#, c-format
 msgid "Enter the old password for the '%s' keyring"
-msgstr "Alegeți o nouă parolă pentru inelul de chei „%s”. "
+msgstr "Alegeți o nouă parolă pentru inelul de chei „%s”"
 
 #: ../daemon/dbus/gkd-secret-change.c:93
-#, fuzzy, c-format
-#| msgid ""
-#| "An application wants to change the password for the '%s' keyring. Choose "
-#| "the new password you want to use for it."
+#, c-format
 msgid ""
 "An application wants to change the password for the '%s' keyring. Enter the "
 "old password for it."
@@ -56,12 +53,12 @@ msgstr ""
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1276
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1311
 msgid "Continue"
-msgstr ""
+msgstr "Continuă"
 
 #: ../daemon/dbus/gkd-secret-change.c:125
 #, c-format
 msgid "Choose a new password for the '%s' keyring"
-msgstr "Alegeți o nouă parolă pentru inelul de chei „%s”. "
+msgstr "Alegeți o nouă parolă pentru inelul de chei „%s”"
 
 #: ../daemon/dbus/gkd-secret-change.c:129
 #, c-format
@@ -82,13 +79,13 @@ msgid ""
 "safely encrypted. They will be accessible by anyone with access to your "
 "files."
 msgstr ""
-"Prin alegerea folosirii unei parole goale, parolele stocate nu vor fi "
+"Dacă alegeți să folosiți o parolă goală, parolele stocate nu vor fi "
 "criptate în siguranță. Ele vor putea fi citite de oricine are acces la "
 "fișierele dumneavoastră."
 
 #: ../daemon/dbus/gkd-secret-change.c:152
 msgid "The original password was incorrect"
-msgstr "Parola originală nu a fost corectă"
+msgstr "Parola inițială nu a fost corectă"
 
 #: ../daemon/dbus/gkd-secret-change.c:348
 msgid "Change Keyring Password"
@@ -113,7 +110,7 @@ msgstr "Parolă nouă pentru inelul de chei"
 
 #: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
 msgid "Certificate and Key Storage"
-msgstr "Mediu de stocare pentru certificate și chei"
+msgstr "Stocare pentru certificate și chei"
 
 #: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
 msgid "GNOME Keyring: PKCS#11 Component"
@@ -143,17 +140,17 @@ msgstr "Autentificare"
 #: ../egg/dotlock.c:668
 #, c-format
 msgid "failed to create temporary file `%s': %s\n"
-msgstr ""
+msgstr "a eșuat crearea fișierului temporar „%s”: %s\n"
 
 #: ../egg/dotlock.c:718
 #, c-format
 msgid "error writing to `%s': %s\n"
-msgstr ""
+msgstr "eroare la scrierea către „%s”: %s\n"
 
 #: ../egg/dotlock.c:782
 #, c-format
 msgid "can't create `%s': %s\n"
-msgstr ""
+msgstr "nu se poate crea „%s”: %s\n"
 
 #. Note: It is unlikley that we get a race here unless a pid is
 #. reused too fast or a new process with the same pid as the one
@@ -161,26 +158,26 @@ msgstr ""
 #: ../egg/dotlock.c:1048
 #, c-format
 msgid "removing stale lockfile (created by %d)\n"
-msgstr ""
+msgstr "se elimină fișierul de blocare învechit (creat de %d)\n"
 
 #: ../egg/dotlock.c:1084
 #, c-format
 msgid "waiting for lock (held by %d%s) %s...\n"
-msgstr ""
+msgstr "se așteaptă urmare a blocării (deținută de %d%s) %s...\n"
 
 #: ../egg/dotlock.c:1085
 msgid "(deadlock?) "
-msgstr ""
+msgstr "(punct mort?)"
 
 #: ../egg/dotlock.c:1124
 #, c-format
 msgid "lock `%s' not made: %s\n"
-msgstr ""
+msgstr "blocarea „%s” nu s-a realizat: %s\n"
 
 #: ../egg/dotlock.c:1150
 #, c-format
 msgid "waiting for lock %s...\n"
-msgstr ""
+msgstr "se așteaptă urmare a blocării %s...\n"
 
 #: ../egg/egg-oid.c:40
 msgid "Domain Component"
@@ -192,7 +189,7 @@ msgstr "ID utilizator"
 
 #: ../egg/egg-oid.c:45
 msgid "Email Address"
-msgstr "Adresă de email"
+msgstr "Adresa de e-mail"
 
 #: ../egg/egg-oid.c:53
 msgid "Date of Birth"
@@ -204,47 +201,47 @@ msgstr "Locul nașterii"
 
 #: ../egg/egg-oid.c:57
 msgid "Gender"
-msgstr "Gen"
+msgstr "Sexul"
 
 #: ../egg/egg-oid.c:59
 msgid "Country of Citizenship"
-msgstr "Naționalitate"
+msgstr "Naționalitatea"
 
 #: ../egg/egg-oid.c:61
 msgid "Country of Residence"
-msgstr "Țară de rezidență"
+msgstr "Țara de rezidență"
 
 #: ../egg/egg-oid.c:64
 msgid "Common Name"
-msgstr "Nume comun"
+msgstr "Nume mic"
 
 #: ../egg/egg-oid.c:66
 msgid "Surname"
-msgstr "Nume familie"
+msgstr "Nume de familie"
 
 #: ../egg/egg-oid.c:68
 msgid "Serial Number"
-msgstr "Număr serial"
+msgstr "Număr de serie"
 
 #: ../egg/egg-oid.c:70
 msgid "Country"
-msgstr "Țară"
+msgstr "Țara"
 
 #: ../egg/egg-oid.c:72
 msgid "Locality"
-msgstr "Localitate"
+msgstr "Localitatea"
 
 #: ../egg/egg-oid.c:74
 msgid "State"
-msgstr "Stat"
+msgstr "Statul"
 
 #: ../egg/egg-oid.c:76
 msgid "Street"
-msgstr "Stradă"
+msgstr "Strada"
 
 #: ../egg/egg-oid.c:78
 msgid "Organization"
-msgstr "Organizație"
+msgstr "Organizația"
 
 #: ../egg/egg-oid.c:80
 msgid "Organizational Unit"
@@ -304,26 +301,24 @@ msgstr "SHA1 cu DSA"
 
 #. Extended Key Usages
 #: ../egg/egg-oid.c:106
-#, fuzzy
 msgid "Server Authentication"
-msgstr "Certificat server SSL"
+msgstr "Autentificare server"
 
 #: ../egg/egg-oid.c:107
-#, fuzzy
 msgid "Client Authentication"
-msgstr "Certificat client SSL"
+msgstr "Autentificare client"
 
 #: ../egg/egg-oid.c:108
 msgid "Code Signing"
-msgstr ""
+msgstr "Semnare cod"
 
 #: ../egg/egg-oid.c:109
 msgid "Email Protection"
-msgstr ""
+msgstr "Protecție e-mail"
 
 #: ../egg/egg-oid.c:110
 msgid "Time Stamping"
-msgstr ""
+msgstr "Amprentă temporală"
 
 #: ../egg/egg-spawn.c:272
 #, c-format
@@ -399,7 +394,7 @@ msgstr "O aplicație vrea să acceseze inelul de chei „%s”, dar este blocat"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:628
 msgid "Automatically unlock this keyring whenever I'm logged in"
-msgstr ""
+msgstr "Deblochează automat acest inel de chei oricând sunt autentificat"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:639
 msgid "Unlock private key"
@@ -431,18 +426,18 @@ msgstr "Introduceți parola pentru deblocare"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:670
 msgid "Automatically unlock this key whenever I'm logged in"
-msgstr ""
+msgstr "Deblochează automat această cheie oricând sunt autentificat"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:672
 msgid "Automatically unlock this certificate whenever I'm logged in"
-msgstr ""
+msgstr "Deblochează automat acest certificat oricând sunt autentificat"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:674
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:796
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1160
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1309
 msgid "Automatically unlock whenever I'm logged in"
-msgstr ""
+msgstr "Deblochează automat oricând sunt autentificat"
 
 #. TRANSLATORS: The private key is locked
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:685
@@ -517,19 +512,13 @@ msgid "Change Password"
 msgstr "Schimbă parola"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1270
-#, fuzzy
-#| msgid "Change password for secure storage"
 msgid "Original password for secure storage"
-msgstr "Schimbă parola pentru stocarea sigură"
+msgstr "Parola inițială pentru stocarea sigură"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1272
-#, fuzzy, c-format
-#| msgid ""
-#| "To change the password for '%s', the original and new passwords are "
-#| "required"
+#, c-format
 msgid "To change the password for '%s', the original password is required"
-msgstr ""
-"Pentru a schimba parola pentru „%s” sunt necesare parola originală și parola "
+msgstr "Pentru a schimba parola pentru „%s” sunt necesare parola inițială și parola "
 "nouă"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1301
@@ -537,10 +526,9 @@ msgid "Change password for secure storage"
 msgstr "Schimbă parola pentru stocarea sigură"
 
 #: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1303
-#, fuzzy, c-format
-#| msgid "Choose a new password for the '%s' keyring"
+#, c-format
 msgid "Type a new password for '%s'"
-msgstr "Alegeți o nouă parolă pentru inelul de chei „%s”. "
+msgstr "Tastați o nouă parolă pentru „%s”"
 
 #: ../tool/gkr-tool.c:100
 #, c-format
@@ -553,8 +541,8 @@ msgstr "comenzi:"
 
 #. Translators: keep same length as translated message "commands: "
 #: ../tool/gkr-tool.c:106
-msgid "          "
-msgstr "        "
+msgid  "          "
+msgstr "         "
 
 #~ msgid "GNOME Keyring: GPG Agent"
 #~ msgstr "Inelul de chei GNOME: Agent GPG"
