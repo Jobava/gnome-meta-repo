@@ -55,7 +55,7 @@ msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
 msgstr ""
-"Totem vine cu funcționalități adăugate cum ar fi: descărcător de subtitrări "
+"Totem vine cu funcționalități adăugate cum ar fi: descărcător de subtitluri "
 "și suport pentru înregistrarea DVD-urilor."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
@@ -112,11 +112,11 @@ msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:10
 msgid "Subtitle font"
-msgstr "Fontul subtitrării"
+msgstr "Fontul subtitlurilor"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:11
 msgid "Pango font description for subtitle rendering."
-msgstr "Descrierea fontului pango pentru randarea subtitrării."
+msgstr "Descrierea fontului pango pentru redarea subtitlurilor."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:12
 msgctxt "subtitle-encoding"
@@ -125,11 +125,11 @@ msgstr "'UTF-8'"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
-msgstr "Codarea subtitrării"
+msgstr "Codarea subtitlurilor"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:14
 msgid "Encoding character set for subtitle."
-msgstr "Codificare caractere pentru subtitrare."
+msgstr "Set de caractere pentru codarea subtitlurilor."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the \"Open...\" dialogs"
@@ -166,7 +166,7 @@ msgstr "Dacă se dezactivează combinațiile de taste"
 #: ../data/org.gnome.totem.gschema.xml.in.h:21
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr ""
-"Dacă să fie încărcate automat fișierele de subtitrare la pornirea unui film"
+"Dacă să fie încărcate automat fișierele de subtitluri la pornirea unui film"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:22
 msgid "Whether to autoload external chapter files when a movie is loaded"
@@ -224,11 +224,11 @@ msgstr "Preferințe"
 
 #: ../data/preferences.ui.h:8
 msgid "External Subtitles"
-msgstr "Subtitrări externe"
+msgstr "Subtitluri externe"
 
 #: ../data/preferences.ui.h:9
 msgid "_Load subtitle files when movie is loaded"
-msgstr "Încarcă automat subtitrările _la încărcarea filmului"
+msgstr "Încarcă automat subtitlurile _la încărcarea filmului"
 
 #: ../data/preferences.ui.h:10
 msgid "_Font:"
@@ -354,7 +354,7 @@ msgstr "Bitrate:"
 
 #: ../data/properties.ui.h:15
 msgid "Sample rate:"
-msgstr "Eșantionare:"
+msgstr "Rata de eșantionare:"
 
 #: ../data/properties.ui.h:16
 msgid "Channels:"
@@ -427,7 +427,7 @@ msgstr "S_ubtitluri"
 
 #: ../data/totem.ui.h:16
 msgid "_Select Text Subtitles…"
-msgstr "_Selectați textul subtitrărilor…"
+msgstr "_Selectați textul subtitlurilor…"
 
 #: ../data/totem.ui.h:17
 msgid "_Eject"
@@ -478,7 +478,7 @@ msgstr "Piesa audio nr. %d"
 #: ../src/backend/bacon-video-widget.c:3322
 #, c-format
 msgid "Subtitle #%d"
-msgstr "Subtitrarea nr. %d"
+msgstr "Subtitlurile nr. %d"
 
 #: ../src/backend/bacon-video-widget.c:3778
 msgid "The server you are trying to connect to is not known."
@@ -999,7 +999,7 @@ msgstr "În_chide"
 
 #: ../src/totem-preferences.c:303
 msgid "Select Subtitle Font"
-msgstr "Alegeți fontul pentru subtitrări"
+msgstr "Alegeți fontul pentru subtitluri"
 
 #: ../src/totem-properties-main.c:116 ../src/totem-properties-view.c:281
 msgid "Audio/Video"
@@ -1226,11 +1226,11 @@ msgstr "Fișiere video"
 
 #: ../src/totem-uri.c:346
 msgid "Subtitle files"
-msgstr "Fișiere subtitrare"
+msgstr "Fișiere subtitluri"
 
 #: ../src/totem-uri.c:396
 msgid "Select Text Subtitles"
-msgstr "Selectați textul subtitrărilor"
+msgstr "Selectați subtitlurile text"
 
 #: ../src/totem-uri.c:400
 msgid "_Open"
@@ -1276,11 +1276,11 @@ msgstr "Stabilește agentul utilizatorului pentru situl cu reclame Apple"
 
 #: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:1
 msgid "Autoload Subtitles"
-msgstr "Autoîncarcă subtitrările"
+msgstr "Autoîncarcă subtitlurile"
 
 #: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:2
 msgid "Autoloads text subtitles"
-msgstr "Încarcă automat subtitrările text"
+msgstr "Încarcă automat subtitlurile text"
 
 #: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:1
 msgid "Video Disc Recorder"
@@ -1403,11 +1403,11 @@ msgstr ""
 
 #: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:1
 msgid "Subtitle Downloader"
-msgstr "Descărcare subtitrări"
+msgstr "Descărcător de subtitluri"
 
 #: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:2
 msgid "Look for subtitles for the currently playing movie"
-msgstr "Caută subtitrări pentru filmul ce rulează acum"
+msgstr "Caută subtitluri pentru filmul ce rulează acum"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:46
 msgid "Brazilian Portuguese"
@@ -1415,12 +1415,12 @@ msgstr "Portugheză braziliană"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:182
 msgid "Searching for subtitles…"
-msgstr "Se caută subtitrările…"
+msgstr "Se caută subtitluri…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:230
 #: ../src/plugins/opensubtitles/opensubtitles.py:612
 msgid "Downloading the subtitles…"
-msgstr "Se descarcă subtitrările…"
+msgstr "Se descarcă subtitlurile…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:295
 msgid "Could not contact the OpenSubtitles website"
@@ -1437,7 +1437,7 @@ msgstr "Niciun rezultat găsit."
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:477
 msgid "Subtitles"
-msgstr "Subtitrări"
+msgstr "Subtitluri"
 
 #. translators comment:
 #. This is the file-type of the subtitle file detected
@@ -1453,31 +1453,31 @@ msgstr "Aprecieri"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:529
 msgid "_Download Movie Subtitles…"
-msgstr "_Descarcă subtitrări pentru filme…"
+msgstr "_Descarcă subtitluri pentru filme…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:569
 msgid "Searching subtitles…"
-msgstr "Se caută subtitrările…"
+msgstr "Se caută subtitlurile…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:1
 msgid "Download Movie Subtitles"
-msgstr "Descarcă subtitrările pentru filme"
+msgstr "Descarcă subtitluri pentru filme"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:2
 msgid "Subtitle _language:"
-msgstr "_Limba subtitrării:"
+msgstr "_Limba subtitlurilor:"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:3
 msgid "_Play with Subtitle"
-msgstr "_Redă cu subtitrarea"
+msgstr "_Redă cu subtitlurile"
 
 #: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:1
 msgid "Subtitle language"
-msgstr "Limba subtitrării"
+msgstr "Limba subtitlurilor"
 
 #: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:2
 msgid "The language to search for subtitles for movies in."
-msgstr "Limba în care se vor căuta subtitrările pentru filme."
+msgstr "Limba în care se vor căuta subtitlurile pentru filme."
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:1
 msgid "Movie Properties"
