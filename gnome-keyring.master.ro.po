@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../daemon/dbus/gkd-secret-change.c:142 ../daemon/dbus/gkd-secret-create.c:94
 msgid "Store passwords unencrypted?"
-msgstr "Stochează parole necriptate?"
+msgstr "Stocați parolele în mod necriptat?"
 
 #: ../daemon/dbus/gkd-secret-change.c:144 ../daemon/dbus/gkd-secret-create.c:96
 msgid ""
@@ -167,7 +167,7 @@ msgstr "se așteaptă urmare a blocării (deținută de %d%s) %s...\n"
 
 #: ../egg/dotlock.c:1085
 msgid "(deadlock?) "
-msgstr "(punct mort?)"
+msgstr "(impas?)"
 
 #: ../egg/dotlock.c:1124
 #, c-format
