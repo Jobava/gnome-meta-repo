@@ -851,13 +851,13 @@ msgstr "Caută"
 #. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
 #: ../src/totem-menu.c:419
 msgid "None"
-msgstr "Niciuna"
+msgstr "Fără"
 
 #. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
 #: ../src/totem-menu.c:423
 msgctxt "Language"
 msgid "Auto"
-msgstr "Automată"
+msgstr "Automat"
 
 #: ../src/totem-object.c:1422 ../src/totem-options.c:51
 msgid "Pause"
@@ -1453,7 +1453,7 @@ msgstr "Aprecieri"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:529
 msgid "_Download Movie Subtitles…"
-msgstr "_Descarcă subtitluri pentru filme…"
+msgstr "_Descarcă subtitluri pentru film…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:569
 msgid "Searching subtitles…"
@@ -1461,7 +1461,7 @@ msgstr "Se caută subtitlurile…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:1
 msgid "Download Movie Subtitles"
-msgstr "Descarcă subtitluri pentru filme"
+msgstr "Descarcă subtitluri pentru film"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:2
 msgid "Subtitle _language:"
@@ -1477,7 +1477,7 @@ msgstr "Limba subtitlurilor"
 
 #: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:2
 msgid "The language to search for subtitles for movies in."
-msgstr "Limba în care se vor căuta subtitlurile pentru filme."
+msgstr "Limba în care se vor căuta subtitlurile pentru film."
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:1
 msgid "Movie Properties"
