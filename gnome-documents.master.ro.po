@@ -28,7 +28,7 @@ msgstr "Cărți"
 
 #: ../data/org.gnome.Books.appdata.xml.in.h:2
 msgid "An e-book manager application for GNOME"
-msgstr "Un gestionar de documente pentru GNOME"
+msgstr "Un gestionar de cărți electronice pentru GNOME"
 
 #: ../data/org.gnome.Books.appdata.xml.in.h:3
 msgid ""
@@ -37,9 +37,9 @@ msgid ""
 "deal with e-books."
 msgstr ""
 "O aplicație simplă care vă permite să accesați, organizați și să partajați "
-"documentele dumneavoastră în mediul GNOME. Se dorește a fi un înlocuitor "
-"simplu și elegant pentru un gestionar de fișiere, în lucrul cu "
-"documentele. Oferă integrare cloud perfectă prin Conturi Online GNOME."
+"cărțile electronice în mediul GNOME. Se dorește a fi un înlocuitor "
+"simplu și elegant pentru utilizarea unui gestionar de fișiere în lucrul cu "
+"cărțile electronice. Oferă integrare cloud perfectă prin Conturi Online GNOME."
 
 #: ../data/org.gnome.Books.appdata.xml.in.h:4
 #: ../data/org.gnome.Documents.appdata.xml.in.h:4
@@ -74,7 +74,7 @@ msgstr "Accesați, administrați și partajați documente"
 
 #: ../data/org.gnome.Books.desktop.in.h:3
 msgid "Books;Comics;ePub;PDF;"
-msgstr "Books;Comics;ePub;PDF;"
+msgstr "Books;Comics;ePub;PDF;Carte;Cărți;Benzi desenate;"
 
 #: ../data/org.gnome.books.gschema.xml.h:1
 #: ../data/org.gnome.documents.gschema.xml.h:1
@@ -124,7 +124,7 @@ msgstr "Modul noapte"
 #: ../data/org.gnome.books.gschema.xml.h:10
 #: ../data/org.gnome.documents.gschema.xml.h:12
 msgid "Whether the application is in night mode."
-msgstr "Dacă aplicația este sau nu în modul noapte"
+msgstr "Dacă aplicația este sau nu în modul noapte."
 
 #: ../data/org.gnome.Documents.appdata.xml.in.h:1
 #: ../data/org.gnome.Documents.desktop.in.h:1 ../src/application.js:117
@@ -260,11 +260,11 @@ msgstr "Prezintă"
 
 #: ../data/ui/preview-menu.ui.h:5
 msgid "Zoom In"
-msgstr "Mărește"
+msgstr "Apropie"
 
 #: ../data/ui/preview-menu.ui.h:6
 msgid "Zoom Out"
-msgstr "Micșorează"
+msgstr "Depărtează"
 
 #: ../data/ui/preview-menu.ui.h:7
 msgid "Rotate ↶"
@@ -367,7 +367,7 @@ msgstr "Nu s-a putut localiza acest document."
 #: ../src/documents.js:1299
 #, javascript-format
 msgid "Hmm, something is fishy (%d)."
-msgstr "Ceva nu e în regulă (%d)."
+msgstr "Ceva nu este în regulă (%d)."
 
 #: ../src/documents.js:1306
 msgid ""
