@@ -8,14 +8,15 @@
 # Dobre Alin <dobre.inter@gmail.com>, 2010.
 # Dobre Alin <dobre.inter@yahoo.com>, 2010.
 # Alexandru Florescu <show_some_originality@yahoo.com>, 2011.
+# Jobava <jobaval10n@gmail.com), 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: cheese\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=cheese&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-09 16:15+0000\n"
-"PO-Revision-Date: 2011-03-17 17:36+0200\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"PO-Revision-Date: 2015-11-09 19:00+0200\n"
+"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -30,40 +31,32 @@ msgid "Photo mode"
 msgstr "Mod foto"
 
 #: ../data/cheese-main-window.ui.h:2
-#, fuzzy
-#| msgid "_Photo"
 msgid "Photo"
-msgstr "_Fotografii"
+msgstr "Foto"
 
 #: ../data/cheese-main-window.ui.h:3
 msgid "Video mode"
 msgstr "Mod video"
 
 #: ../data/cheese-main-window.ui.h:4
-#, fuzzy
-#| msgid "_Video"
 msgid "Video"
-msgstr "_Video"
+msgstr "Video"
 
 #: ../data/cheese-main-window.ui.h:5
 msgid "Photo burst mode"
-msgstr "Mod foto rafală"
+msgstr "Mod foto în rafală"
 
 #: ../data/cheese-main-window.ui.h:6
-#, fuzzy
-#| msgid "_Burst"
 msgid "Burst"
-msgstr "_Rafală"
+msgstr "Rafală"
 
 #: ../data/cheese-main-window.ui.h:7 ../src/cheese-window.vala:1321
-#, fuzzy
-#| msgid "Take a photo"
 msgid "Take a photo using a webcam"
-msgstr "Fă o fotografie"
+msgstr "Fă o poză cu camera web"
 
 #: ../data/cheese-main-window.ui.h:8
 msgid "Navigate to the previous page of effects"
-msgstr ""
+msgstr "Navighează la pagina anterioară a efectelor"
 
 #: ../data/cheese-main-window.ui.h:9
 msgid "Effects"
@@ -75,11 +68,11 @@ msgstr "_Efecte"
 
 #: ../data/cheese-main-window.ui.h:11
 msgid "Navigate to the next page of effects"
-msgstr ""
+msgstr "Navighează la pagina următoare a efectelor"
 
 #: ../data/cheese-main-window.ui.h:12
 msgid "Leave fullscreen mode and go back to windowed mode"
-msgstr ""
+msgstr "Părăsește modul „tot ecranul” și revino la modul „fereastră”"
 
 #: ../data/cheese-prefs.ui.h:1
 msgid "Preferences"
@@ -91,7 +84,7 @@ msgstr "_Ajutor"
 
 #: ../data/cheese-prefs.ui.h:3
 msgid "_Close"
-msgstr ""
+msgstr "În_chide"
 
 #: ../data/cheese-prefs.ui.h:4
 msgid "Device"
@@ -99,7 +92,7 @@ msgstr "Dispozitiv"
 
 #: ../data/cheese-prefs.ui.h:5
 msgid "Photo resolution"
-msgstr "Rezoluție fotografii"
+msgstr "Rezoluție fotografică"
 
 #: ../data/cheese-prefs.ui.h:6
 msgid "Video resolution"
@@ -127,11 +120,9 @@ msgstr "Contrast"
 
 #: ../data/cheese-prefs.ui.h:12
 msgid "Image"
-msgstr ""
+msgstr "Imagine"
 
 #: ../data/cheese-prefs.ui.h:13
-#, fuzzy
-#| msgid "Shutter sound"
 msgid "Shutter"
 msgstr "Sunet obturator"
 
@@ -140,8 +131,6 @@ msgid "_Countdown"
 msgstr "_Cronomentru"
 
 #: ../data/cheese-prefs.ui.h:15
-#, fuzzy
-#| msgid "Fire _Flash"
 msgid "Fire _flash"
 msgstr "Declanșează _blițul"
 
@@ -151,34 +140,28 @@ msgstr "Mod rafală"
 
 #: ../data/cheese-prefs.ui.h:17
 msgid "Number of photos"
-msgstr "Număr fotografii"
+msgstr "Număr de poze"
 
 #: ../data/cheese-prefs.ui.h:18
 msgid "Delay between photos (seconds)"
-msgstr "Întârziere între fotografii (secunde)"
+msgstr "Întârziere între poze (secunde)"
 
 #: ../data/cheese-prefs.ui.h:19
 msgid "Capture"
-msgstr ""
+msgstr "Captură"
 
 #: ../data/headerbar.ui.h:1 ../libcheese/cheese-avatar-chooser.c:85
 #: ../src/cheese-window.vala:1350
-#, fuzzy
-#| msgid "_Take a Photo"
 msgid "Take a Photo"
-msgstr "Fă o fo_tografie"
+msgstr "Fă o poză"
 
 #: ../data/menus.ui.h:1
-#, fuzzy
-#| msgid "Fullscreen"
 msgid "_Fullscreen"
 msgstr "Pe tot ecranul"
 
 #: ../data/menus.ui.h:2
-#, fuzzy
-#| msgid "Preferences"
 msgid "P_references"
-msgstr "Preferințe"
+msgstr "P_referințe"
 
 #: ../data/menus.ui.h:4
 msgid "_About"
@@ -189,10 +172,8 @@ msgid "_Quit"
 msgstr "_Ieșire"
 
 #: ../data/menus.ui.h:6
-#, fuzzy
-#| msgid "_Open"
 msgid "Open"
-msgstr "_Deschide"
+msgstr "Deschide"
 
 #: ../data/menus.ui.h:7
 msgid "Save _As…"
@@ -203,10 +184,8 @@ msgid "Move to _Trash"
 msgstr "Mu_tă la coșul de gunoi"
 
 #: ../data/menus.ui.h:9
-#, fuzzy
-#| msgid "_Delete"
 msgid "Delete"
-msgstr "Șter_ge"
+msgstr "Șterge"
 
 #. Both taken from the desktop file.
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:2
@@ -219,20 +198,23 @@ msgstr "Cheese"
 #: ../data/org.gnome.Cheese.desktop.in.in.h:4
 #: ../src/cheese-application.vala:538
 msgid "Take photos and videos with your webcam, with fun graphical effects"
-msgstr ""
-"Faceți fotografii și filme cu camera web, folosind efect grafice nostime"
+msgstr "Faceți poze și filme cu camera web, folosind efect grafice nostime"
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:4
 msgid ""
 "Cheese uses your webcam to take photos and videos, applies fancy special "
 "effects and lets you share the fun with others."
 msgstr ""
+"Cheese utilizează camera web pentru a face poze și videouri, aplică efecte "
+"speciale extravagante și vă permite să împărtășiți distracția cu alții."
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:5
 msgid ""
 "Take multiple photos in quick succession with burst mode. Use the countdown "
 "to give yourself time to strike a pose, and wait for the flash!"
 msgstr ""
+"Realizați mai multe poze în succesiune rapidă cu modul „rafală”. Folosiți "
+"temporizarea pentru a asuma o postură nostimă și așteptați blițul!"
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:6
 msgid ""
@@ -240,10 +222,11 @@ msgid ""
 "videos. With Cheese it is easy to take photos of you, your friends, pets or "
 "whatever you want and share them with others."
 msgstr ""
+"Sub capotă, Cheese utilizează GStreamer pentru a aplica efecte extravagante po"
+"zelor și videourilor. Cu Cheese este ușor de făcut fotografii ale dumneavoastr"
+"ă, prietenilor, animalelor de companie sau a orice doriți să împărtășiți cu alții."
 
 #: ../data/org.gnome.Cheese.desktop.in.in.h:2
-#, fuzzy
-#| msgid "Cheese Webcam Booth"
 msgid "Webcam Booth"
 msgstr "Cabina camerei web Cheese"
 
@@ -253,161 +236,142 @@ msgstr "Cabina camerei web Cheese"
 
 #: ../data/org.gnome.Cheese.desktop.in.in.h:5
 msgid "photo;video;webcam;"
-msgstr ""
+msgstr "photo;video;webcam;foto;cameră web;poze;"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:1
-#, fuzzy
-#| msgid "_Countdown"
 msgid "Use a countdown"
-msgstr "_Cronomentru"
+msgstr "Utilizează un cronometru"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:2
 msgid "Set to true to show a countdown before taking a photo"
-msgstr ""
+msgstr "Bifați pentru a temporiza înainte de a face o poză"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:3
-#, fuzzy
-#| msgid "_Countdown"
 msgid "Countdown length"
-msgstr "_Cronomentru"
+msgstr "Durata temporizării"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:4
 msgid "The duration of the countdown before taking a photo, in seconds"
-msgstr ""
+msgstr "Durata temporizării înainte de a face o poză, în secunde"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:5
 msgid "Fire flash before taking a photo"
-msgstr ""
+msgstr "Declanșează blițul înainte de a face o poză"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:6
 msgid "Set to true to fire a flash before taking a photo"
-msgstr ""
+msgstr "Bifați pentru a declanșa blițul înainte de a face o poză"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:7
 msgid "Camera device string indicator"
-msgstr ""
+msgstr "Calea de dispozitiv asociată camerei"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:8
 msgid ""
 "The path to the device node which points to the camera, for example /dev/"
 "video0"
 msgstr ""
+"Calea către nodul de dispozitiv al camerei, de exemplu /dev/video0"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:9
 msgid "Last selected effect"
-msgstr ""
+msgstr "Ultimul efect selectat"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:10
 msgid "Name of the installed effect that was selected last"
-msgstr ""
+msgstr "Numele efectului instalat ce a fost selectat ultima dată"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:11
-#, fuzzy
-#| msgid "Photo mode"
 msgid "Photo width"
-msgstr "Mod foto"
+msgstr "Lățime foto"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:12
 msgid "The width of the image captured from the camera, in pixels"
-msgstr ""
+msgstr "Lățimea imaginii capturate de la cameră, în pixeli"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:13
-#, fuzzy
-#| msgid "Photo mode"
 msgid "Photo height"
-msgstr "Mod foto"
+msgstr "Înălțime foto"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:14
 msgid "The height of the image captured from the camera, in pixels"
-msgstr ""
+msgstr "Înălțimea imaginii capturate de la cameră, în pixeli"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:15
-#, fuzzy
-#| msgid "Video mode"
 msgid "Video width"
-msgstr "Mod video"
+msgstr "Lățime video"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:16
 msgid "The width of the video captured from the camera, in pixels"
-msgstr ""
+msgstr "Lățimea videoului capturat de la cameră, în pixeli"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:17
-#, fuzzy
-#| msgid "Video mode"
 msgid "Video height"
-msgstr "Mod video"
+msgstr "Înălțime video"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:18
 msgid "The height of the video captured from the camera, in pixels"
-msgstr ""
+msgstr "Înălțimea videoului capturat de la cameră, în pixeli"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:19
-#, fuzzy
-#| msgid "Brightness"
 msgid "Image brightness"
-msgstr "Luminozitate"
+msgstr "Luminozitate imagine"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:20
 msgid "Adjusts the brightness of the image coming from the camera"
-msgstr ""
+msgstr "Ajustează luminozitatea imaginii provenită de la cameră"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:21
-#, fuzzy
-#| msgid "Contrast"
 msgid "Image contrast"
-msgstr "Contrast"
+msgstr "Contrast imagine"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:22
 msgid "Adjusts the contrast of the image coming from the camera"
-msgstr ""
+msgstr "Ajustează contrastul imaginii provenită de la cameră"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:23
-#, fuzzy
-#| msgid "Saturation"
 msgid "Image saturation"
-msgstr "Saturație"
+msgstr "Saturație imagine"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:24
 msgid "Adjusts the saturation of the image coming from the camera"
-msgstr ""
+msgstr "Ajustează saturația imaginii provenită de la cameră"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:25
 msgid "Image hue"
-msgstr ""
+msgstr "Nuanță imagine"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:26
 msgid "Adjusts the hue (color tint) of the image coming from the camera"
-msgstr ""
+msgstr "Ajustează nuanța (tenta de culoare) a imaginii provenită de la cameră"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:27
-#, fuzzy
-#| msgid "_Video"
 msgid "Video path"
-msgstr "_Video"
+msgstr "Cale video"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:28
 msgid ""
 "Defines the path where the videos are stored. If empty, \"XDG_VIDEO/Webcam\" "
 "will be used."
 msgstr ""
+"Definește calea unde sunt stocate videourile. Dacă este nulă, va fi folosită "
+"„XDG_VIDEO/Webcam”."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:29
-#, fuzzy
-#| msgid "_Photo"
 msgid "Photo path"
-msgstr "_Fotografii"
+msgstr "Cale fotografii"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:30
 msgid ""
 "Defines the path where the photos are stored. If empty, \"XDG_PHOTO/Webcam\" "
 "will be used."
 msgstr ""
+"Definește calea unde sunt stocate videourile. Dacă este nulă, va fi folosită "
+"„XDG_PHOTO/Webcam”."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:31
-#, fuzzy
-#| msgid "Delay between photos (seconds)"
 msgid "Time between photos in burst mode"
-msgstr "Întârziere între fotografii (secunde)"
+msgstr "Durata de timp între poze în modul rafală"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:32
 msgid ""
@@ -415,44 +379,43 @@ msgid ""
 "burst sequence of photos. If the burst delay is less than the countdown "
 "duration, the countdown duration will be used instead."
 msgstr ""
+"Durata de timp, în milisecunde a întârzierii dintre fiecare poză pentru o secv"
+"ență în rafală de poze. Dacă întârzierea este mai mică decât durata "
+"temporizării, atunci va fi folosită durata temporizării în loc."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:33
-#, fuzzy
-#| msgid "Number of photos"
 msgid "Number of photos in burst mode"
-msgstr "Număr fotografii"
+msgstr "Număr de poze în modul rafală"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:34
 msgid "The number of photos to take in a single burst."
-msgstr ""
+msgstr "Numărul de poze de luat într-o singură rafală."
 
 #: ../libcheese/cheese-avatar-chooser.c:80 ../src/cheese-window.vala:264
 #: ../src/cheese-window.vala:293 ../src/cheese-window.vala:368
 msgid "_Cancel"
-msgstr ""
+msgstr "_Renunță"
 
 #: ../libcheese/cheese-avatar-chooser.c:82
 msgid "_Select"
-msgstr ""
+msgstr "_Alege"
 
 #: ../libcheese/cheese-avatar-widget.c:128 ../src/cheese-window.vala:692
 msgid "Shutter sound"
 msgstr "Sunet obturator"
 
 #: ../libcheese/cheese-avatar-widget.c:270
-#, fuzzy
-#| msgid "Stop _Taking Pictures"
 msgid "_Take Another Picture"
-msgstr "Oprește fo_tografierea"
+msgstr "Fă o nouă po_ză"
 
 #: ../libcheese/cheese-camera.c:432 ../libcheese/cheese-camera.c:1613
 msgid "One or more needed GStreamer elements are missing: "
-msgstr "Unul sau mai multe elemente GStreamer lipsesc: "
+msgstr "Unul sau mai multe elemente necesare GStreamer lipsesc: "
 
 #: ../libcheese/cheese-camera.c:1555
 #, c-format
 msgid "No device found"
-msgstr "Nu s-a găsit niciun dispozitiv"
+msgstr "Niciun dispozitiv găsit"
 
 #. Translators: This is a time format, like "09:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
@@ -463,7 +426,7 @@ msgstr "Nu s-a găsit niciun dispozitiv"
 #, c-format
 msgctxt "time format"
 msgid "%02i:%02i:%02i"
-msgstr ""
+msgstr "%02i:%02i:%02i"
 
 #: ../libcheese/cheese-camera-device.c:537
 msgid "Device capabilities not supported"
@@ -495,13 +458,11 @@ msgstr "Afișează informații despre versiune și ieși"
 
 #: ../src/cheese-application.vala:60
 msgid "Start in fullscreen mode"
-msgstr "Pornește în modul pe tot ecranul"
+msgstr "Pornește în modul „tot ecranul”"
 
 #: ../src/cheese-application.vala:310
-#, fuzzy
-#| msgid "Webcam"
 msgid "Webcam in use"
-msgstr "Cameră web"
+msgstr "Cameră web în uz"
 
 #: ../src/cheese-application.vala:544
 msgid "translator-credits"
@@ -511,11 +472,12 @@ msgstr ""
 "  Adi Roiban https://launchpad.net/~adiroiban\n"
 "  Dan Telecan https://launchpad.net/~telecan-dan\n"
 "  Daniel Șerbănescu https://launchpad.net/~serbanescu.daniel\n"
-"  Radu M. Ilea https://launchpad.net/~ilearadumircea"
+"  Radu M. Ilea https://launchpad.net/~ilearadumircea\n"
+"  Jobava https://github.com/Jobava"
 
 #: ../src/cheese-application.vala:546
 msgid "Cheese Website"
-msgstr "Pagina web Cheese"
+msgstr "Saitul web Cheese"
 
 #. Translators: a description of an effect (to be applied to images
 #. *              from the webcam) which does nothing.
@@ -526,15 +488,15 @@ msgstr "Niciun efect"
 #: ../src/cheese-window.vala:236
 #, c-format
 msgid "Could not open %s"
-msgstr ""
+msgstr "Nu s-a putut deschide %s"
 
 #: ../src/cheese-window.vala:261
 #, c-format
 msgid "Are you sure you want to permanently delete the file?"
 msgid_plural "Are you sure you want to permanently delete %d files?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Sigur doriți să ștergeți permanent fișierul?"
+msgstr[1] "Sigur doriți să ștergeți permanent %d fișiere?"
+msgstr[2] "Sigur doriți să ștergeți permanent %d de fișiere?"
 
 #: ../src/cheese-window.vala:265
 msgid "_Delete"
@@ -543,47 +505,45 @@ msgstr "Șter_ge"
 #: ../src/cheese-window.vala:267
 msgid "If you delete an item, it will be permanently lost"
 msgid_plural "If you delete the items, they will be permanently lost"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Dacă ștergeți un element, acesta va fi pierdut permanent"
+msgstr[1] "Dacă ștergeți elementele, acestea vor fi pierdute permanent"
+msgstr[2] "Dacă ștergeți elementele, acestea vor fi pierdute permanent"
 
 #: ../src/cheese-window.vala:291
 #, c-format
 msgid "Could not delete %s"
-msgstr ""
+msgstr "Nu s-a putut șterge %s"
 
 #: ../src/cheese-window.vala:294
 msgid "Skip"
-msgstr ""
+msgstr "Omite"
 
 #: ../src/cheese-window.vala:295
 msgid "Skip all"
-msgstr ""
+msgstr "Omite toate"
 
 #: ../src/cheese-window.vala:340
 #, c-format
 msgid "Could not move %s to trash"
-msgstr ""
+msgstr "Nu s-a putut muta %s în gunoi"
 
 #. Nothing selected.
 #: ../src/cheese-window.vala:365
 msgid "Save File"
-msgstr ""
+msgstr "Salvează fișierul"
 
 #: ../src/cheese-window.vala:369
 msgid "Save"
-msgstr ""
+msgstr "Salvează"
 
 #: ../src/cheese-window.vala:399
 #, c-format
 msgid "Could not save %s"
-msgstr ""
+msgstr "Nu s-a putut salva %s"
 
 #: ../src/cheese-window.vala:820
-#, fuzzy
-#| msgid "Stop _Recording"
 msgid "Stop recording"
-msgstr "Oprește în_registrarea"
+msgstr "Oprește înregistrarea"
 
 #: ../src/cheese-window.vala:835
 msgid "Record a video"
@@ -591,52 +551,40 @@ msgstr "Înregistrează un video"
 
 #. FIXME: Set the effects action to be inactive.
 #: ../src/cheese-window.vala:870
-#, fuzzy
-#| msgid "Stop _Taking Pictures"
 msgid "Stop taking pictures"
-msgstr "Oprește fo_tografierea"
+msgstr "Oprește fotografierea"
 
 #: ../src/cheese-window.vala:893
 msgid "Take multiple photos"
-msgstr "Fă mai multe fotografii"
+msgstr "Fă poze multiple"
 
 #: ../src/cheese-window.vala:1087
 msgid "No effects found"
-msgstr "Nu s-a găsit niciun efect"
+msgstr "Niciun efect găsit"
 
 #: ../src/cheese-window.vala:1211
 msgid "There was an error playing video from the webcam"
-msgstr ""
+msgstr "S-a produs o eroare în redarea video de la camera web"
 
 #: ../src/cheese-window.vala:1325
-#, fuzzy
-#| msgid "Record a video"
 msgid "Record a video using a webcam"
-msgstr "Înregistrează un video"
+msgstr "Înregistrează un video folosind camera web"
 
 #: ../src/cheese-window.vala:1331
-#, fuzzy
-#| msgid "Take multiple photos"
 msgid "Take multiple photos using a webcam"
-msgstr "Fă mai multe fotografii"
+msgstr "Realizează mai multe poze folosind o cameră web"
 
 #: ../src/cheese-window.vala:1343
-#, fuzzy
-#| msgid "No Effect"
 msgid "Choose an Effect"
-msgstr "Niciun efect"
+msgstr "Alegeți un efect"
 
 #: ../src/cheese-window.vala:1354
-#, fuzzy
-#| msgid "_Record a Video"
 msgid "Record a Video"
-msgstr "În_registrează un video"
+msgstr "Înregistrează un video"
 
 #: ../src/cheese-window.vala:1358
-#, fuzzy
-#| msgid "Take _Multiple Photos"
 msgid "Take Multiple Photos"
-msgstr "Fă mai _multe fotografii"
+msgstr "Fă mai multe poze"
 
 #~ msgid ""
 #~ "This program is free software; you can redistribute it and/or modify it "
