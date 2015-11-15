@@ -20,26 +20,24 @@ msgstr ""
 "X-Generator: Virtaal 0.6.1\n"
 
 #: ../orca.desktop.in.h:1
-#, fuzzy
-#| msgid "Screen Reader and Magnifier"
 msgid "Screen Reader"
-msgstr "Cititorul și lupa de ecran"
+msgstr "Cititor de ecran"
 
 #: ../orca.desktop.in.h:2
-#, fuzzy
-#| msgid "Orca Screen Reader / Magnifier"
 msgid "Orca Screen Reader"
-msgstr "Cititorul de ecran / lupa Orca"
+msgstr "Cititorul de ecran Orca"
 
 #: ../orca.desktop.in.h:3
 msgid ""
 "Provide access to graphical desktop environments via synthesized speech and/"
 "or refreshable braille"
 msgstr ""
+"Oferă acces la mediile desktop grafice prin intermediul vocii sintetizate și/"
+"sau braille reîmprospătabil"
 
 #: ../orca.desktop.in.h:4
 msgid "screen reader;speech;braille;"
-msgstr ""
+msgstr "screen reader;speech;braille;cititor de ecran;vorbire;"
 
 #. Translators: short braille for the rolename of an invalid GUI object.
 #. We strive to keep it under three characters to preserve real estate.
@@ -607,10 +605,8 @@ msgstr ""
 #. Translators: These is the name of a braille translation table. To learn more
 #. about braille translation tables, see http://en.wikipedia.org/wiki/Braille.
 #: ../src/orca/brltablenames.py:148
-#, fuzzy
-#| msgid "Latvian Grade 1"
 msgid "Hungarian Grade 1"
-msgstr "Letonă gradul 1"
+msgstr "Maghiară gradul 1"
 
 #. Translators: These is the name of a braille translation table. To learn more
 #. about braille translation tables, see http://en.wikipedia.org/wiki/Braille.
@@ -1531,10 +1527,8 @@ msgstr "secund"
 #. Translators: this is the spoken word for the character '‴' (U+2034)
 #.
 #: ../src/orca/chnames.py:632
-#, fuzzy
-#| msgid "double prime"
 msgid "triple prime"
-msgstr "secund"
+msgstr "triplu prim"
 
 #. Translators: this is the spoken word for the character '⁃' (U+2043)
 #.
@@ -1776,10 +1770,8 @@ msgstr "diamant negru"
 #. * http://en.wikipedia.org/wiki/Specials_(Unicode_block)
 #.
 #: ../src/orca/chnames.py:801
-#, fuzzy
-#| msgid "Goes to next character."
 msgid "object replacement character"
-msgstr "Sare la caracterul următor."
+msgstr "caracter de înlocuire obiect"
 
 #. Translators: this command will move the mouse pointer to the current item
 #. without clicking on it.
@@ -1846,10 +1838,8 @@ msgstr "Pronunță bara de titlu."
 #. window and then move focus to that text. For example, they may want to find
 #. the "OK" button.
 #: ../src/orca/cmdnames.py:83
-#, fuzzy
-#| msgid "Opens the Orca Find dialog."
 msgid "Opens the Find dialog."
-msgstr "Deschide fereastra Orca de căutare."
+msgstr "Deschide dialogul de căutare"
 
 #. Translators: the Orca "Find" dialog allows a user to search for text in a
 #. window and then move focus to that text. For example, they may want to find
@@ -2120,10 +2110,8 @@ msgstr "Mută prezentarea plată la bază în stânga."
 #. This command lets the user copy the contents currently being reviewed to the
 #. clipboard.
 #: ../src/orca/cmdnames.py:304
-#, fuzzy
-#| msgid "Speaks the current flat review item or word."
 msgid "Copies the contents under flat review to the clipboard."
-msgstr "Pronunță elementul sau cuvântul curent din prezentarea plată."
+msgstr "Copiază conținutul din prezentarea plată pe clipboard."
 
 #. Translators: the 'flat review' feature of Orca allows the blind user to
 #. explore the text in a window in a 2D fashion.  That is, Orca treats all
@@ -2133,10 +2121,8 @@ msgstr "Pronunță elementul sau cuvântul curent din prezentarea plată."
 #. This command lets the user append the contents currently being reviewed to
 #. the existing contents of the clipboard.
 #: ../src/orca/cmdnames.py:314
-#, fuzzy
-#| msgid "Speaks the current flat review item or word."
 msgid "Appends the contents under flat review to the clipboard."
-msgstr "Pronunță elementul sau cuvântul curent din prezentarea plată."
+msgstr "Adaugă conținutul din prezentarea plată la clipboard."
 
 #. Translators: when users are navigating a table, they sometimes want the
 #. entire row of a table read; other times they just want the current cell
@@ -2244,18 +2230,14 @@ msgstr "Mărește înălțimea sunetelor."
 #. Translators: the speech volume is how high or low in gain/volume the
 #. speech synthesis engine will generate speech.
 #: ../src/orca/cmdnames.py:393
-#, fuzzy
-#| msgid "Increases the speech rate."
 msgid "Increases the speech volume."
-msgstr "Mărește viteza vorbirii."
+msgstr "Mărește volumul vorbirii."
 
 #. Translators: the speech volume is how high or low in gain/volume the
 #. speech synthesis engine will generate speech.
 #: ../src/orca/cmdnames.py:397
-#, fuzzy
-#| msgid "Decreases the speech rate."
 msgid "Decreases the speech volume."
-msgstr "Micșorează viteza vorbirii."
+msgstr "Micșorează volumul vorbirii."
 
 #. Translators: Orca allows the user to turn speech synthesis on or off.
 #. We call it 'silencing'.
@@ -2269,13 +2251,13 @@ msgstr "Comută activarea citirii."
 #. This string describes that command.
 #: ../src/orca/cmdnames.py:407
 msgid "Toggles speech verbosity level."
-msgstr ""
+msgstr "Comută nivelul de verbozitate al vorbirii."
 
 #. Translators: this string is associated with the keyboard shortcut to quit
 #. Orca.
 #: ../src/orca/cmdnames.py:411
 msgid "Quits the screen reader"
-msgstr ""
+msgstr "Părăsește cititorul de ecran"
 
 #. Translators: the preferences configuration dialog is the dialog that allows
 #. users to set their preferences for Orca.
@@ -2316,10 +2298,8 @@ msgstr "Comută către următorul nivel de pronunțare a punctuației."
 #. to an Orca command which makes it possible for users to quickly cycle amongst
 #. their saved profiles without having to get into a GUI.
 #: ../src/orca/cmdnames.py:443
-#, fuzzy
-#| msgid "Cycles to the next speaking of punctuation level."
 msgid "Cycles to the next settings profile."
-msgstr "Comută către următorul nivel de pronunțare a punctuației."
+msgstr "Comută către următorul profil de configurări."
 
 #. Translators: Orca uses Speech Dispatcher to present content to users via text-
 #. to-speech. Speech Dispatcher has a feature to control how capital letters are
@@ -2329,10 +2309,8 @@ msgstr "Comută către următorul nivel de pronunțare a punctuației."
 #. possible for users to quickly cycle amongst these alternatives without having
 #. to get into a GUI.
 #: ../src/orca/cmdnames.py:452
-#, fuzzy
-#| msgid "Cycles to the next speaking of punctuation level."
 msgid "Cycles to the next capitalization style."
-msgstr "Comută către următorul nivel de pronunțare a punctuației."
+msgstr "Comută stilul de literă mare sau mică."
 
 #. Translators: Orca has an "echo" setting which allows the user to configure
 #. what is spoken in response to a key press. Given a user who typed "Hello
@@ -2512,10 +2490,8 @@ msgstr "Stânga sus"
 #. (an external hardware device used by people who are blind). When pressing the
 #. button, the display scrolls to the bottom left of the window.
 #: ../src/orca/cmdnames.py:590
-#, fuzzy
-#| msgid "Bottom Half"
 msgid "Bottom Left"
-msgstr "Jumătatea inferioară"
+msgstr "Jumătatea din stânga"
 
 #. Translators: this is a command for a button on a refreshable braille display
 #. (an external hardware device used by people who are blind). When pressing the
@@ -2647,10 +2623,8 @@ msgstr "Cauzează expandarea listei de selecție curente."
 #. often broken, so Orca needs to provide its own support. As such, Orca offers
 #. the user the ability to toggle which application is controlling the caret.
 #: ../src/orca/cmdnames.py:681
-#, fuzzy
-#| msgid "Switches between Gecko native and Orca caret navigation."
 msgid "Switches between native and screen-reader caret navigation."
-msgstr "Comută între modul de navigare cu cursor nativ Gecko și cel din Orca."
+msgstr "Comută între modul de navigare nativ și cu cursor din cititorul de ecran."
 
 #. Translators: A live region is an area of a web page that is periodically
 #. updated, e.g. stock ticker. http://www.w3.org/TR/wai-aria/terms#def_liveregion
@@ -2709,13 +2683,8 @@ msgstr "Mută focalizarea în și în afara obiectului de sub maus."
 #. or table should be treated as containing column headers. This string refers to
 #. the command to set the row.
 #: ../src/orca/cmdnames.py:729
-#, fuzzy
-#| msgid ""
-#| "Set the row to use as dynamic column headers when speaking calc cells."
 msgid "Set the row to use as dynamic column headers."
-msgstr ""
-"Definește un rând ce va fi folosit drept antet dinamic de coloană când vor "
-"fi pronunțate celulele tabelului."
+msgstr "Stabilește un rând ce va fi folosit drept antet dinamic de coloană."
 
 #. Translators: Orca allows you to dynamically define which row of a spreadsheet
 #. or table should be treated as containing column headers. This string refers to
@@ -2729,14 +2698,8 @@ msgstr "Curăță antetul dinamic de coloană."
 #. spreadsheet or table should be treated as containing row headers. This
 #. string refers to the command to set the column.
 #: ../src/orca/cmdnames.py:740
-#, fuzzy
-#| msgid ""
-#| "Set the column to use as dynamic row headers to use when speaking calc "
-#| "cells."
 msgid "Set the column to use as dynamic row headers."
-msgstr ""
-"Definește o coloană ce va fi folosită drept antet dinamic de rând când vor "
-"fi pronunțate celulele tabelului."
+msgstr "Stabilește coloana ce va fi folosită drept antet dinamic de rând."
 
 #. Translators: Orca allows you to dynamically define which column of a
 #. spreadsheet or table should be treated as containing column headers. This
@@ -2764,32 +2727,32 @@ msgstr "Comută tastele de navigare structurală."
 #. Translators: this is for navigating among blockquotes in a document.
 #: ../src/orca/cmdnames.py:760
 msgid "Goes to previous blockquote."
-msgstr "Sari la blocul de citare anterior."
+msgstr "Sare la blocul de citare anterior."
 
 #. Translators: this is for navigating among blockquotes in a document.
 #: ../src/orca/cmdnames.py:763
 msgid "Goes to next blockquote."
-msgstr "Sari la blocul de citare următor."
+msgstr "Sare la blocul de citare următor."
 
 #. Translators: this is for navigating among blockquotes in a document.
 #: ../src/orca/cmdnames.py:766
 msgid "Displays a list of blockquotes."
-msgstr ""
+msgstr "Afișează o listă de citate bloc."
 
 #. Translators: this is for navigating among buttons in a document.
 #: ../src/orca/cmdnames.py:769
 msgid "Goes to previous button."
-msgstr "Sari la butonul anterior."
+msgstr "Sare la butonul anterior."
 
 #. Translators: this is for navigating among buttons in a document.
 #: ../src/orca/cmdnames.py:772
 msgid "Goes to next button."
-msgstr "Sari la butonul următor."
+msgstr "Sare la butonul următor."
 
 #. Translators: this is for navigating among buttons in a document.
 #: ../src/orca/cmdnames.py:775
 msgid "Displays a list of buttons."
-msgstr ""
+msgstr "Afișează o listă de butoane."
 
 #. Translators: this is for navigating among check boxes in a document.
 #: ../src/orca/cmdnames.py:778
@@ -2799,49 +2762,45 @@ msgstr "Sari la căsuța de bifare anterioară."
 #. Translators: this is for navigating among check boxes in a document.
 #: ../src/orca/cmdnames.py:781
 msgid "Goes to next check box."
-msgstr "Sari la căsuța de bifare următoare."
+msgstr "Sare la căsuța de bifare următoare."
 
 #. Translators: this is for navigating among check boxes in a document.
 #: ../src/orca/cmdnames.py:784
 msgid "Displays a list of check boxes."
-msgstr ""
+msgstr "Afișează o listă de căsuțe de bifat."
 
 #. Translators: this is for navigating among clickable objects in a document.
 #. A "clickable" is a web element with an "onClick" handler.
 #: ../src/orca/cmdnames.py:788
-#, fuzzy
-#| msgid "Goes to previous table."
 msgid "Goes to previous clickable."
-msgstr "Sari la tabelul anterior."
+msgstr "Sare la elementul clicabil anterior."
 
 #. Translators: this is for navigating among clickable objects in a document.
 #. A "clickable" is a web element with an "onClick" handler.
 #: ../src/orca/cmdnames.py:792
-#, fuzzy
-#| msgid "Goes to next table."
 msgid "Goes to next clickable."
-msgstr "Sari la tabelul următor."
+msgstr "Sare la elementul clicabil următor."
 
 #. Translators: this is for navigating among clickable objects in a document.
 #. A "clickable" is a web element with an "onClick" handler.
 #: ../src/orca/cmdnames.py:796
 msgid "Displays a list of clickables."
-msgstr ""
+msgstr "Afișează o listă de elemente clicabile."
 
 #. Translators: this is for navigating among combo boxes in a document.
 #: ../src/orca/cmdnames.py:799
 msgid "Goes to previous combo box."
-msgstr "Sari la lista de selecție anterioară."
+msgstr "Sare la lista de selecție anterioară."
 
 #. Translators: this is for navigating among combo boxes in a document.
 #: ../src/orca/cmdnames.py:802
 msgid "Goes to next combo box."
-msgstr "Sari la lista de selecție următoare."
+msgstr "Sare la lista de selecție următoare."
 
 #. Translators: this is for navigating among combo boxes in a document.
 #: ../src/orca/cmdnames.py:805
 msgid "Displays a list of combo boxes."
-msgstr ""
+msgstr "Afișează o listă de liste de selecție."
 
 #. Translators: this is for navigating among entries in a document.
 #: ../src/orca/cmdnames.py:808
@@ -2851,27 +2810,27 @@ msgstr "Sari la înregistrarea anterioară."
 #. Translators: this is for navigating among entries in a document.
 #: ../src/orca/cmdnames.py:811
 msgid "Goes to next entry."
-msgstr "Sari la înregistrarea următoare."
+msgstr "Sare la înregistrarea următoare."
 
 #. Translators: this is for navigating among entries in a document.
 #: ../src/orca/cmdnames.py:814
 msgid "Displays a list of entries."
-msgstr ""
+msgstr "Afișează o listă de înregistrări."
 
 #. Translators: this is for navigating among form fields in a document.
 #: ../src/orca/cmdnames.py:817
 msgid "Goes to previous form field."
-msgstr "Sari la intrarea de formular anterioară."
+msgstr "Sare la intrarea de formular anterioară."
 
 #. Translators: this is for navigating among form fields in a document.
 #: ../src/orca/cmdnames.py:820
 msgid "Goes to next form field."
-msgstr "Sari la intrarea de formular următoare."
+msgstr "Sare la intrarea de formular următoare."
 
 #. Translators: this is for navigating among form fields in a document.
 #: ../src/orca/cmdnames.py:823
 msgid "Displays a list of form fields."
-msgstr ""
+msgstr "Afișează o listă de câmpuri de formular."
 
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #: ../src/orca/cmdnames.py:826
@@ -2881,131 +2840,119 @@ msgstr "Sari la antetul anterior."
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #: ../src/orca/cmdnames.py:829
 msgid "Goes to next heading."
-msgstr "Sari la antetul următor."
+msgstr "Sare la antetul următor."
 
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #: ../src/orca/cmdnames.py:832
 msgid "Displays a list of headings."
-msgstr ""
+msgstr "Afișează o listă de antete."
 
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #. <h1> is a heading at level 1, <h2> is a heading at level 2, etc.
 #: ../src/orca/cmdnames.py:836
 #, python-format
 msgid "Goes to previous heading at level %d."
-msgstr "Sari la antetul anterior de nivel %d."
+msgstr "Sare la antetul anterior de nivel %d."
 
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #. <h1> is a heading at level 1, <h2> is a heading at level 2, etc.
 #: ../src/orca/cmdnames.py:840
 #, python-format
 msgid "Goes to next heading at level %d."
-msgstr "Sari la antetul următor de nivel %d."
+msgstr "Sare la antetul următor de nivel %d."
 
 #. Translators: this is for navigating among headings (e.g. <h1>) in a document.
 #. <h1> is a heading at level 1, <h2> is a heading at level 2, etc.
 #: ../src/orca/cmdnames.py:844
-#, fuzzy, python-format
-#| msgid "No more headings at level %d."
 msgid "Displays a list of headings at level %d."
-msgstr "Nu mai există antete de nivel %d."
+msgstr "Afișează o listă de antete la nivelul %d."
 
 #. Translators: this is for navigating among images in a document.
 #: ../src/orca/cmdnames.py:847
-#, fuzzy
-#| msgid "Goes to previous line."
 msgid "Goes to previous image."
-msgstr "Sare la linia anterioară."
+msgstr "Sare la imaginea anterioară."
 
 #. Translators: this is for navigating among images in a document.
 #: ../src/orca/cmdnames.py:850
-#, fuzzy
-#| msgid "Goes to next line."
 msgid "Goes to next image."
 msgstr "Sare la linia următoare."
 
 #. Translators: this is for navigating among images in a document.
 #: ../src/orca/cmdnames.py:853
 msgid "Displays a list of images."
-msgstr ""
+msgstr "Afișează o listă de imagini."
 
 #. Translators: this is for navigating among ARIA landmarks in a document. ARIA
 #. role landmarks are the W3C defined HTML tag attribute 'role' used to identify
 #. important part of webpage like banners, main context, search etc.
 #: ../src/orca/cmdnames.py:858
 msgid "Goes to previous landmark."
-msgstr "Sari la semnul de carte anterior."
+msgstr "Sare la semnul de carte anterior."
 
 #. Translators: this is for navigating among ARIA landmarks in a document. ARIA
 #. role landmarks are the W3C defined HTML tag attribute 'role' used to identify
 #. important part of webpage like banners, main context, search etc.
 #: ../src/orca/cmdnames.py:863
 msgid "Goes to next landmark."
-msgstr "Sari la semnul de carte următor."
+msgstr "Sare la semnul de carte următor."
 
 #. Translators: this is for navigating among ARIA landmarks in a document. ARIA
 #. role landmarks are the W3C defined HTML tag attribute 'role' used to identify
 #. important part of webpage like banners, main context, search etc.
 #: ../src/orca/cmdnames.py:868
 msgid "Displays a list of landmarks."
-msgstr ""
+msgstr "Afișează o listă de semne de carte."
 
 #. Translators: this is for navigating among large objects in a document.
 #. A 'large object' is a logical chunk of text, such as a paragraph, a list,
 #. a table, etc.
 #: ../src/orca/cmdnames.py:873
 msgid "Goes to previous large object."
-msgstr "Sari la obiectul mare anterior."
+msgstr "Sare la obiectul mare anterior."
 
 #. Translators: this is for navigating among large objects in a document.
 #. A 'large object' is a logical chunk of text, such as a paragraph, a list,
 #. a table, etc.
 #: ../src/orca/cmdnames.py:878
 msgid "Goes to next large object."
-msgstr "Sari la obiectul mare următor."
+msgstr "Sare la obiectul mare următor."
 
 #. Translators: this is for navigating among large objects in a document.
 #. A 'large object' is a logical chunk of text, such as a paragraph, a list,
 #. a table, etc.
 #: ../src/orca/cmdnames.py:883
-#, fuzzy
-#| msgid "No more large objects."
 msgid "Displays a list of large objects."
-msgstr "Nu mai există obiecte mari."
+msgstr "Afișează o listă de obiecte mari."
 
 #. Translators: this is for navigating among links in a document.
 #: ../src/orca/cmdnames.py:886
-#, fuzzy
-#| msgid "Goes to previous line."
 msgid "Goes to previous link."
-msgstr "Sare la linia anterioară."
+msgstr "Sare la legătura anterioară."
 
 #. Translators: this is for navigating among links in a document.
 #: ../src/orca/cmdnames.py:889
-#, fuzzy
-#| msgid "Goes to next line."
 msgid "Goes to next link."
-msgstr "Sare la linia următoare."
+msgstr "Sare la legătura următoare."
 
 #. Translators: this is for navigating among links in a document.
 #: ../src/orca/cmdnames.py:892
 msgid "Displays a list of links."
-msgstr ""
+msgstr "Afișează o listă de legături."
 
 #. Translators: this is for navigating among lists in a document.
 #: ../src/orca/cmdnames.py:895
 msgid "Goes to previous list."
-msgstr "Sari la lista anterioară."
+msgstr "Sare la lista anterioară."
 
 #. Translators: this is for navigating among lists in a document.
 #: ../src/orca/cmdnames.py:898
 msgid "Goes to next list."
-msgstr "Sari la lista următoare."
+msgstr "Sare la lista următoare."
 
 #. Translators: this is for navigating among lists in a document.
 #: ../src/orca/cmdnames.py:901
 msgid "Displays a list of lists."
-msgstr ""
+msgstr "Afișează o listă de liste."
 
 #. Translators: this is for navigating among list items in a document.
 #: ../src/orca/cmdnames.py:904
@@ -3020,60 +2967,58 @@ msgstr "Sari la elementul de listă următor."
 #. Translators: this is for navigating among list items in a document.
 #: ../src/orca/cmdnames.py:910
 msgid "Displays a list of list items."
-msgstr ""
+msgstr "Afișează o listă de elemente de listă."
 
 #. Translators: this is for navigating among live regions in a document. A live
 #. region is an area of a web page that is periodically updated, e.g. a stock
 #. ticker. http://www.w3.org/TR/wai-aria/terms#def_liveregion
 #: ../src/orca/cmdnames.py:915
 msgid "Goes to previous live region."
-msgstr "Sari la regiunea dinamică anterioară."
+msgstr "Sare la regiunea dinamică anterioară."
 
 #. Translators: this is for navigating among live regions in a document. A live
 #. region is an area of a web page that is periodically updated, e.g. a stock
 #. ticker. http://www.w3.org/TR/wai-aria/terms#def_liveregion
 #: ../src/orca/cmdnames.py:920
 msgid "Goes to next live region."
-msgstr "Sari la regiunea dinamică următoare."
+msgstr "Sare la regiunea dinamică următoare."
 
 #. Translators: this is for navigating among live regions in a document. A live
 #. region is an area of a web page that is periodically updated, e.g. a stock
 #. ticker. http://www.w3.org/TR/wai-aria/terms#def_liveregion
 #: ../src/orca/cmdnames.py:925
 msgid "Goes to the last live region which made an announcement."
-msgstr "Merge la ultima regiune dinamică care a făcut un anunț."
+msgstr "Sare la ultima regiune dinamică care a făcut un anunț."
 
 #. Translators: this is for navigating among paragraphs in a document.
 #: ../src/orca/cmdnames.py:928
 msgid "Goes to previous paragraph."
-msgstr "Sari la paragraful anterior."
+msgstr "Sare la paragraful anterior."
 
 #. Translators: this is for navigating among paragraphs in a document.
 #: ../src/orca/cmdnames.py:931
 msgid "Goes to next paragraph."
-msgstr "Sari la paragraful următor."
+msgstr "Sare la paragraful următor."
 
 #. Translators: this is for navigating among paragraphs in a document.
 #: ../src/orca/cmdnames.py:934
 msgid "Displays a list of paragraphs."
-msgstr ""
+msgstr "Afișează o listă de paragrafe."
 
 #. Translators: this is for navigating among radio buttons in a document.
 #: ../src/orca/cmdnames.py:937
 msgid "Goes to previous radio button."
-msgstr "Sari la butonul radio anterior."
+msgstr "Sare la butonul radio anterior."
 
 #. Translators: this is for navigating among radio buttons in a document.
 #: ../src/orca/cmdnames.py:940
 msgid "Goes to next radio button."
-msgstr "Sari la butonul radio următor."
+msgstr "Sare la butonul radio următor."
 
 #. Translators: this is for navigating among radio buttons in a document.
 #: ../src/orca/cmdnames.py:943
-#, fuzzy
-#| msgid "No more radio buttons."
 msgid "Displays a list of radio buttons."
-msgstr "Nu mai există butoane radio."
+msgstr "Afișează o listă de butoane radio."
 
 #. Translators: this is for navigating among separators (e.g. <hr>) in a
 #. document.
@@ -3148,7 +3093,7 @@ msgstr "Sari cu o celulă în sus."
 #. between these two modes.
 #: ../src/orca/cmdnames.py:994
 msgid "Switches between browse mode and focus mode."
-msgstr ""
+msgstr "Comută între modul navigare și modul focalizare."
 
 #. Translators: (Please see the previous, detailed translator notes about
 #. Focus mode and Browse mode.) In order to minimize the amount of work Orca
@@ -3175,10 +3120,8 @@ msgstr "Sari la legătura nevizitată următoare."
 
 #. Translators: this is for navigating among unvisited links in a document.
 #: ../src/orca/cmdnames.py:1014
-#, fuzzy
-#| msgid "No more unvisited links."
 msgid "Displays a list of unvisited links."
-msgstr "Nu mai există legături nevizitate."
+msgstr "Afișează o listă de legături nevizitate."
 
 #. Translators: this is for navigating among visited links in a document.
 #: ../src/orca/cmdnames.py:1017
@@ -3192,20 +3135,16 @@ msgstr "Sari la legătura vizitată următoare."
 
 #. Translators: this is for navigating among visited links in a document.
 #: ../src/orca/cmdnames.py:1023
-#, fuzzy
-#| msgid "No more visited links."
 msgid "Displays a list of visited links."
-msgstr "Nu mai există legături vizitate."
+msgstr "Afișează o listă de legături vizitate."
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:35
-#, fuzzy
-#| msgid "Saturate blue"
 msgctxt "color name"
 msgid "alice blue"
-msgstr "Saturează culoarea albastră"
+msgstr "albastru alice"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3213,7 +3152,7 @@ msgstr "Saturează culoarea albastră"
 #: ../src/orca/colornames.py:40
 msgctxt "color name"
 msgid "antique white"
-msgstr ""
+msgstr "alb antic"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3221,7 +3160,7 @@ msgstr ""
 #: ../src/orca/colornames.py:45
 msgctxt "color name"
 msgid "aquamarine"
-msgstr ""
+msgstr "acvamarin"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3229,7 +3168,7 @@ msgstr ""
 #: ../src/orca/colornames.py:50
 msgctxt "color name"
 msgid "azure"
-msgstr ""
+msgstr "azuriu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3237,7 +3176,7 @@ msgstr ""
 #: ../src/orca/colornames.py:55
 msgctxt "color name"
 msgid "beige"
-msgstr ""
+msgstr "bej"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3245,15 +3184,12 @@ msgstr ""
 #: ../src/orca/colornames.py:60
 msgctxt "color name"
 msgid "bisque"
-msgstr ""
+msgstr "bisque"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:65
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "black"
 msgctxt "color name"
 msgid "black"
 msgstr "negru"
@@ -3262,11 +3198,9 @@ msgstr "negru"
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:70
-#, fuzzy
-#| msgid "black diamond"
 msgctxt "color name"
 msgid "blanched almond"
-msgstr "diamant negru"
+msgstr "migdale decojite"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3274,7 +3208,7 @@ msgstr "diamant negru"
 #: ../src/orca/colornames.py:75
 msgctxt "color name"
 msgid "blue"
-msgstr ""
+msgstr "albastru"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3282,7 +3216,7 @@ msgstr ""
 #: ../src/orca/colornames.py:80
 msgctxt "color name"
 msgid "blue violet"
-msgstr ""
+msgstr "albastru violet"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3290,7 +3224,7 @@ msgstr ""
 #: ../src/orca/colornames.py:85
 msgctxt "color name"
 msgid "brown"
-msgstr ""
+msgstr "maro"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3298,17 +3232,15 @@ msgstr ""
 #: ../src/orca/colornames.py:90
 msgctxt "color name"
 msgid "burlywood"
-msgstr ""
+msgstr "burlywood"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:95
-#, fuzzy
-#| msgid "Saturate blue"
 msgctxt "color name"
 msgid "cadet blue"
-msgstr "Saturează culoarea albastră"
+msgstr "albastru cadet"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3316,7 +3248,7 @@ msgstr "Saturează culoarea albastră"
 #: ../src/orca/colornames.py:100
 msgctxt "color name"
 msgid "chartreuse"
-msgstr ""
+msgstr "chartreuse"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3324,7 +3256,7 @@ msgstr ""
 #: ../src/orca/colornames.py:105
 msgctxt "color name"
 msgid "chocolate"
-msgstr ""
+msgstr "ciocolatiu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3332,7 +3264,7 @@ msgstr ""
 #: ../src/orca/colornames.py:110
 msgctxt "color name"
 msgid "coral"
-msgstr ""
+msgstr "coral"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3340,7 +3272,7 @@ msgstr ""
 #: ../src/orca/colornames.py:115
 msgctxt "color name"
 msgid "cornflower blue"
-msgstr ""
+msgstr "albastru floare de porumb"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3348,7 +3280,7 @@ msgstr ""
 #: ../src/orca/colornames.py:120
 msgctxt "color name"
 msgid "cornsilk"
-msgstr ""
+msgstr "mătase de porumb"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3356,7 +3288,7 @@ msgstr ""
 #: ../src/orca/colornames.py:125
 msgctxt "color name"
 msgid "crimson"
-msgstr ""
+msgstr "purpuriu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3364,7 +3296,7 @@ msgstr ""
 #: ../src/orca/colornames.py:130
 msgctxt "color name"
 msgid "cyan"
-msgstr ""
+msgstr "bleu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3374,7 +3306,7 @@ msgstr ""
 #| msgid "Saturate blue"
 msgctxt "color name"
 msgid "dark blue"
-msgstr "Saturează culoarea albastră"
+msgstr "albastru închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3382,7 +3314,7 @@ msgstr "Saturează culoarea albastră"
 #: ../src/orca/colornames.py:140
 msgctxt "color name"
 msgid "dark cyan"
-msgstr ""
+msgstr "bleu deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3390,27 +3322,23 @@ msgstr ""
 #: ../src/orca/colornames.py:145
 msgctxt "color name"
 msgid "dark goldenrod"
-msgstr ""
+msgstr "goldenrod închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:150
-#, fuzzy
-#| msgid "a grave"
 msgctxt "color name"
 msgid "dark gray"
-msgstr "a grav"
+msgstr "gri închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:155
-#, fuzzy
-#| msgid "Saturate green"
 msgctxt "color name"
 msgid "dark green"
-msgstr "Saturează culoarea verde"
+msgstr "verde închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3418,7 +3346,7 @@ msgstr "Saturează culoarea verde"
 #: ../src/orca/colornames.py:160
 msgctxt "color name"
 msgid "dark khaki"
-msgstr ""
+msgstr "khaki închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3426,17 +3354,15 @@ msgstr ""
 #: ../src/orca/colornames.py:165
 msgctxt "color name"
 msgid "dark magenta"
-msgstr ""
+msgstr "magenta închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:170
-#, fuzzy
-#| msgid "Saturate green"
 msgctxt "color name"
 msgid "dark olive green"
-msgstr "Saturează culoarea verde"
+msgstr "verde măsliniu închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3444,7 +3370,7 @@ msgstr "Saturează culoarea verde"
 #: ../src/orca/colornames.py:175
 msgctxt "color name"
 msgid "dark orange"
-msgstr ""
+msgstr "portocaliu închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3452,17 +3378,15 @@ msgstr ""
 #: ../src/orca/colornames.py:180
 msgctxt "color name"
 msgid "dark orchid"
-msgstr ""
+msgstr "orhidee închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:185
-#, fuzzy
-#| msgid "Saturate red"
 msgctxt "color name"
 msgid "dark red"
-msgstr "Saturează culoarea roșie"
+msgstr "roșu închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3470,27 +3394,23 @@ msgstr "Saturează culoarea roșie"
 #: ../src/orca/colornames.py:190
 msgctxt "color name"
 msgid "dark salmon"
-msgstr ""
+msgstr "somon închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:195
-#, fuzzy
-#| msgid "Saturate green"
 msgctxt "color name"
 msgid "dark sea green"
-msgstr "Saturează culoarea verde"
+msgstr "verde marin închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:200
-#, fuzzy
-#| msgid "Saturate blue"
 msgctxt "color name"
 msgid "dark slate blue"
-msgstr "Saturează culoarea albastră"
+msgstr "ardezie albastru închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3498,7 +3418,7 @@ msgstr "Saturează culoarea albastră"
 #: ../src/orca/colornames.py:205
 msgctxt "color name"
 msgid "dark slate gray"
-msgstr ""
+msgstr "ardezie gri închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3506,7 +3426,7 @@ msgstr ""
 #: ../src/orca/colornames.py:210
 msgctxt "color name"
 msgid "dark turquoise"
-msgstr ""
+msgstr "turcoaz închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3514,7 +3434,7 @@ msgstr ""
 #: ../src/orca/colornames.py:215
 msgctxt "color name"
 msgid "dark violet"
-msgstr ""
+msgstr "violet închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3522,7 +3442,7 @@ msgstr ""
 #: ../src/orca/colornames.py:220
 msgctxt "color name"
 msgid "deep pink"
-msgstr ""
+msgstr "roz profund"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3530,17 +3450,15 @@ msgstr ""
 #: ../src/orca/colornames.py:225
 msgctxt "color name"
 msgid "deep sky blue"
-msgstr ""
+msgstr "albastru cer profund"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:230
-#, fuzzy
-#| msgid "i grave"
 msgctxt "color name"
 msgid "dim gray"
-msgstr "i grav"
+msgstr "gri ton închis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3548,7 +3466,7 @@ msgstr "i grav"
 #: ../src/orca/colornames.py:235
 msgctxt "color name"
 msgid "dodger blue"
-msgstr ""
+msgstr "albastru dodger"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3556,7 +3474,7 @@ msgstr ""
 #: ../src/orca/colornames.py:240
 msgctxt "color name"
 msgid "fire brick"
-msgstr ""
+msgstr "foc cărămiziu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3564,17 +3482,15 @@ msgstr ""
 #: ../src/orca/colornames.py:245
 msgctxt "color name"
 msgid "floral white"
-msgstr ""
+msgstr "alb floral"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:250
-#, fuzzy
-#| msgid "Desaturate green"
 msgctxt "color name"
 msgid "forest green"
-msgstr "Desaturează culoarea verde"
+msgstr "verde pădure"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3582,7 +3498,7 @@ msgstr "Desaturează culoarea verde"
 #: ../src/orca/colornames.py:255
 msgctxt "color name"
 msgid "fuchsia"
-msgstr ""
+msgstr "fuchsia"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3590,7 +3506,7 @@ msgstr ""
 #: ../src/orca/colornames.py:260
 msgctxt "color name"
 msgid "gainsboro"
-msgstr ""
+msgstr "gainsboro"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3598,7 +3514,7 @@ msgstr ""
 #: ../src/orca/colornames.py:265
 msgctxt "color name"
 msgid "ghost white"
-msgstr ""
+msgstr "alb fantomă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3606,7 +3522,7 @@ msgstr ""
 #: ../src/orca/colornames.py:270
 msgctxt "color name"
 msgid "gold"
-msgstr ""
+msgstr "auriu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3620,21 +3536,17 @@ msgstr ""
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:280
-#, fuzzy
-#| msgid "grayed"
 msgctxt "color name"
 msgid "gray"
-msgstr "decolorat"
+msgstr "gri"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:285
-#, fuzzy
-#| msgid "degrees"
 msgctxt "color name"
 msgid "green"
-msgstr "grade"
+msgstr "verde"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3642,7 +3554,7 @@ msgstr "grade"
 #: ../src/orca/colornames.py:290
 msgctxt "color name"
 msgid "green yellow"
-msgstr ""
+msgstr "verde galben"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3650,7 +3562,7 @@ msgstr ""
 #: ../src/orca/colornames.py:295
 msgctxt "color name"
 msgid "honeydew"
-msgstr ""
+msgstr "mană"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3658,17 +3570,15 @@ msgstr ""
 #: ../src/orca/colornames.py:300
 msgctxt "color name"
 msgid "hot pink"
-msgstr ""
+msgstr "roz aprins"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:305
-#, fuzzy
-#| msgid "Hindi Grade 1"
 msgctxt "color name"
 msgid "indian red"
-msgstr "Hindi gradul 1"
+msgstr "roșu indian"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3676,7 +3586,7 @@ msgstr "Hindi gradul 1"
 #: ../src/orca/colornames.py:310
 msgctxt "color name"
 msgid "indigo"
-msgstr ""
+msgstr "indigo"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3684,7 +3594,7 @@ msgstr ""
 #: ../src/orca/colornames.py:315
 msgctxt "color name"
 msgid "ivory"
-msgstr ""
+msgstr "fildeș"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3692,7 +3602,7 @@ msgstr ""
 #: ../src/orca/colornames.py:320
 msgctxt "color name"
 msgid "khaki"
-msgstr ""
+msgstr "khaki"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3700,7 +3610,7 @@ msgstr ""
 #: ../src/orca/colornames.py:325
 msgctxt "color name"
 msgid "lavender"
-msgstr ""
+msgstr "levănțică"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3708,7 +3618,7 @@ msgstr ""
 #: ../src/orca/colornames.py:330
 msgctxt "color name"
 msgid "lavender blush"
-msgstr ""
+msgstr "levănțică palidă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3716,7 +3626,7 @@ msgstr ""
 #: ../src/orca/colornames.py:335
 msgctxt "color name"
 msgid "lawn green"
-msgstr ""
+msgstr "verde gazon"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3724,37 +3634,31 @@ msgstr ""
 #: ../src/orca/colornames.py:340
 msgctxt "color name"
 msgid "lemon chiffon"
-msgstr ""
+msgstr "lămâie palidă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:345
-#, fuzzy
-#| msgid "right brace"
 msgctxt "color name"
 msgid "light blue"
-msgstr "acoladă închisă"
+msgstr "albastru deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:350
-#, fuzzy
-#| msgid "right control"
 msgctxt "color name"
 msgid "light coral"
-msgstr "control dreapta"
+msgstr "coral deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:355
-#, fuzzy
-#| msgid "right paren"
 msgctxt "color name"
 msgid "light cyan"
-msgstr "paranteză închisă"
+msgstr "bleu deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3762,67 +3666,55 @@ msgstr "paranteză închisă"
 #: ../src/orca/colornames.py:360
 msgctxt "color name"
 msgid "light goldenrod yellow"
-msgstr ""
+msgstr "galben goldenrod deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:365
-#, fuzzy
-#| msgid "right brace"
 msgctxt "color name"
 msgid "light gray"
-msgstr "acoladă închisă"
+msgstr "gri deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:370
-#, fuzzy
-#| msgid "right paren"
 msgctxt "color name"
 msgid "light green"
-msgstr "paranteză închisă"
+msgstr "verde deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:375
-#, fuzzy
-#| msgid "right paren"
 msgctxt "color name"
 msgid "light pink"
-msgstr "paranteză închisă"
+msgstr "roz deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:380
-#, fuzzy
-#| msgid "right alt"
 msgctxt "color name"
 msgid "light salmon"
-msgstr "alt dreapta"
+msgstr "somon deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:385
-#, fuzzy
-#| msgid "right paren"
 msgctxt "color name"
 msgid "light sea green"
-msgstr "paranteză închisă"
+msgstr "verde marin deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:390
-#, fuzzy
-#| msgid "right super"
 msgctxt "color name"
 msgid "light sky blue"
-msgstr "super dreapta"
+msgstr "albastru cer deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3830,7 +3722,7 @@ msgstr "super dreapta"
 #: ../src/orca/colornames.py:395
 msgctxt "color name"
 msgid "light slate gray"
-msgstr ""
+msgstr "gri ardezie deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3838,17 +3730,15 @@ msgstr ""
 #: ../src/orca/colornames.py:400
 msgctxt "color name"
 msgid "light steel blue"
-msgstr ""
+msgstr "albastru oțel deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:405
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "color name"
 msgid "light yellow"
-msgstr "săgeată dreapta"
+msgstr "galben deschis"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3856,7 +3746,7 @@ msgstr "săgeată dreapta"
 #: ../src/orca/colornames.py:410
 msgctxt "color name"
 msgid "lime"
-msgstr ""
+msgstr "limetă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3864,27 +3754,23 @@ msgstr ""
 #: ../src/orca/colornames.py:415
 msgctxt "color name"
 msgid "lime green"
-msgstr ""
+msgstr "limetă verde"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:420
-#, fuzzy
-#| msgid "newline"
 msgctxt "color name"
 msgid "linen"
-msgstr "linie nouă"
+msgstr "pânză de in"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:425
-#, fuzzy
-#| msgid "Image"
 msgctxt "color name"
 msgid "magenta"
-msgstr "Imagine"
+msgstr "magenta"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3892,7 +3778,7 @@ msgstr "Imagine"
 #: ../src/orca/colornames.py:430
 msgctxt "color name"
 msgid "maroon"
-msgstr ""
+msgstr "maro"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3900,7 +3786,7 @@ msgstr ""
 #: ../src/orca/colornames.py:435
 msgctxt "color name"
 msgid "medium aquamarine"
-msgstr ""
+msgstr "acvamarin mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3908,7 +3794,7 @@ msgstr ""
 #: ../src/orca/colornames.py:440
 msgctxt "color name"
 msgid "medium blue"
-msgstr ""
+msgstr "albastru mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3916,7 +3802,7 @@ msgstr ""
 #: ../src/orca/colornames.py:445
 msgctxt "color name"
 msgid "medium orchid"
-msgstr ""
+msgstr "orhidee mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3924,7 +3810,7 @@ msgstr ""
 #: ../src/orca/colornames.py:450
 msgctxt "color name"
 msgid "medium purple"
-msgstr ""
+msgstr "purpuriu mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3932,17 +3818,15 @@ msgstr ""
 #: ../src/orca/colornames.py:455
 msgctxt "color name"
 msgid "medium sea green"
-msgstr ""
+msgstr "verdemarin mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:460
-#, fuzzy
-#| msgid "Desaturate blue"
 msgctxt "color name"
 msgid "medium slate blue"
-msgstr "Desaturează culoarea albastră"
+msgstr "albastru ardezie mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3950,7 +3834,7 @@ msgstr "Desaturează culoarea albastră"
 #: ../src/orca/colornames.py:465
 msgctxt "color name"
 msgid "medium spring green"
-msgstr ""
+msgstr "verde primăvăratic mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3958,7 +3842,7 @@ msgstr ""
 #: ../src/orca/colornames.py:470
 msgctxt "color name"
 msgid "medium turquoise"
-msgstr ""
+msgstr "turcoaz mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3966,7 +3850,7 @@ msgstr ""
 #: ../src/orca/colornames.py:475
 msgctxt "color name"
 msgid "medium violet red"
-msgstr ""
+msgstr "roșu violet mediu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3974,7 +3858,7 @@ msgstr ""
 #: ../src/orca/colornames.py:480
 msgctxt "color name"
 msgid "midnight blue"
-msgstr ""
+msgstr "albastru miezul nopții"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3982,7 +3866,7 @@ msgstr ""
 #: ../src/orca/colornames.py:485
 msgctxt "color name"
 msgid "mint cream"
-msgstr ""
+msgstr "cremă de mentă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3990,7 +3874,7 @@ msgstr ""
 #: ../src/orca/colornames.py:490
 msgctxt "color name"
 msgid "misty rose"
-msgstr ""
+msgstr "rouă de trandafir"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -3998,7 +3882,7 @@ msgstr ""
 #: ../src/orca/colornames.py:495
 msgctxt "color name"
 msgid "moccasin"
-msgstr ""
+msgstr "mocasin"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4006,7 +3890,7 @@ msgstr ""
 #: ../src/orca/colornames.py:500
 msgctxt "color name"
 msgid "navajo white"
-msgstr ""
+msgstr "alb navajo"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4014,7 +3898,7 @@ msgstr ""
 #: ../src/orca/colornames.py:505
 msgctxt "color name"
 msgid "navy"
-msgstr ""
+msgstr "marin"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4022,7 +3906,7 @@ msgstr ""
 #: ../src/orca/colornames.py:510
 msgctxt "color name"
 msgid "old lace"
-msgstr ""
+msgstr "dantelă veche"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4030,7 +3914,7 @@ msgstr ""
 #: ../src/orca/colornames.py:515
 msgctxt "color name"
 msgid "olive"
-msgstr ""
+msgstr "măsliniu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4038,7 +3922,7 @@ msgstr ""
 #: ../src/orca/colornames.py:520
 msgctxt "color name"
 msgid "olive drab"
-msgstr ""
+msgstr "măsliniu cafeniu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4046,17 +3930,15 @@ msgstr ""
 #: ../src/orca/colornames.py:525
 msgctxt "color name"
 msgid "orange"
-msgstr ""
+msgstr "portocaliu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:530
-#, fuzzy
-#| msgid "Saturate red"
 msgctxt "color name"
 msgid "orange red"
-msgstr "Saturează culoarea roșie"
+msgstr "roșu portocaliu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4064,7 +3946,7 @@ msgstr "Saturează culoarea roșie"
 #: ../src/orca/colornames.py:535
 msgctxt "color name"
 msgid "orchid"
-msgstr ""
+msgstr "orhidee"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4072,17 +3954,15 @@ msgstr ""
 #: ../src/orca/colornames.py:540
 msgctxt "color name"
 msgid "pale goldenrod"
-msgstr ""
+msgstr "goldenrod palid"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:545
-#, fuzzy
-#| msgid "Saturate green"
 msgctxt "color name"
 msgid "pale green"
-msgstr "Saturează culoarea verde"
+msgstr "verde palid"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4090,7 +3970,7 @@ msgstr "Saturează culoarea verde"
 #: ../src/orca/colornames.py:550
 msgctxt "color name"
 msgid "pale turquoise"
-msgstr ""
+msgstr "turcoaz palid"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4098,7 +3978,7 @@ msgstr ""
 #: ../src/orca/colornames.py:555
 msgctxt "color name"
 msgid "pale violet red"
-msgstr ""
+msgstr "roșu violet palid"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4106,7 +3986,7 @@ msgstr ""
 #: ../src/orca/colornames.py:560
 msgctxt "color name"
 msgid "papaya whip"
-msgstr ""
+msgstr "papaya whip"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4114,7 +3994,7 @@ msgstr ""
 #: ../src/orca/colornames.py:565
 msgctxt "color name"
 msgid "peach puff"
-msgstr ""
+msgstr "peach puff"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4122,7 +4002,7 @@ msgstr ""
 #: ../src/orca/colornames.py:570
 msgctxt "color name"
 msgid "peru"
-msgstr ""
+msgstr "peru"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4130,7 +4010,7 @@ msgstr ""
 #: ../src/orca/colornames.py:575
 msgctxt "color name"
 msgid "pink"
-msgstr ""
+msgstr "roz"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4138,7 +4018,7 @@ msgstr ""
 #: ../src/orca/colornames.py:580
 msgctxt "color name"
 msgid "plum"
-msgstr ""
+msgstr "prună"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4146,7 +4026,7 @@ msgstr ""
 #: ../src/orca/colornames.py:585
 msgctxt "color name"
 msgid "powder blue"
-msgstr ""
+msgstr "albastru pudră"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4154,17 +4034,15 @@ msgstr ""
 #: ../src/orca/colornames.py:590
 msgctxt "color name"
 msgid "purple"
-msgstr ""
+msgstr "purpuriu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:595
-#, fuzzy
-#| msgid "end"
 msgctxt "color name"
 msgid "red"
-msgstr "end"
+msgstr "roșu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4172,17 +4050,15 @@ msgstr "end"
 #: ../src/orca/colornames.py:600
 msgctxt "color name"
 msgid "rosy brown"
-msgstr ""
+msgstr "maro trandafiriu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:605
-#, fuzzy
-#| msgid "Saturate blue"
 msgctxt "color name"
 msgid "royal blue"
-msgstr "Saturează culoarea albastră"
+msgstr "albastru regal"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4190,7 +4066,7 @@ msgstr "Saturează culoarea albastră"
 #: ../src/orca/colornames.py:610
 msgctxt "color name"
 msgid "saddle brown"
-msgstr ""
+msgstr "maro șa"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4198,7 +4074,7 @@ msgstr ""
 #: ../src/orca/colornames.py:615
 msgctxt "color name"
 msgid "salmon"
-msgstr ""
+msgstr "somon"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4206,17 +4082,15 @@ msgstr ""
 #: ../src/orca/colornames.py:620
 msgctxt "color name"
 msgid "sandy brown"
-msgstr ""
+msgstr "maro nisip"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:625
-#, fuzzy
-#| msgid "%s screen"
 msgctxt "color name"
 msgid "sea green"
-msgstr "ecranul %s"
+msgstr "verde marin"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4224,7 +4098,7 @@ msgstr "ecranul %s"
 #: ../src/orca/colornames.py:630
 msgctxt "color name"
 msgid "seashell"
-msgstr ""
+msgstr "scoică marină"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4232,7 +4106,7 @@ msgstr ""
 #: ../src/orca/colornames.py:635
 msgctxt "color name"
 msgid "sienna"
-msgstr ""
+msgstr "sienna"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4240,7 +4114,7 @@ msgstr ""
 #: ../src/orca/colornames.py:640
 msgctxt "color name"
 msgid "silver"
-msgstr ""
+msgstr "argintiu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4248,17 +4122,15 @@ msgstr ""
 #: ../src/orca/colornames.py:645
 msgctxt "color name"
 msgid "sky blue"
-msgstr ""
+msgstr "albastru cer"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:650
-#, fuzzy
-#| msgid "Desaturate blue"
 msgctxt "color name"
 msgid "slate blue"
-msgstr "Desaturează culoarea albastră"
+msgstr "albastru ardezie"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4266,7 +4138,7 @@ msgstr "Desaturează culoarea albastră"
 #: ../src/orca/colornames.py:655
 msgctxt "color name"
 msgid "slate gray"
-msgstr ""
+msgstr "gri ardezie"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4274,7 +4146,7 @@ msgstr ""
 #: ../src/orca/colornames.py:660
 msgctxt "color name"
 msgid "snow"
-msgstr ""
+msgstr "zăpadă"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4282,27 +4154,23 @@ msgstr ""
 #: ../src/orca/colornames.py:665
 msgctxt "color name"
 msgid "spring green"
-msgstr ""
+msgstr "verde primăvăratic"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:670
-#, fuzzy
-#| msgid "Desaturate blue"
 msgctxt "color name"
 msgid "steel blue"
-msgstr "Desaturează culoarea albastră"
+msgstr "albastru oțel"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:675
-#, fuzzy
-#| msgid "tab"
 msgctxt "color name"
 msgid "tan"
-msgstr "tab"
+msgstr "bronz"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4310,7 +4178,7 @@ msgstr "tab"
 #: ../src/orca/colornames.py:680
 msgctxt "color name"
 msgid "teal"
-msgstr ""
+msgstr "verde azur"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4318,7 +4186,7 @@ msgstr ""
 #: ../src/orca/colornames.py:685
 msgctxt "color name"
 msgid "thistle"
-msgstr ""
+msgstr "scaiete"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4326,7 +4194,7 @@ msgstr ""
 #: ../src/orca/colornames.py:690
 msgctxt "color name"
 msgid "tomato"
-msgstr ""
+msgstr "tomată"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4334,7 +4202,7 @@ msgstr ""
 #: ../src/orca/colornames.py:695
 msgctxt "color name"
 msgid "turquoise"
-msgstr ""
+msgstr "turcoaz"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4350,27 +4218,23 @@ msgstr ""
 #: ../src/orca/colornames.py:705
 msgctxt "color name"
 msgid "wheat"
-msgstr ""
+msgstr "grâu"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:710
-#, fuzzy
-#| msgid "white space"
 msgctxt "color name"
 msgid "white"
-msgstr "spațiu gol"
+msgstr "alb"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:715
-#, fuzzy
-#| msgid "white space"
 msgctxt "color name"
 msgid "white smoke"
-msgstr "spațiu gol"
+msgstr "fum alb"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
@@ -4378,17 +4242,15 @@ msgstr "spațiu gol"
 #: ../src/orca/colornames.py:720
 msgctxt "color name"
 msgid "yellow"
-msgstr ""
+msgstr "galben"
 
 #. Translators: This refers to a CSS color name. The name, hex value, and color
 #. can be found at http://www.w3schools.com/cssref/css_colornames.asp and at
 #. http://en.wikipedia.org/wiki/Web_colors#X11_color_names.
 #: ../src/orca/colornames.py:725
-#, fuzzy
-#| msgid "Full Screen"
 msgctxt "color name"
 msgid "yellow green"
-msgstr "Pe tot ecranul"
+msgstr "galben verde"
 
 #. Translators: This string appears on a button in a dialog. "Activating" the
 #. selected item will perform the action that one would expect to occur if the
@@ -4398,7 +4260,7 @@ msgstr "Pe tot ecranul"
 #. it to show all of its contents. And so on.
 #: ../src/orca/guilabels.py:40
 msgid "_Activate"
-msgstr ""
+msgstr "_Activează"
 
 #. Translators: Orca has a number of commands that override the default behavior
 #. within an application. For instance, on a web page Orca's Structural Navigation
@@ -4417,10 +4279,8 @@ msgstr ""
 #. If this setting is not enabled, the second press of "e" would continue to be
 #. a navigation command to move amongst entries.
 #: ../src/orca/guilabels.py:58
-#, fuzzy
-#| msgid "Use Orca _Structural Navigation"
 msgid "Automatic focus mode during structural navigation"
-msgstr "Folosește navigarea _structurală Orca"
+msgstr "Mod de focalizare automată în timpul navigării structurale"
 
 #. Translators: Orca has a number of commands that override the default behavior
 #. within an application. For instance, if you are at the bottom of an entry and
@@ -4440,7 +4300,7 @@ msgstr "Folosește navigarea _structurală Orca"
 #. of the entry.
 #: ../src/orca/guilabels.py:76
 msgid "Automatic focus mode during caret navigation"
-msgstr ""
+msgstr "Mod de focalizare automat în timpul navigării cu cursor"
 
 #. Translators: A single braille cell on a refreshable braille display consists
 #. of 8 dots. Dot 7 is the dot in the bottom left corner. If the user selects
@@ -4469,17 +4329,17 @@ msgstr "Punctele 7 ș_i 8"
 #. Translators: This is the label for a button in a dialog.
 #: ../src/orca/guilabels.py:97 ../src/orca/orca-setup.ui.h:17
 msgid "_Cancel"
-msgstr ""
+msgstr "_Renunță"
 
 #. Translators: This is the label for a button in a dialog.
 #: ../src/orca/guilabels.py:100
 msgid "_Jump to"
-msgstr ""
+msgstr "Sari _la"
 
 #. Translators: This is the label for a button in a dialog.
 #: ../src/orca/guilabels.py:103 ../src/orca/orca-setup.ui.h:19
 msgid "_OK"
-msgstr ""
+msgstr "_Ok"
 
 #. Translators: If this checkbox is checked, then Orca will tell you when one of
 #. your buddies is typing a message.
@@ -4668,8 +4528,6 @@ msgstr "Asocieri de taste"
 #. can be used in any setting, task, or application. They are not specific
 #. to, for instance, web browsing.
 #: ../src/orca/guilabels.py:236
-#, fuzzy
-#| msgid "Default"
 msgctxt "keybindings"
 msgid "Default"
 msgstr "Implicit"
@@ -4693,8 +4551,6 @@ msgstr "Neasociate"
 #. for an Orca command has been changed by the user to something other than its
 #. default value.
 #: ../src/orca/guilabels.py:252
-#, fuzzy
-#| msgid "Modified"
 msgctxt "keybindings"
 msgid "Modified"
 msgstr "Modificat"
@@ -4711,10 +4567,8 @@ msgstr "Calculator _de birou"
 #. The string substituted in is the accessible name of the application (e.g.
 #. "Gedit", "Firefox", etc.
 #: ../src/orca/guilabels.py:263
-#, fuzzy, python-format
-#| msgid "Orca Preferences for %s"
 msgid "Screen Reader Preferences for %s"
-msgstr "Preferințe Orca pentru %s"
+msgstr "Preferințe cititor de ecran pentru %s"
 
 #. Translators: This is a table column header. This column consists of a single
 #. checkbox. If the checkbox is checked, Orca will indicate the associated item
@@ -4763,10 +4617,8 @@ msgstr "Salvează profilul ca conflict"
 #. as a "Spanish" profile which would use Spanish text-to-speech and Spanish
 #. braille and selected when reading Spanish content.
 #: ../src/orca/guilabels.py:303
-#, fuzzy
-#| msgid "<b>User Profile Conflict!</b>"
 msgid "User Profile Conflict!"
-msgstr "<b>Conflict de profil de utilizator!</b>"
+msgstr "Conflict de profil de utilizator!"
 
 #. Translators: This is the message in a dialog informing the user that he/she
 #. attempted to save a new user profile under a name which already exists.
@@ -4774,10 +4626,7 @@ msgstr "<b>Conflict de profil de utilizator!</b>"
 #. as a "Spanish" profile which would use Spanish text-to-speech and Spanish
 #. braille and selected when reading Spanish content.
 #: ../src/orca/guilabels.py:310
-#, fuzzy, python-format
-#| msgid ""
-#| "Profile <b>%s</b> already exists.\n"
-#| "Continue updating the existing profile with these new changes?"
+#, python-format
 msgid ""
 "Profile %s already exists.\n"
 "Continue updating the existing profile with these new changes?"
@@ -4792,8 +4641,6 @@ msgstr ""
 #. which would use Spanish text-to-speech and Spanish braille and selected when
 #. reading Spanish content.
 #: ../src/orca/guilabels.py:320
-#, fuzzy
-#| msgid "Load User Profile"
 msgid "Load user profile"
 msgstr "Încarcă profilul utilizatorului"
 
@@ -4804,13 +4651,6 @@ msgstr "Încarcă profilul utilizatorului"
 #. which would use Spanish text-to-speech and Spanish braille and selected when
 #. reading Spanish content.
 #: ../src/orca/guilabels.py:329
-#, fuzzy
-#| msgid ""
-#| "You are about to change the active profile. If you\n"
-#| "have just make changes in your preferences, it will\n"
-#| "be dropped at profile load.\n"
-#| "\n"
-#| "Continue loading profile discarding previous changes?"
 msgid ""
 "You are about to change the active profile. If you\n"
 "have just made changes in your preferences, they will\n"
@@ -4908,19 +4748,15 @@ msgstr "Propoziție"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a blockquote.
 #: ../src/orca/guilabels.py:391
-#, fuzzy
-#| msgid "quote"
 msgctxt "structural navigation"
 msgid "Blockquote"
-msgstr "ghilimele"
+msgstr "bloc ghilimele"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a button.
 #: ../src/orca/guilabels.py:397
-#, fuzzy
-#| msgid "Button"
 msgctxt "structural navigation"
 msgid "Button"
 msgstr "Buton"
@@ -4930,8 +4766,6 @@ msgstr "Buton"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the caption of a table.
 #: ../src/orca/guilabels.py:403
-#, fuzzy
-#| msgid "Caption"
 msgctxt "structural navigation"
 msgid "Caption"
 msgstr "Etichetă"
@@ -4941,11 +4775,9 @@ msgstr "Etichetă"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the label of a check box.
 #: ../src/orca/guilabels.py:409
-#, fuzzy
-#| msgid "CheckBox"
 msgctxt "structural navigation"
 msgid "Check Box"
-msgstr "CăsuțăDeBifare"
+msgstr "Căsuță de bifat"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -4954,15 +4786,13 @@ msgstr "CăsuțăDeBifare"
 #: ../src/orca/guilabels.py:415
 msgctxt "structural navigation"
 msgid "Clickable"
-msgstr ""
+msgstr "Clicabil"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the selected item in a combo box.
 #: ../src/orca/guilabels.py:421
-#, fuzzy
-#| msgid "combo box"
 msgctxt "structural navigation"
 msgid "Combo Box"
 msgstr "listă de selecție"
@@ -4972,19 +4802,15 @@ msgstr "listă de selecție"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the description of an element.
 #: ../src/orca/guilabels.py:427
-#, fuzzy
-#| msgid "superscript n"
 msgctxt "structural navigation"
 msgid "Description"
-msgstr "n ca exponent"
+msgstr "descriere"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a heading.
 #: ../src/orca/guilabels.py:433
-#, fuzzy
-#| msgid "Heading"
 msgctxt "structural navigation"
 msgid "Heading"
 msgstr "Antet"
@@ -4994,8 +4820,6 @@ msgstr "Antet"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text (alt text, title, etc.) associated with an image.
 #: ../src/orca/guilabels.py:439
-#, fuzzy
-#| msgid "Image"
 msgctxt "structural navigation"
 msgid "Image"
 msgstr "Imagine"
@@ -5005,8 +4829,6 @@ msgstr "Imagine"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the label of a form field.
 #: ../src/orca/guilabels.py:445
-#, fuzzy
-#| msgid "Label"
 msgctxt "structural navigation"
 msgid "Label"
 msgstr "Etichetă"
@@ -5018,11 +4840,9 @@ msgstr "Etichetă"
 #. tag attribute 'role' used to identify important part of webpage like banners,
 #. main context, search etc.
 #: ../src/orca/guilabels.py:453
-#, fuzzy
-#| msgid "trademark"
 msgctxt "structural navigation"
 msgid "Landmark"
-msgstr "marcă comercială"
+msgstr "semn de carte"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5032,15 +4852,13 @@ msgstr "marcă comercială"
 #: ../src/orca/guilabels.py:460
 msgctxt "structural navigation"
 msgid "Level"
-msgstr ""
+msgstr "Nivel"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a link.
 #: ../src/orca/guilabels.py:466
-#, fuzzy
-#| msgid "Link"
 msgctxt "structural navigation"
 msgid "Link"
 msgstr "Legătură"
@@ -5050,8 +4868,6 @@ msgstr "Legătură"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a list.
 #: ../src/orca/guilabels.py:472
-#, fuzzy
-#| msgid "List"
 msgctxt "structural navigation"
 msgid "List"
 msgstr "Listă"
@@ -5061,11 +4877,9 @@ msgstr "Listă"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a list item.
 #: ../src/orca/guilabels.py:478
-#, fuzzy
-#| msgid "ListItem"
 msgctxt "structural navigation"
 msgid "List Item"
-msgstr "ElementListă"
+msgstr "Element listă"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5081,8 +4895,6 @@ msgstr ""
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of a paragraph.
 #: ../src/orca/guilabels.py:490
-#, fuzzy
-#| msgid "Paragraph"
 msgctxt "structural navigation"
 msgid "Paragraph"
 msgstr "Paragraf"
@@ -5092,11 +4904,9 @@ msgstr "Paragraf"
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the label of a radio button.
 #: ../src/orca/guilabels.py:496
-#, fuzzy
-#| msgid "RadioButton"
 msgctxt "structural navigation"
 msgid "Radio Button"
-msgstr "ButonRadio"
+msgstr "Buton radio"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5106,18 +4916,16 @@ msgstr "ButonRadio"
 #: ../src/orca/guilabels.py:503
 msgctxt "structural navigation"
 msgid "Role"
-msgstr ""
+msgstr "Rol"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the selected item of a form field.
 #: ../src/orca/guilabels.py:509
-#, fuzzy
-#| msgid "selected"
 msgctxt "structural navigation"
 msgid "Selected Item"
-msgstr "selectat"
+msgstr "Element selectat"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5125,19 +4933,15 @@ msgstr "selectat"
 #. contains the state of a widget. Examples include "checked"/"not checked",
 #. "selected"/"not selected", "visited/not visited", etc.
 #: ../src/orca/guilabels.py:516
-#, fuzzy
-#| msgid "Status"
 msgctxt "structural navigation"
 msgid "State"
-msgstr "Status"
+msgstr "Stare"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title for a column which
 #. contains the text of an entry.
 #: ../src/orca/guilabels.py:522
-#, fuzzy
-#| msgid "Text"
 msgctxt "structural navigation"
 msgid "Text"
 msgstr "Text"
@@ -5149,7 +4953,7 @@ msgstr "Text"
 #: ../src/orca/guilabels.py:528
 msgctxt "structural navigation"
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5158,37 +4962,31 @@ msgstr ""
 #: ../src/orca/guilabels.py:534
 msgctxt "structural navigation"
 msgid "Value"
-msgstr ""
+msgstr "Valoare"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:539
-#, fuzzy
-#| msgid "No more blockquotes."
 msgctxt "structural navigation"
 msgid "Blockquotes"
-msgstr "Nu mai sunt blocuri de citare."
+msgstr "Citate bloc"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:544
-#, fuzzy
-#| msgid "Button"
 msgctxt "structural navigation"
 msgid "Buttons"
-msgstr "Buton"
+msgstr "Butoane"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:549
-#, fuzzy
-#| msgid "CheckBox"
 msgctxt "structural navigation"
 msgid "Check Boxes"
-msgstr "CăsuțăDeBifare"
+msgstr "Căsuțe de bifare"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5197,17 +4995,15 @@ msgstr "CăsuțăDeBifare"
 #: ../src/orca/guilabels.py:555
 msgctxt "structural navigation"
 msgid "Clickables"
-msgstr ""
+msgstr "Clicabile"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:560
-#, fuzzy
-#| msgid "combo box"
 msgctxt "structural navigation"
 msgid "Combo Boxes"
-msgstr "listă de selecție"
+msgstr "liste de selecție"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5215,7 +5011,7 @@ msgstr "listă de selecție"
 #: ../src/orca/guilabels.py:565
 msgctxt "structural navigation"
 msgid "Entries"
-msgstr ""
+msgstr "Elemente"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5223,38 +5019,33 @@ msgstr ""
 #: ../src/orca/guilabels.py:570
 msgctxt "structural navigation"
 msgid "Form Fields"
-msgstr ""
+msgstr "Câmpuri de formular"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:575
-#, fuzzy
-#| msgid "Heading"
 msgctxt "structural navigation"
 msgid "Headings"
-msgstr "Antet"
+msgstr "Antete"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:580
-#, fuzzy
-#| msgid "Image"
 msgctxt "structural navigation"
 msgid "Images"
-msgstr "Imagine"
+msgstr "Imagini"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #. Level will be a "1" for <h1>, a "2" for <h2>, and so on.
 #: ../src/orca/guilabels.py:586
-#, fuzzy, python-format
-#| msgid "No more headings at level %d."
+#, python-format
 msgctxt "structural navigation"
 msgid "Headings at Level %d"
-msgstr "Nu mai există antete de nivel %d."
+msgstr "Antete la nivelul %d"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5262,11 +5053,9 @@ msgstr "Nu mai există antete de nivel %d."
 #. ARIA role landmarks are the W3C defined HTML tag attribute 'role' used to
 #. identify important part of webpage like banners, main context, search etc.
 #: ../src/orca/guilabels.py:593
-#, fuzzy
-#| msgid "trademark"
 msgctxt "structural navigation"
 msgid "Landmarks"
-msgstr "marcă comercială"
+msgstr "Semne de carte"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
@@ -5274,93 +5063,73 @@ msgstr "marcă comercială"
 #. A 'large object' is a logical chunk of text, such as a paragraph, a list,
 #. a table, etc.
 #: ../src/orca/guilabels.py:600
-#, fuzzy
-#| msgid "No more large objects."
 msgctxt "structural navigation"
 msgid "Large Objects"
-msgstr "Nu mai există obiecte mari."
+msgstr "Obiecte mari."
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:605
-#, fuzzy
-#| msgid "Link"
 msgctxt "structural navigation"
 msgid "Links"
-msgstr "Legătură"
+msgstr "Legături"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:610
-#, fuzzy
-#| msgid "List"
 msgctxt "structural navigation"
 msgid "Lists"
-msgstr "Listă"
+msgstr "Liste"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:615
-#, fuzzy
-#| msgid "ListItem"
 msgctxt "structural navigation"
 msgid "List Items"
-msgstr "ElementListă"
+msgstr "Elemente listă"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:620
-#, fuzzy
-#| msgid "Paragraph"
 msgctxt "structural navigation"
 msgid "Paragraphs"
-msgstr "Paragraf"
+msgstr "Paragrafe"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:625
-#, fuzzy
-#| msgid "RadioButton"
 msgctxt "structural navigation"
 msgid "Radio Buttons"
-msgstr "ButonRadio"
+msgstr "Butoane radio"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:630
-#, fuzzy
-#| msgid "Table"
 msgctxt "structural navigation"
 msgid "Tables"
-msgstr "Tabel"
+msgstr "Tabele"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:635
-#, fuzzy
-#| msgid "%d unvisited link"
-#| msgid_plural "%d unvisited links"
 msgctxt "structural navigation"
 msgid "Unvisited Links"
-msgstr "%d legătură nevizitată"
+msgstr "Legături nevizitate"
 
 #. Translators: Orca has a command that presents a list of structural navigation
 #. objects in a dialog box so that users can navigate more quickly than they
 #. could with native keyboard navigation. This is the title of such a dialog box.
 #: ../src/orca/guilabels.py:640
-#, fuzzy
-#| msgid "%d visited link"
-#| msgid_plural "%d visited links"
 msgctxt "structural navigation"
 msgid "Visited Links"
-msgstr "%d legătură vizitată"
+msgstr "Legături vizitate"
 
 #. Translators: This is the title of a panel holding options for how to navigate
 #. HTML content (e.g., Orca caret navigation, positioning of caret, structural
@@ -5441,7 +5210,7 @@ msgstr "Dispecer voce"
 #: ../src/orca/guilabels.py:695
 msgctxt "OptionGroup"
 msgid "Spell Check"
-msgstr ""
+msgstr "Verificare ortografică"
 
 #. Translators: This is a label for a checkbox associated with an Orca setting.
 #. When this option is enabled, Orca will spell out the current error in addition
@@ -5449,7 +5218,7 @@ msgstr ""
 #. setting would cause Orca to speak "f o o" after speaking "foo".
 #: ../src/orca/guilabels.py:701
 msgid "Spell _error"
-msgstr ""
+msgstr "_Eroare ortografică"
 
 #. Translators: This is a label for a checkbox associated with an Orca setting.
 #. When this option is enabled, Orca will spell out the current suggestion in
@@ -5458,14 +5227,14 @@ msgstr ""
 #. "f o r" after speaking "for".
 #: ../src/orca/guilabels.py:708
 msgid "Spell _suggestion"
-msgstr ""
+msgstr "_Sugestie ortografică"
 
 #. Translators: This is a label for a checkbox associated with an Orca setting.
 #. When this option is enabled, Orca will present the context (surrounding text,
 #. typically the sentence or line) in which the mistake occurred.
 #: ../src/orca/guilabels.py:713
 msgid "Present _context of error"
-msgstr ""
+msgstr "_Contextul prezent al erorii"
 
 #. Translators: This is a label for an option to tell Orca whether or not it
 #. should speak the coordinates of the current spread sheet cell. Coordinates are
@@ -5525,19 +5294,15 @@ msgstr "Numele atributului"
 #. ability to switch between the Firefox mode and the Orca mode. This is the
 #. label of a checkbox in which users can indicate their default preference.
 #: ../src/orca/guilabels.py:755
-#, fuzzy
-#| msgid "Use _Orca Caret Navigation"
 msgid "Control caret navigation"
-msgstr "Folosește navigarea cu cursor _Orca"
+msgstr "Controlează navigarea cu cursor"
 
 #. Translators: Orca provides keystrokes to navigate HTML content in a structural
 #. manner: go to previous/next header, list item, table, etc. This is the label
 #. of a checkbox in which users can indicate their default preference.
 #: ../src/orca/guilabels.py:760
-#, fuzzy
-#| msgid "Toggles structural navigation keys."
 msgid "Enable _structural navigation"
-msgstr "Comută tastele de navigare structurală."
+msgstr "Activează navigarea _structurală"
 
 #. Translators: This refers to the amount of information Orca provides about a
 #. particular object that receives focus.
@@ -5548,8 +5313,6 @@ msgstr "Pe scu_rt"
 #. Translators: this is how someone would speak the name of the shift key
 #.
 #: ../src/orca/keynames.py:42
-#, fuzzy
-#| msgid "Shift"
 msgctxt "keyboard"
 msgid "Shift"
 msgstr "Shift"
@@ -5557,17 +5320,13 @@ msgstr "Shift"
 #. Translators: this is how someone would speak the name of the alt key
 #.
 #: ../src/orca/keynames.py:46
-#, fuzzy
-#| msgid "Alt_R"
 msgctxt "keyboard"
 msgid "Alt"
-msgstr "Alt_R"
+msgstr "Alt"
 
 #. Translators: this is how someone would speak the name of the control key
 #.
 #: ../src/orca/keynames.py:50
-#, fuzzy
-#| msgid "left control"
 msgctxt "keyboard"
 msgid "Control"
 msgstr "control stânga"
@@ -5808,10 +5567,8 @@ msgstr "minus"
 #. Translators: this is presented in a GUI to represent the
 #. "insert" key when used as the Orca modifier.
 #: ../src/orca/keybindings.py:140
-#, fuzzy
-#| msgid "insert"
 msgid "Insert"
-msgstr "insert"
+msgstr "Insert"
 
 #. Translators: this is presented in a GUI to represent the
 #. "caps lock" modifier.
@@ -5873,11 +5630,10 @@ msgstr "Shift"
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1120
-#, fuzzy, python-format
-#| msgid "bold"
+#, python-format
 msgctxt "math symbol"
 msgid "bold %s"
-msgstr "aldin"
+msgstr "aldin %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5888,12 +5644,10 @@ msgstr "aldin"
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1130
-#, fuzzy, python-format
-#| msgctxt "textattr"
-#| msgid "italic"
+#, python-format
 msgctxt "math symbol"
 msgid "italic %s"
-msgstr "cursiv"
+msgstr "cursiv %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5907,7 +5661,7 @@ msgstr "cursiv"
 #, python-format
 msgctxt "math symbol"
 msgid "bold italic %s"
-msgstr ""
+msgstr "aldin cursiv %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5918,11 +5672,10 @@ msgstr ""
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1150
-#, fuzzy, python-format
-#| msgid " subscript %s"
+#, python-format
 msgctxt "math symbol"
 msgid "script %s"
-msgstr " %s ca indice"
+msgstr "indice %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5933,11 +5686,9 @@ msgstr " %s ca indice"
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1160
-#, fuzzy, python-format
-#| msgid " subscript %s"
 msgctxt "math symbol"
 msgid "bold script %s"
-msgstr " %s ca indice"
+msgstr "indice aldin %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5951,7 +5702,7 @@ msgstr " %s ca indice"
 #, python-format
 msgctxt "math symbol"
 msgid "fraktur %s"
-msgstr ""
+msgstr "fraktur %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5965,7 +5716,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "double-struck %s"
-msgstr ""
+msgstr "dublu tăiat %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5979,7 +5730,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "bold fraktur %s"
-msgstr ""
+msgstr "aldin fraktur %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -5993,7 +5744,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "sans-serif %s"
-msgstr ""
+msgstr "sans-serif %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -6007,7 +5758,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "sans-serif bold %s"
-msgstr ""
+msgstr "sans-serif %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -6021,7 +5772,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "sans-serif italic %s"
-msgstr ""
+msgstr "sans-serif cursiv %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -6035,7 +5786,7 @@ msgstr ""
 #, python-format
 msgctxt "math symbol"
 msgid "sans-serif bold italic %s"
-msgstr ""
+msgstr "sans-serif aldin cursiv %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -6046,11 +5797,10 @@ msgstr ""
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1240
-#, fuzzy, python-format
-#| msgid "Workspace "
+#, python-format
 msgctxt "math symbol"
 msgid "monospace %s"
-msgstr "Spațiu de lucru "
+msgstr "monospațiat %s"
 
 #. Translators: Unicode has a large set of characters consisting of a common
 #. alphanumeric symbol and a style. For instance, character 1D400 is a bold A,
@@ -6061,192 +5811,157 @@ msgstr "Spațiu de lucru "
 #. being a single alphanumeric character. The full set of symbols can be found
 #. at http://www.unicode.org/charts/PDF/U1D400.pdf.
 #: ../src/orca/mathsymbols.py:1250
-#, fuzzy, python-format
-#| msgid "Context is %s"
+#, python-format
 msgctxt "math symbol"
 msgid "dotless %s"
-msgstr "Contextul este %s"
+msgstr " %s fără punct"
 
 #. Translators: this is the spoken representation for the character '←' (U+2190)
 #: ../src/orca/mathsymbols.py:1253
-#, fuzzy
-#| msgid "left arrow"
 msgctxt "math symbol"
 msgid "left arrow"
 msgstr "săgeată stânga"
 
 #. Translators: this is the spoken representation for the character '↑' (U+2191)
 #: ../src/orca/mathsymbols.py:1256
-#, fuzzy
-#| msgid "arrow"
 msgctxt "math symbol"
 msgid "up arrow"
-msgstr "săgeată"
+msgstr "săgeată sus"
 
 #. Translators: this is the spoken representation for the character '→' (U+2192)
 #: ../src/orca/mathsymbols.py:1259
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "math symbol"
 msgid "right arrow"
 msgstr "săgeată dreapta"
 
 #. Translators: this is the spoken representation for the character '↓' (U+2193)
 #: ../src/orca/mathsymbols.py:1262
-#, fuzzy
-#| msgid "arrow"
 msgctxt "math symbol"
 msgid "down arrow"
-msgstr "săgeată"
+msgstr "săgeată jos"
 
 #. Translators: this is the spoken representation for the character '↔' (U+2194)
 #: ../src/orca/mathsymbols.py:1265
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "math symbol"
 msgid "left right arrow"
-msgstr "săgeată dreapta"
+msgstr "săgeată stânga-dreapta"
 
 #. Translators: this is the spoken representation for the character '↕' (U+2195)
 #: ../src/orca/mathsymbols.py:1268
 msgctxt "math symbol"
 msgid "up down arrow"
-msgstr ""
+msgstr "săgeată sus-jos"
 
 #. Translators: this is the spoken representation for the character '↖' (U+2196)
 #: ../src/orca/mathsymbols.py:1271
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "math symbol"
 msgid "north west arrow"
-msgstr "săgeată dreapta"
+msgstr "săgeată nord-vest"
 
 #. Translators: this is the spoken representation for the character '↗' (U+2197)
 #: ../src/orca/mathsymbols.py:1274
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "math symbol"
 msgid "north east arrow"
-msgstr "săgeată dreapta"
+msgstr "săgeată nord-est"
 
 #. Translators: this is the spoken representation for the character '↘' (U+2198)
 #: ../src/orca/mathsymbols.py:1277
-#, fuzzy
-#| msgid "left arrow"
 msgctxt "math symbol"
 msgid "south east arrow"
-msgstr "săgeată stânga"
+msgstr "săgeată sud-est"
 
 #. Translators: this is the spoken representation for the character '↤' (U+21a4)
 #: ../src/orca/mathsymbols.py:1280
-#, fuzzy
-#| msgid "left arrow"
 msgctxt "math symbol"
 msgid "left arrow from bar"
-msgstr "săgeată stânga"
+msgstr "săgeată la stânga cu bară"
 
 #. Translators: this is the spoken representation for the character '↥' (U+21a5)
 #: ../src/orca/mathsymbols.py:1283
 msgctxt "math symbol"
 msgid "up arrow from bar"
-msgstr ""
+msgstr "săgeată sus cu bară"
 
 #. Translators: this is the spoken representation for the character '↦' (U+21a6)
 #: ../src/orca/mathsymbols.py:1286
-#, fuzzy
-#| msgid "right arrow"
 msgctxt "math symbol"
 msgid "right arrow from bar"
-msgstr "săgeată dreapta"
+msgstr "săgeată dreapta cu bară"
 
 #. Translators: this is the spoken representation for the character '↧' (U+21a7)
 #: ../src/orca/mathsymbols.py:1289
 msgctxt "math symbol"
 msgid "down arrow from bar"
-msgstr ""
+msgstr "săgeată jos cu bară"
 
 #. Translators: this is the spoken representation for the character '⇐' (U+21d0)
 #: ../src/orca/mathsymbols.py:1292
-#, fuzzy
-#| msgid "left double quote"
 msgctxt "math symbol"
 msgid "left double arrow"
-msgstr "ghilimele duble deschise"
+msgstr "săgeată stânga dublă"
 
 #. Translators: this is the spoken representation for the character '⇑' (U+21d1)
 #: ../src/orca/mathsymbols.py:1295
-#, fuzzy
-#| msgid "double dagger"
 msgctxt "math symbol"
 msgid "up double arrow"
-msgstr "pumnal dublu"
+msgstr "săgeată sus dublă"
 
 #. Translators: this is the spoken representation for the character '⇒' (U+21d2)
 #: ../src/orca/mathsymbols.py:1298
-#, fuzzy
-#| msgid "right double quote"
 msgctxt "math symbol"
 msgid "right double arrow"
-msgstr "ghilimele duble închise"
+msgstr "săgeată dreapta dublă"
 
 #. Translators: this is the spoken representation for the character '⇓' (U+21d3)
 #: ../src/orca/mathsymbols.py:1301
-#, fuzzy
-#| msgid "double dagger"
 msgctxt "math symbol"
 msgid "down double arrow"
-msgstr "pumnal dublu"
+msgstr "săgeată jos dublă"
 
 #. Translators: this is the spoken representation for the character '⇔' (U+21d4)
 #: ../src/orca/mathsymbols.py:1304
-#, fuzzy
-#| msgid "right double quote"
 msgctxt "math symbol"
 msgid "left right double arrow"
-msgstr "ghilimele duble închise"
+msgstr "săgeată stânga-dreapta dublă"
 
 #. Translators: this is the spoken representation for the character '⇕' (U+21d5)
 #: ../src/orca/mathsymbols.py:1307
 msgctxt "math symbol"
 msgid "up down double arrow"
-msgstr ""
+msgstr "săgeată sus-jos dublă"
 
 #. Translators: this is the spoken representation for the character '⇖' (U+21d6)
 #: ../src/orca/mathsymbols.py:1310
 msgctxt "math symbol"
 msgid "north west double arrow"
-msgstr ""
+msgstr "săgeată nord-vest dublă"
 
 #. Translators: this is the spoken representation for the character '⇗' (U+21d7)
 #: ../src/orca/mathsymbols.py:1313
 msgctxt "math symbol"
 msgid "north east double arrow"
-msgstr ""
+msgstr "săgeată nord-est dublă"
 
 #. Translators: this is the spoken representation for the character '⇘' (U+21d8)
 #: ../src/orca/mathsymbols.py:1316
 msgctxt "math symbol"
 msgid "south east double arrow"
-msgstr ""
+msgstr "săgeată sud-est dublă"
 
 #. Translators: this is the spoken representation for the character '⇙' (U+21d9)
 #: ../src/orca/mathsymbols.py:1319
 msgctxt "math symbol"
 msgid "south west double arrow"
-msgstr ""
+msgstr "săgeată sud-est dublă"
 
 #. Translators: this is the spoken representation for the character '➔' (U+2794)
 #: ../src/orca/mathsymbols.py:1322
-#, fuzzy
-#| msgid "right-pointing arrow"
 msgctxt "math symbol"
 msgid "right-pointing arrow"
 msgstr "săgeată spre dreapta"
 
 #. Translators: this is the spoken representation for the character '➢' (U+27a2)
 #: ../src/orca/mathsymbols.py:1325
-#, fuzzy
-#| msgid "right-pointing arrowhead"
 msgctxt "math symbol"
 msgid "right-pointing arrowhead"
 msgstr "vârf de săgeată spre dreapta"
@@ -6255,8 +5970,6 @@ msgstr "vârf de săgeată spre dreapta"
 #. as a MathML operator.
 #. Translators: this is the spoken representation for the character '−' (U+2212)
 #: ../src/orca/mathsymbols.py:1329 ../src/orca/mathsymbols.py:1417
-#, fuzzy
-#| msgid "minus"
 msgctxt "math symbol"
 msgid "minus"
 msgstr "minus"
@@ -6264,8 +5977,6 @@ msgstr "minus"
 #. Translators: this is the spoken word for the character '<' (U+003c) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1333
-#, fuzzy
-#| msgid "less"
 msgctxt "math symbol"
 msgid "less than"
 msgstr "mai mic"
@@ -6273,8 +5984,6 @@ msgstr "mai mic"
 #. Translators: this is the spoken word for the character '>' (U+003e) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1337
-#, fuzzy
-#| msgid "greater"
 msgctxt "math symbol"
 msgid "greater than"
 msgstr "mai mare"
@@ -6282,8 +5991,6 @@ msgstr "mai mare"
 #. Translators: this is the spoken word for the character '^' (U+005e) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1341
-#, fuzzy
-#| msgid "circumflex"
 msgctxt "math symbol"
 msgid "circumflex"
 msgstr "circumflex"
@@ -6293,20 +6000,18 @@ msgstr "circumflex"
 #: ../src/orca/mathsymbols.py:1345
 msgctxt "math symbol"
 msgid "háček"
-msgstr ""
+msgstr "háček"
 
 #. Translators: this is the spoken word for the character '˘' (U+02d8) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1349
 msgctxt "math symbol"
 msgid "breve"
-msgstr ""
+msgstr "brevă"
 
 #. Translators: this is the spoken word for the character '˙' (U+02d9) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1353
-#, fuzzy
-#| msgid "dot"
 msgctxt "math symbol"
 msgid "dot"
 msgstr "punct"
@@ -6314,175 +6019,150 @@ msgstr "punct"
 #. Translators: this is the spoken word for the character '‖' (U+2016) when used
 #. as a MathML operator.
 #: ../src/orca/mathsymbols.py:1357
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "vertical align"
 msgctxt "math symbol"
 msgid "double vertical line"
-msgstr "aliniere verticală"
+msgstr "linie verticală dublă"
 
 #. Translators: this is the spoken representation for the character '…' (U+2026)
 #: ../src/orca/mathsymbols.py:1360
-#, fuzzy
-#| msgid "horizontal"
 msgctxt "math symbol"
 msgid "horizontal ellipsis"
-msgstr "orizontal"
+msgstr "trei puncte orizontale"
 
 #. Translators: this is the spoken representation for the character '∀' (U+2200)
 #: ../src/orca/mathsymbols.py:1363
 msgctxt "math symbol"
 msgid "for all"
-msgstr ""
+msgstr "pentru tot"
 
 #. Translators: this is the spoken representation for the character '∁' (U+2201)
 #: ../src/orca/mathsymbols.py:1366
-#, fuzzy
-#| msgid "autocomplete"
 msgctxt "math symbol"
 msgid "complement"
-msgstr "completare automată"
+msgstr "complement"
 
 #. Translators: this is the spoken representation for the character '∂' (U+2202)
 #: ../src/orca/mathsymbols.py:1369
 msgctxt "math symbol"
 msgid "partial differential"
-msgstr ""
+msgstr "diferențială parțială"
 
 #. Translators: this is the spoken representation for the character '∃' (U+2203)
 #: ../src/orca/mathsymbols.py:1372
 msgctxt "math symbol"
 msgid "there exists"
-msgstr ""
+msgstr "există"
 
 #. Translators: this is the spoken representation for the character '∄' (U+2204)
 #: ../src/orca/mathsymbols.py:1375
 msgctxt "math symbol"
 msgid "there does not exist"
-msgstr ""
+msgstr "nu există"
 
 #. Translators: this is the spoken representation for the character '∅' (U+2205)
 #: ../src/orca/mathsymbols.py:1378
-#, fuzzy
-#| msgid "empty"
 msgctxt "math symbol"
 msgid "empty set"
-msgstr "gol"
+msgstr "mulțimea vidă"
 
 #. Translators: this is the spoken representation for the character '∆' (U+2206)
 #: ../src/orca/mathsymbols.py:1381
 msgctxt "math symbol"
 msgid "increment"
-msgstr ""
+msgstr "increment"
 
 #. Translators: this is the spoken representation for the character '∇' (U+2207)
 #: ../src/orca/mathsymbols.py:1384
-#, fuzzy
-#| msgctxt "indentation and justification"
-#| msgid "Enabled"
 msgctxt "math symbol"
 msgid "nabla"
-msgstr "Activată"
+msgstr "nabla"
 
 #. Translators: this is the spoken representation for the character '∈' (U+2208)
 #: ../src/orca/mathsymbols.py:1387
 msgctxt "math symbol"
 msgid "element of"
-msgstr ""
+msgstr "aparține"
 
 #. Translators: this is the spoken representation for the character '∉' (U+2209)
 #: ../src/orca/mathsymbols.py:1390
 msgctxt "math symbol"
 msgid "not an element of"
-msgstr ""
+msgstr "nu aparține"
 
 #. Translators: this is the spoken representation for the character '∊' (U+220a)
 #: ../src/orca/mathsymbols.py:1393
 msgctxt "math symbol"
 msgid "small element of"
-msgstr ""
+msgstr "aparține mic"
 
 #. Translators: this is the spoken representation for the character '∋' (U+220b)
 #: ../src/orca/mathsymbols.py:1396
 msgctxt "math symbol"
 msgid "contains as a member"
-msgstr ""
+msgstr "conține ca membru"
 
 #. Translators: this is the spoken representation for the character '∌' (U+220c)
 #: ../src/orca/mathsymbols.py:1399
 msgctxt "math symbol"
 msgid "does not contain as a member"
-msgstr ""
+msgstr "nu conține ca membru"
 
 #. Translators: this is the spoken representation for the character '∍' (U+220d)
 #: ../src/orca/mathsymbols.py:1402
 msgctxt "math symbol"
 msgid "small contains as a member"
-msgstr ""
+msgstr "conține ca membru mic"
 
 #. Translators: this is the spoken representation for the character '∎' (U+220e)
 #: ../src/orca/mathsymbols.py:1405
-#, fuzzy
-#| msgid "End of row."
 msgctxt "math symbol"
 msgid "end of proof"
-msgstr "Sfărșit de rând."
+msgstr "qed"
 
 #. Translators: this is the spoken representation for the character '∏' (U+220f)
 #: ../src/orca/mathsymbols.py:1408
 msgctxt "math symbol"
 msgid "product"
-msgstr ""
+msgstr "produs"
 
 #. Translators: this is the spoken representation for the character '∐' (U+2210)
 #: ../src/orca/mathsymbols.py:1411
 msgctxt "math symbol"
 msgid "coproduct"
-msgstr ""
+msgstr "coprodus"
 
 #. Translators: this is the spoken representation for the character '∑' (U+2211)
 #: ../src/orca/mathsymbols.py:1414
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "sub"
 msgctxt "math symbol"
 msgid "sum"
-msgstr "sub"
+msgstr "sumă"
 
 #. Translators: this is the spoken representation for the character '∓' (U+2213)
 #: ../src/orca/mathsymbols.py:1420
-#, fuzzy
-#| msgid "plus or minus"
 msgctxt "math symbol"
 msgid "minus or plus"
 msgstr "plus sau minus"
 
 #. Translators: this is the spoken representation for the character '∔' (U+2214)
 #: ../src/orca/mathsymbols.py:1423
-#, fuzzy
-#| msgid "plus"
 msgctxt "math symbol"
 msgid "dot plus"
-msgstr "plus"
+msgstr "punct plus"
 
 #. Translators: this is the spoken representation for the character '∕' (U+2215)
 #: ../src/orca/mathsymbols.py:1426
 msgctxt "math symbol"
 msgid "division slash"
-msgstr ""
+msgstr "împărțire"
 
 #. Translators: this is the spoken representation for the character '∖' (U+2216)
 #: ../src/orca/mathsymbols.py:1429
-#, fuzzy
-#| msgid "minus"
 msgctxt "math symbol"
 msgid "set minus"
-msgstr "minus"
+msgstr "minus pentru mulțimi"
 
 #. Translators: this is the spoken representation for the character '∗' (U+2217)
 #: ../src/orca/mathsymbols.py:1432
-#, fuzzy
-#| msgid "separator"
 msgctxt "math symbol"
 msgid "asterisk operator"
 msgstr "separator"
@@ -6491,267 +6171,224 @@ msgstr "separator"
 #: ../src/orca/mathsymbols.py:1435
 msgctxt "math symbol"
 msgid "ring operator"
-msgstr ""
+msgstr "operator inel"
 
 #. Translators: this is the spoken representation for the character '∙' (U+2219)
 #: ../src/orca/mathsymbols.py:1438
 msgctxt "math symbol"
 msgid "bullet operator"
-msgstr ""
+msgstr "operator glonț"
 
 #. Translators: this is the spoken representation for the character '√' (U+221a)
 #: ../src/orca/mathsymbols.py:1441
-#, fuzzy
-#| msgid "square root"
 msgctxt "math symbol"
 msgid "square root"
 msgstr "radical"
 
 #. Translators: this is the spoken representation for the character '∛' (U+221b)
 #: ../src/orca/mathsymbols.py:1444
-#, fuzzy
-#| msgid "cube root"
 msgctxt "math symbol"
 msgid "cube root"
 msgstr "radical de ordin 3"
 
 #. Translators: this is the spoken representation for the character '∜' (U+221c)
 #: ../src/orca/mathsymbols.py:1447
-#, fuzzy
-#| msgid "square root"
 msgctxt "math symbol"
 msgid "fourth root"
-msgstr "radical"
+msgstr "radical de ordin 4"
 
 #. Translators: this is the spoken representation for the character '∝' (U+221d)
 #: ../src/orca/mathsymbols.py:1450
-#, fuzzy
-#| msgid "Proportional"
 msgctxt "math symbol"
 msgid "proportional to"
-msgstr "Proporțional"
+msgstr "proporțional cu"
 
 #. Translators: this is the spoken representation for the character '∞' (U+221e)
 #: ../src/orca/mathsymbols.py:1453
-#, fuzzy
-#| msgid "infinity"
 msgctxt "math symbol"
 msgid "infinity"
 msgstr "infinit"
 
 #. Translators: this is the spoken representation for the character '∟' (U+221f)
 #: ../src/orca/mathsymbols.py:1456
-#, fuzzy
-#| msgid "right alt"
 msgctxt "math symbol"
 msgid "right angle"
-msgstr "alt dreapta"
+msgstr "unghi dreapta"
 
 #. Translators: this is the spoken representation for the character '∠' (U+2220)
 #: ../src/orca/mathsymbols.py:1459
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "single"
 msgctxt "math symbol"
 msgid "angle"
-msgstr "simplu"
+msgstr "unghi"
 
 #. Translators: this is the spoken representation for the character '∡' (U+2221)
 #: ../src/orca/mathsymbols.py:1462
-#, fuzzy
-#| msgid "layered pane"
 msgctxt "math symbol"
 msgid "measured angle"
-msgstr "panou stratificat"
+msgstr "unghi măsurat"
 
 #. Translators: this is the spoken representation for the character '∢' (U+2222)
 #: ../src/orca/mathsymbols.py:1465
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "vertical align"
 msgctxt "math symbol"
 msgid "spherical angle"
-msgstr "aliniere verticală"
+msgstr "unghi sferic"
 
 #. Translators: this is the spoken representation for the character '∣' (U+2223)
 #: ../src/orca/mathsymbols.py:1468
-#, fuzzy
-#| msgid "divided by"
 msgctxt "math symbol"
 msgid "divides"
-msgstr "împărțit la"
+msgstr "divide"
 
 #. Translators: this is the spoken representation for the character '∤' (U+2224)
 #: ../src/orca/mathsymbols.py:1471
 msgctxt "math symbol"
 msgid "does not divide"
-msgstr ""
+msgstr "nu divide"
 
 #. Translators: this is the spoken representation for the character '∥' (U+2225)
 #: ../src/orca/mathsymbols.py:1474
-#, fuzzy
-#| msgid "Separator"
 msgctxt "math symbol"
 msgid "parallel to"
-msgstr "Separator"
+msgstr "paralel cu"
 
 #. Translators: this is the spoken representation for the character '∦' (U+2226)
 #: ../src/orca/mathsymbols.py:1477
-#, fuzzy
-#| msgid "not equal to"
 msgctxt "math symbol"
 msgid "not parallel to"
-msgstr "diferit de"
+msgstr "neparalel cu"
 
 #. Translators: this is the spoken representation for the character '∧' (U+2227)
 #. Translators: this is the spoken representation for the character '⋀' (U+22c0)
 #: ../src/orca/mathsymbols.py:1480 ../src/orca/mathsymbols.py:1939
-#, fuzzy
-#| msgid "logical not"
 msgctxt "math symbol"
 msgid "logical and"
-msgstr "negațit logică"
+msgstr "și logic"
 
 #. Translators: this is the spoken representation for the character '∨' (U+2228)
 #. Translators: this is the spoken representation for the character '⋁' (U+22c1)
 #: ../src/orca/mathsymbols.py:1483 ../src/orca/mathsymbols.py:1942
-#, fuzzy
-#| msgid "logical not"
 msgctxt "math symbol"
 msgid "logical or"
-msgstr "negațit logică"
+msgstr "sau logic"
 
 #. Translators: this is the spoken representation for the character '∩' (U+2229)
 #. Translators: this is the spoken representation for the character '⋂' (U+22c2)
 #: ../src/orca/mathsymbols.py:1486 ../src/orca/mathsymbols.py:1945
-#, fuzzy
-#| msgctxt "textattr"
-#| msgid "direction"
 msgctxt "math symbol"
 msgid "intersection"
-msgstr "direcție"
+msgstr "intersecție"
 
 #. Translators: this is the spoken representation for the character '∪' (U+222a)
 #. Translators: this is the spoken representation for the character '⋃' (U+22c3)
 #: ../src/orca/mathsymbols.py:1489 ../src/orca/mathsymbols.py:1948
 msgctxt "math symbol"
 msgid "union"
-msgstr ""
+msgstr "uniune"
 
 #. Translators: this is the spoken representation for the character '∫' (U+222b)
 #: ../src/orca/mathsymbols.py:1492
-#, fuzzy
-#| msgid "internal frame"
 msgctxt "math symbol"
 msgid "integral"
-msgstr "cadru intern"
+msgstr "integrală"
 
 #. Translators: this is the spoken representation for the character '∬' (U+222c)
 #: ../src/orca/mathsymbols.py:1495
-#, fuzzy
-#| msgid "double prime"
 msgctxt "math symbol"
 msgid "double integral"
-msgstr "secund"
+msgstr "integrală dublă"
 
 #. Translators: this is the spoken representation for the character '∭' (U+222d)
 #: ../src/orca/mathsymbols.py:1498
 msgctxt "math symbol"
 msgid "triple integral"
-msgstr ""
+msgstr "integrală triplă"
 
 #. Translators: this is the spoken representation for the character '∮' (U+222e)
 #: ../src/orca/mathsymbols.py:1501
 msgctxt "math symbol"
 msgid "contour integral"
-msgstr ""
+msgstr "integrală contur"
 
 #. Translators: this is the spoken representation for the character '∯' (U+222f)
 #: ../src/orca/mathsymbols.py:1504
 msgctxt "math symbol"
 msgid "surface integral"
-msgstr ""
+msgstr "integrală de suprafață"
 
 #. Translators: this is the spoken representation for the character '∰' (U+2230)
 #: ../src/orca/mathsymbols.py:1507
 msgctxt "math symbol"
 msgid "volume integral"
-msgstr ""
+msgstr "integrală volum"
 
 #. Translators: this is the spoken representation for the character '∱' (U+2231)
 #: ../src/orca/mathsymbols.py:1510
 msgctxt "math symbol"
 msgid "clockwise integral"
-msgstr ""
+msgstr "integrală orar"
 
 #. Translators: this is the spoken representation for the character '∲' (U+2232)
 #: ../src/orca/mathsymbols.py:1513
 msgctxt "math symbol"
 msgid "clockwise contour integral"
-msgstr ""
+msgstr "integrală de contur orar"
 
 #. Translators: this is the spoken representation for the character '∳' (U+2233)
 #: ../src/orca/mathsymbols.py:1516
 msgctxt "math symbol"
 msgid "anticlockwise contour integral"
-msgstr ""
+msgstr "integrală de contur antiorar"
 
 #. Translators: this is the spoken representation for the character '∴' (U+2234)
 #: ../src/orca/mathsymbols.py:1519
 msgctxt "math symbol"
 msgid "therefore"
-msgstr ""
+msgstr "rezultă"
 
 #. Translators: this is the spoken representation for the character '∵' (U+2235)
 #: ../src/orca/mathsymbols.py:1522
 msgctxt "math symbol"
 msgid "because"
-msgstr ""
+msgstr "deoarece"
 
 #. Translators: this is the spoken representation for the character '∶' (U+2236)
 #: ../src/orca/mathsymbols.py:1525
 msgctxt "math symbol"
 msgid "ratio"
-msgstr ""
+msgstr "raport"
 
 #. Translators: this is the spoken representation for the character '∷' (U+2237)
 #: ../src/orca/mathsymbols.py:1528
-#, fuzzy
-#| msgid "Proportional"
 msgctxt "math symbol"
 msgid "proportion"
-msgstr "Proporțional"
+msgstr "proporție]"
 
 #. Translators: this is the spoken representation for the character '∸' (U+2238)
 #: ../src/orca/mathsymbols.py:1531
-#, fuzzy
-#| msgid "minus"
 msgctxt "math symbol"
 msgid "dot minus"
-msgstr "minus"
+msgstr "punct minus"
 
 #. Translators: this is the spoken representation for the character '∹' (U+2239)
 #: ../src/orca/mathsymbols.py:1534
 msgctxt "math symbol"
 msgid "excess"
-msgstr ""
+msgstr "xces"
 
 #. Translators: this is the spoken representation for the character '∺' (U+223a)
 #: ../src/orca/mathsymbols.py:1537
 msgctxt "math symbol"
 msgid "geometric proportion"
-msgstr ""
+msgstr "proporție geometrică"
 
 #. Translators: this is the spoken representation for the character '∻' (U+223b)
 #: ../src/orca/mathsymbols.py:1540
 msgctxt "math symbol"
 msgid "homothetic"
-msgstr ""
+msgstr "homotetic"
 
 #. Translators: this is the spoken representation for the character '∼' (U+223c)
 #: ../src/orca/mathsymbols.py:1543
-#, fuzzy
-#| msgid "tilde"
 msgctxt "math symbol"
 msgid "tilde"
 msgstr "tildă"
@@ -6760,19 +6397,19 @@ msgstr "tildă"
 #: ../src/orca/mathsymbols.py:1546
 msgctxt "math symbol"
 msgid "reversed tilde"
-msgstr ""
+msgstr "tildă inversă"
 
 #. Translators: this is the spoken representation for the character '∾' (U+223e)
 #: ../src/orca/mathsymbols.py:1549
 msgctxt "math symbol"
 msgid "inverted lazy S"
-msgstr ""
+msgstr "S leneș invers"
 
 #. Translators: this is the spoken representation for the character '∿' (U+223f)
 #: ../src/orca/mathsymbols.py:1552
 msgctxt "math symbol"
 msgid "sine wave"
-msgstr ""
+msgstr "sinusoidă"
 
 #. Translators: this is the spoken representation for the character '≀' (U+2240)
 #: ../src/orca/mathsymbols.py:1555
