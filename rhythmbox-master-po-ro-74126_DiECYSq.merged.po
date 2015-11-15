@@ -113,9 +113,9 @@ msgid ""
 "phones), and internet music services such as Last.fm and Magnatune."
 msgstr ""
 "Rhythmbox este o aplicație de administrare a muzicii, concepută pentru a "
-"funcționa bine sub mediul de desktop GNOME. Adițional muzicii stocate pe "
+"funcționa bine sub mediul de desktop GNOME. Pe lângă muzica stocată pe "
 "calculatorul dumneavoastră, suportă partajări de rețea, podcasturi, fluxuri "
-"radio, dispozitive portabile de muzică (incluzând telefoane), și servicii de "
+"radio, dispozitive portabile de muzică (inclusiv telefoane) și servicii de "
 "muzică pe internet cum ar fi Last.fm și Magnatune."
 
 #: ../data/rhythmbox.appdata.xml.in.h:2
@@ -163,7 +163,7 @@ msgstr "_Vizualizare"
 
 #: ../data/ui/app-menu.ui.h:3
 msgid "P_arty Mode"
-msgstr "M_od de petrecere"
+msgstr "M_od petrecere"
 
 #: ../data/ui/app-menu.ui.h:4
 msgid "Side Pane"
@@ -713,7 +713,7 @@ msgstr "Proprietăți"
 
 #: ../data/ui/podcast-popups.ui.h:6
 msgid "Download Episode"
-msgstr "Descarcă episod"
+msgstr "Descarcă episodul"
 
 #: ../data/ui/podcast-popups.ui.h:7
 msgid "Cancel Download"
@@ -2772,7 +2772,7 @@ msgstr "ReplayGain"
 
 #: ../plugins/replaygain/replaygain.plugin.in.h:2
 msgid "Use ReplayGain to provide a consistent playback volume"
-msgstr "Folosește ReplayGain pentru a oferi un volum de redare unitar"
+msgstr "Folosește ReplayGain pentru un volum de redare unitar"
 
 #: ../plugins/replaygain/replaygain-prefs.ui.h:1
 msgid "Radio (equal loudness for all tracks)"
@@ -3284,7 +3284,7 @@ msgstr "Afișează volumul curent"
 #. { "unmute", 0, 0, G_OPTION_ARG_NONE, &unmute, N_("Unmute playback"), NULL },
 #: ../remote/dbus/rb-client.c:130
 msgid "Set the rating of the current song"
-msgstr "Definește aprecierea piesei curente"
+msgstr "Stabilește aprecierea piesei curente"
 
 #: ../remote/dbus/rb-client.c:131
 msgid "Start interactive mode"
@@ -3300,7 +3300,7 @@ msgstr "p - Piesa precedentă"
 
 #: ../remote/dbus/rb-client.c:163
 msgid "space - Play/pause"
-msgstr "spațiu - Reduă/pauză"
+msgstr "spațiu - Redă/pauză"
 
 #: ../remote/dbus/rb-client.c:164
 msgid "s - Show playing track details"
@@ -3308,7 +3308,7 @@ msgstr "s - Arată detaliile piesei în redare"
 
 #: ../remote/dbus/rb-client.c:165
 msgid "v - Decrease volume"
-msgstr "v - Reduce volumul"
+msgstr "v - Redu volumul"
 
 #: ../remote/dbus/rb-client.c:166
 msgid "V - Increase volume"
@@ -3504,7 +3504,7 @@ msgstr "Modul exemplu phyton"
 
 #: ../sample-plugins/sample-python/sample-python.plugin.in.h:2
 msgid "A sample plugin in Python with no features"
-msgstr "Un modul mostră scris în python fără nicio funcționalitate"
+msgstr "Un modul exemplu scris în python fără nicio funcționalitate"
 
 #: ../sample-plugins/sample-python/sample-python.py:20
 msgid "Python Source"
@@ -3518,7 +3518,7 @@ msgstr "Modul exemplu"
 
 #: ../sample-plugins/sample/sample.plugin.in.h:2
 msgid "A sample plugin in C with no features"
-msgstr "Un modul mostră scris în C fără nicio funcționalitate"
+msgstr "Un modul exemplu scris în C fără nicio funcționalitate"
 
 #: ../sample-plugins/sample-vala/sample-vala.plugin.in.h:1
 msgid "Vala Sample Plugin"
@@ -3526,7 +3526,7 @@ msgstr "Modul exemplu Vala"
 
 #: ../sample-plugins/sample-vala/sample-vala.plugin.in.h:2
 msgid "A sample plugin in Vala with no features"
-msgstr "Un modul mostră scris în Vala fără nicio funcționalitate"
+msgstr "Un modul exemplu scris în Vala fără nicio funcționalitate"
 
 #: ../shell/rb-application.c:141
 msgid "Configure Plugins"
@@ -3535,8 +3535,9 @@ msgstr "Configurează module"
 #: ../shell/rb-application.c:208
 msgid "translator-credits"
 msgstr ""
-"Daniel Șerbănescu <cyber19rider@gmail.com>, 2010\n"
+"Daniel Șerbănescu <cyber19rider@gmail.com>, 2010, 2015\n"
 "Alexandru Florescu <show_some_originality@yahoo.com>, 2011\n"
+"Jobava <jobaval10n@gmail.com>, 2015\n"
 "Launchpad Contributions:\n"
 "  . https://launchpad.net/~end33777\n"
 "  Adi Roiban https://launchpad.net/~adiroiban\n"
@@ -3577,7 +3578,7 @@ msgid ""
 "the Free Software Foundation; either version 2 of the License, or\n"
 "(at your option) any later version.\n"
 msgstr ""
-"Rhythmbox este un software liber; îl puteți redistribui și/sau modifica în\n"
+"Rhythmbox este un program liber; îl puteți redistribui și/sau modifica în\n"
 "conformitate cu termenii Licenței Publice Generale GNU așa cum\n"
 "este publicată de Free Software Foundation; fie versiunea 2 a\n"
 "Licenței, fie (la latitudinea dumneavoastră) orice versiune ulterioară.\n"
@@ -3631,7 +3632,7 @@ msgstr "Nu s-a putut afișa ajutorul"
 
 #: ../shell/rb-application.c:612
 msgid "Enable debug output"
-msgstr "Activează ieșirea de depanare"
+msgstr "Activează ieșirea pentru depanare"
 
 #: ../shell/rb-application.c:613
 msgid "Enable debug output matching a specified string"
@@ -3814,7 +3815,7 @@ msgstr "Nu s-a putut opri redarea"
 #: ../shell/rb-shell-player.c:2246
 #, c-format
 msgid "Playback position not available"
-msgstr "Poziționarea în interiorul piesei nu este posibilă"
+msgstr "Poziționarea în interiorul piesei nu este disponibilă"
 
 #: ../shell/rb-shell-player.c:2278 ../shell/rb-shell-player.c:2312
 #, c-format
@@ -4016,7 +4017,7 @@ msgstr "Partajat"
 #. set up info bar for triggering codec installation
 #: ../sources/rb-import-errors-source.c:235
 msgid "Install Additional Software"
-msgstr "Instalați porgrame suplimentare"
+msgstr "Instalați programe suplimentare"
 
 #: ../sources/rb-import-errors-source.c:241
 msgid "Additional software is required to play some of these files."
@@ -4025,7 +4026,7 @@ msgstr ""
 
 #: ../sources/rb-import-errors-source.c:346
 msgid "Import Errors"
-msgstr "Erori de importare"
+msgstr "Erori la importare"
 
 #: ../sources/rb-import-errors-source.c:383
 #, c-format
